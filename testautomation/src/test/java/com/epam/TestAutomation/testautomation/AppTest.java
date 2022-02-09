@@ -23,10 +23,7 @@ public class AppTest
     /**
      * @return the suite of tests being tested
      */
-    public static Test suite()
-    {
-        return new TestSuite( AppTest.class );
-    }
+    
 
     /**
      * Rigourous Test :-)
@@ -34,5 +31,8 @@ public class AppTest
     public void testApp()
     {
         assertTrue( true );
+    }
+    public void testString() {
+    	assertEquals("vinay","vinay");
     }
 }
