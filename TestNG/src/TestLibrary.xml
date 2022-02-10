@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+
+<suite name="LibrarySuit">
+	<test name="LibraryTest">
+	<groups>
+			<run>
+				<include name="AllTests" />
+			</run>
+	</groups>
+		<classes>
+			<class name="com.epam.TestAutomation.TestNG.TestLibraryClass" />
+		</classes>
+	</test>
+</suite>
