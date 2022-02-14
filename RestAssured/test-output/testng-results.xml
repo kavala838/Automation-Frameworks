@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-11T15:19:20 IST" name="Default suite" finished-at="2022-02-11T15:19:30 IST" duration-ms="9832">
+  <suite started-at="2022-02-14T21:53:51 IST" name="Default suite" finished-at="2022-02-14T21:54:33 IST" duration-ms="42275">
     <groups>
     </groups>
-    <test started-at="2022-02-11T15:19:20 IST" name="Default test" finished-at="2022-02-11T15:19:30 IST" duration-ms="9832">
-      <class name="com.epam.TestAutomation.RestAssured.TestPost">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.TestAutomation.RestAssured.TestPost@58d75e99]" started-at="2022-02-11T15:19:20 IST" name="setUp" finished-at="2022-02-11T15:19:20 IST" duration-ms="755" status="PASS">
+    <test started-at="2022-02-14T21:53:51 IST" name="Default test" finished-at="2022-02-14T21:54:33 IST" duration-ms="42275">
+      <class name="com.epam.TestAutomation.RestAssured.TestResponseByObject">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.TestAutomation.RestAssured.TestResponseByObject@74751b3]" started-at="2022-02-14T21:53:51 IST" name="setUp" finished-at="2022-02-14T21:53:52 IST" duration-ms="491" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testPostObjectGetResponse()[pri:0, instance:com.epam.TestAutomation.RestAssured.TestPost@58d75e99]" started-at="2022-02-11T15:19:20 IST" name="testPostObjectGetResponse" finished-at="2022-02-11T15:19:23 IST" duration-ms="2139" status="PASS">
+        <test-method signature="tesrGetResponseAllPosts()[pri:0, instance:com.epam.TestAutomation.RestAssured.TestResponseByObject@74751b3]" started-at="2022-02-14T21:53:52 IST" name="tesrGetResponseAllPosts" finished-at="2022-02-14T21:54:16 IST" duration-ms="24749" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPostObjectGetResponse -->
-        <test-method signature="testPostObjectGetResponseQueryParam(int)[pri:0, instance:com.epam.TestAutomation.RestAssured.TestPost@58d75e99]" started-at="2022-02-11T15:19:23 IST" name="testPostObjectGetResponseQueryParam" data-provider="userIdDataProvider" finished-at="2022-02-11T15:19:23 IST" duration-ms="751" status="PASS">
+        </test-method> <!-- tesrGetResponseAllPosts -->
+        <test-method signature="testGetResponseById(int)[pri:0, instance:com.epam.TestAutomation.RestAssured.TestResponseByObject@74751b3]" started-at="2022-02-14T21:54:16 IST" name="testGetResponseById" data-provider="IdData" finished-at="2022-02-14T21:54:17 IST" duration-ms="228" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -25,8 +25,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPostObjectGetResponseQueryParam -->
-        <test-method signature="testPostObjectGetResponseQueryParam(int)[pri:0, instance:com.epam.TestAutomation.RestAssured.TestPost@58d75e99]" started-at="2022-02-11T15:19:23 IST" name="testPostObjectGetResponseQueryParam" data-provider="userIdDataProvider" finished-at="2022-02-11T15:19:24 IST" duration-ms="779" status="PASS">
+        </test-method> <!-- testGetResponseById -->
+        <test-method signature="testGetResponseById(int)[pri:0, instance:com.epam.TestAutomation.RestAssured.TestResponseByObject@74751b3]" started-at="2022-02-14T21:54:17 IST" name="testGetResponseById" data-provider="IdData" finished-at="2022-02-14T21:54:24 IST" duration-ms="7766" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -36,8 +36,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPostObjectGetResponseQueryParam -->
-        <test-method signature="testPostObjectGetResponseQueryParam(int)[pri:0, instance:com.epam.TestAutomation.RestAssured.TestPost@58d75e99]" started-at="2022-02-11T15:19:24 IST" name="testPostObjectGetResponseQueryParam" data-provider="userIdDataProvider" finished-at="2022-02-11T15:19:25 IST" duration-ms="640" status="PASS">
+        </test-method> <!-- testGetResponseById -->
+        <test-method signature="testGetResponseById(int)[pri:0, instance:com.epam.TestAutomation.RestAssured.TestResponseByObject@74751b3]" started-at="2022-02-14T21:54:24 IST" name="testGetResponseById" data-provider="IdData" finished-at="2022-02-14T21:54:25 IST" duration-ms="710" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,8 +47,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPostObjectGetResponseQueryParam -->
-        <test-method signature="testPostObjectGetResponseQueryParam(int)[pri:0, instance:com.epam.TestAutomation.RestAssured.TestPost@58d75e99]" started-at="2022-02-11T15:19:25 IST" name="testPostObjectGetResponseQueryParam" data-provider="userIdDataProvider" finished-at="2022-02-11T15:19:25 IST" duration-ms="596" status="PASS">
+        </test-method> <!-- testGetResponseById -->
+        <test-method signature="testGetResponseById(int)[pri:0, instance:com.epam.TestAutomation.RestAssured.TestResponseByObject@74751b3]" started-at="2022-02-14T21:54:25 IST" name="testGetResponseById" data-provider="IdData" finished-at="2022-02-14T21:54:26 IST" duration-ms="819" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -58,8 +58,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPostObjectGetResponseQueryParam -->
-        <test-method signature="testPostObjectGetResponseQueryParam(int)[pri:0, instance:com.epam.TestAutomation.RestAssured.TestPost@58d75e99]" started-at="2022-02-11T15:19:25 IST" name="testPostObjectGetResponseQueryParam" data-provider="userIdDataProvider" finished-at="2022-02-11T15:19:26 IST" duration-ms="635" status="PASS">
+        </test-method> <!-- testGetResponseById -->
+        <test-method signature="testGetResponseById(int)[pri:0, instance:com.epam.TestAutomation.RestAssured.TestResponseByObject@74751b3]" started-at="2022-02-14T21:54:26 IST" name="testGetResponseById" data-provider="IdData" finished-at="2022-02-14T21:54:27 IST" duration-ms="1328" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,24 +69,67 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPostObjectGetResponseQueryParam -->
-        <test-method signature="testPostObjectGetResponseWithID()[pri:0, instance:com.epam.TestAutomation.RestAssured.TestPost@58d75e99]" started-at="2022-02-11T15:19:26 IST" name="testPostObjectGetResponseWithID" finished-at="2022-02-11T15:19:27 IST" duration-ms="1077" status="PASS">
+        </test-method> <!-- testGetResponseById -->
+        <test-method signature="testGetResponseOfComments()[pri:0, instance:com.epam.TestAutomation.RestAssured.TestResponseByObject@74751b3]" started-at="2022-02-14T21:54:27 IST" name="testGetResponseOfComments" finished-at="2022-02-14T21:54:28 IST" duration-ms="203" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPostObjectGetResponseWithID -->
-        <test-method signature="testPostObjectPatchResponse()[pri:0, instance:com.epam.TestAutomation.RestAssured.TestPost@58d75e99]" started-at="2022-02-11T15:19:27 IST" name="testPostObjectPatchResponse" finished-at="2022-02-11T15:19:28 IST" duration-ms="821" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testPostObjectPatchResponse -->
-        <test-method signature="testPostObjectPostResponse()[pri:0, instance:com.epam.TestAutomation.RestAssured.TestPost@58d75e99]" started-at="2022-02-11T15:19:28 IST" name="testPostObjectPostResponse" finished-at="2022-02-11T15:19:29 IST" duration-ms="814" status="PASS">
+        </test-method> <!-- testGetResponseOfComments -->
+        <test-method signature="testPostObjectPostResponse(com.epam.TestAutomation.RestAssured.PostObject)[pri:0, instance:com.epam.TestAutomation.RestAssured.TestResponseByObject@74751b3]" started-at="2022-02-14T21:54:28 IST" name="testPostObjectPostResponse" data-provider="ObjectsData" finished-at="2022-02-14T21:54:28 IST" duration-ms="847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.epam.TestAutomation.RestAssured.PostObject@1f43cab7]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostObjectPostResponse -->
-        <test-method signature="testPostObjectPutResponse()[pri:0, instance:com.epam.TestAutomation.RestAssured.TestPost@58d75e99]" started-at="2022-02-11T15:19:29 IST" name="testPostObjectPutResponse" finished-at="2022-02-11T15:19:30 IST" duration-ms="769" status="PASS">
+        <test-method signature="testPostObjectPostResponse(com.epam.TestAutomation.RestAssured.PostObject)[pri:0, instance:com.epam.TestAutomation.RestAssured.TestResponseByObject@74751b3]" started-at="2022-02-14T21:54:28 IST" name="testPostObjectPostResponse" data-provider="ObjectsData" finished-at="2022-02-14T21:54:30 IST" duration-ms="1198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.epam.TestAutomation.RestAssured.PostObject@7f4596d0]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPostObjectPutResponse -->
-      </class> <!-- com.epam.TestAutomation.RestAssured.TestPost -->
+        </test-method> <!-- testPostObjectPostResponse -->
+        <test-method signature="testPostObjectPostResponse(com.epam.TestAutomation.RestAssured.PostObject)[pri:0, instance:com.epam.TestAutomation.RestAssured.TestResponseByObject@74751b3]" started-at="2022-02-14T21:54:30 IST" name="testPostObjectPostResponse" data-provider="ObjectsData" finished-at="2022-02-14T21:54:31 IST" duration-ms="1123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.epam.TestAutomation.RestAssured.PostObject@35adf623]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostObjectPostResponse -->
+        <test-method signature="testPostObjectPostResponse(com.epam.TestAutomation.RestAssured.PostObject)[pri:0, instance:com.epam.TestAutomation.RestAssured.TestResponseByObject@74751b3]" started-at="2022-02-14T21:54:31 IST" name="testPostObjectPostResponse" data-provider="ObjectsData" finished-at="2022-02-14T21:54:33 IST" duration-ms="2043" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.epam.TestAutomation.RestAssured.PostObject@55acec99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostObjectPostResponse -->
+        <test-method signature="testPostObjectPostResponse(com.epam.TestAutomation.RestAssured.PostObject)[pri:0, instance:com.epam.TestAutomation.RestAssured.TestResponseByObject@74751b3]" started-at="2022-02-14T21:54:33 IST" name="testPostObjectPostResponse" data-provider="ObjectsData" finished-at="2022-02-14T21:54:33 IST" duration-ms="718" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.epam.TestAutomation.RestAssured.PostObject@741ac284]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostObjectPostResponse -->
+      </class> <!-- com.epam.TestAutomation.RestAssured.TestResponseByObject -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

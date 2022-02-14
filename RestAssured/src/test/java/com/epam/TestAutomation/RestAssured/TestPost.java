@@ -53,7 +53,7 @@ public class TestPost {
 	@Test
 	public void testPostObjectPostResponse() {
 		String body="{\r\n"
-				+ "    \"userId\":8,\r\n"
+				+ "    \"userId\":1,\r\n"
 				+ "    \"title\":\"THis is Title\",\r\n"
 				+ "    \"body\":\"This is a comment\"\r\n"
 				+ "}";
