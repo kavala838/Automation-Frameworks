@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.epam.TestAutomation.RestAssured.TestPost">
+      <class name="com.epam.TestAutomation.RestAssured.TestResponseByObject">
         <methods>
-          <include name="setUp"/>
-          <include name="testPostObjectPutResponse"/>
+          <include name="testPostObjectPostResponse"/>
         </methods>
-      </class> <!-- com.epam.TestAutomation.RestAssured.TestPost -->
+      </class> <!-- com.epam.TestAutomation.RestAssured.TestResponseByObject -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
