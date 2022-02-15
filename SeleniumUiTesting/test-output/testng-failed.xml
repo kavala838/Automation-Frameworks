@@ -5,7 +5,8 @@
     <classes>
       <class name="com.epam.TestAutomation.SeleniumUiTesting.TestWebDriver">
         <methods>
-          <include name="testDriver"/>
+          <include name="testContactSalesForm"/>
+          <include name="setUp"/>
         </methods>
       </class> <!-- com.epam.TestAutomation.SeleniumUiTesting.TestWebDriver -->
     </classes>
