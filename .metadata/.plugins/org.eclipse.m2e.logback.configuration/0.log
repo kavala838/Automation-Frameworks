@@ -2332,3 +2332,14 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.gu
 2022-02-14 21:53:50,907 [Worker-187: Launching TestResponseByObject] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vinaykumar_Kavala\TestAutomation\RestAssured\src\main\resources
 2022-02-14 21:53:50,908 [Worker-187: Launching TestResponseByObject] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-02-14 21:53:50,908 [Worker-187: Launching TestResponseByObject] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vinaykumar_Kavala\TestAutomation\RestAssured\src\test\resources
+2022-02-15 09:04:47,519 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-02-15 09:04:48,856 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.sun.xml.bind:jaxb-osgi:jar:2.2.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-02-15 09:04:49,179 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-15 09:04:49,180 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vinaykumar_Kavala\TestAutomation\API_Assignment\src\main\resources
+2022-02-15 09:04:49,183 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-15 09:04:49,184 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vinaykumar_Kavala\TestAutomation\API_Assignment\src\test\resources
+2022-02-15 09:18:27,299 [Worker-8: Launching TestResponseByObject.testPostObjectPostResponse] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.sun.xml.bind:jaxb-osgi:jar:2.2.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2022-02-15 09:18:27,320 [Worker-8: Launching TestResponseByObject.testPostObjectPostResponse] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-15 09:18:27,320 [Worker-8: Launching TestResponseByObject.testPostObjectPostResponse] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vinaykumar_Kavala\TestAutomation\RestAssured\src\main\resources
+2022-02-15 09:18:27,321 [Worker-8: Launching TestResponseByObject.testPostObjectPostResponse] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-15 09:18:27,322 [Worker-8: Launching TestResponseByObject.testPostObjectPostResponse] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vinaykumar_Kavala\TestAutomation\RestAssured\src\test\resources

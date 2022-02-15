@@ -14,16 +14,21 @@ public class TestResponseByObject {
 	public void setUp() {
 		RestAssured.baseURI="https://jsonplaceholder.typicode.com";
 	}
+	
+	// Serialization
 	@Test(dataProvider="ObjectsData")
 	public void testPostObjectPostResponse(PostObject obj) {
-		given().header("Content-Type","Application/json")
+		PostObjectWithId responseObj =given().header("Content-Type","Application/json")
 		   .body(obj)
 		   .and()
 		   .when()
 		   .post("/posts")
-		   .then()
-		   .statusCode(201);
+		   .as(PostObjectWithId.class);
+		assert(obj.getUserId()==responseObj.getUserId());
+		   
 	}
+	
+	// Deserialization
 	@Test(dataProvider="IdData")
 	public void testGetResponseById(int id) {
 		PostObjectWithId obj=given().pathParam("id", id)
@@ -32,6 +37,8 @@ public class TestResponseByObject {
 			.as(PostObjectWithId.class);
 		assertEquals(id,obj.getId());
 	}
+	
+	
 	@Test
 	public void tesrGetResponseAllPosts() {
 		PostObjectWithId[] objArr=given()
@@ -40,6 +47,8 @@ public class TestResponseByObject {
 				.as(PostObjectWithId[].class);
 		assert(objArr.length==100);
 	}
+	
+	
 	@Test
 	public void testGetResponseOfComments() {
 		UserDetailsObject[] objArr=given().queryParam("postId", 1)
@@ -50,6 +59,8 @@ public class TestResponseByObject {
 			assertEquals(1,objArr[i].getPostId());
 		}
 	}
+	
+	
 	@DataProvider(name="ObjectsData")
 	public Object[][] objData(){
 		PostObject obj1=new PostObject();
@@ -71,6 +82,8 @@ public class TestResponseByObject {
 		};
 		return returnObj;
 	}
+	
+	
 	@DataProvider(name="IdData")
 	public Object[][] IdData(){
 		Object[][] returnObj= {
