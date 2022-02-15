@@ -100,3 +100,4 @@
 2022-02-15 12:15:28,810 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vinaykumar_Kavala\Test Automation\TestNG\src\main\resources
 2022-02-15 12:15:28,813 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-02-15 12:15:28,813 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Vinaykumar_Kavala\Test Automation\TestNG\src\test\resources
+2022-02-15 12:23:28,047 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
