@@ -299,6 +299,7 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2022-02-15 11:48:05.314
 !MESSAGE The POM for com.sun.xml.bind:jaxb-osgi:jar:2.2.10 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+<<<<<<< HEAD
 !SESSION 2022-02-15 12:15:20.949 -----------------------------------------------
 eclipse.buildId=4.22.0.I20211124-1800
 java.version=17.0.1
@@ -717,3 +718,5 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+=======
+>>>>>>> bc774febe1c398d848266544cf77db4de6d80e48
