@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="42" passed="42" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-13T13:15:59 IST" name="Default suite" finished-at="2022-02-13T13:16:30 IST" duration-ms="30605">
+    <groups>
+    </groups>
+    <test started-at="2022-02-13T13:15:59 IST" name="Default test" finished-at="2022-02-13T13:16:30 IST" duration-ms="30605">
+      <class name="com.epam.TestAutomation.API_Assignment.TestAPI">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:15:59 IST" name="setUp" finished-at="2022-02-13T13:16:00 IST" duration-ms="890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFetUserWithIdWithoutToken()[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:00 IST" name="testFetUserWithIdWithoutToken" finished-at="2022-02-13T13:16:04 IST" duration-ms="3827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFetUserWithIdWithoutToken -->
+        <test-method signature="testGetResponseWithInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:04 IST" name="testGetResponseWithInvalidToken" data-provider="InvalidTokens" finished-at="2022-02-13T13:16:04 IST" duration-ms="241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[c9c1347c-698a-ab93-9504-43726nhf70c4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetResponseWithInvalidToken -->
+        <test-method signature="testGetResponseWithInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:04 IST" name="testGetResponseWithInvalidToken" data-provider="InvalidTokens" finished-at="2022-02-13T13:16:05 IST" duration-ms="281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[c9c1247c-698a-cd93-9504-43726adf70c4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetResponseWithInvalidToken -->
+        <test-method signature="testGetResponseWithInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:05 IST" name="testGetResponseWithInvalidToken" data-provider="InvalidTokens" finished-at="2022-02-13T13:16:05 IST" duration-ms="304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[c9c1347c-698a-ef93-9504-43726dwf70c4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetResponseWithInvalidToken -->
+        <test-method signature="testGetResponseWithInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:05 IST" name="testGetResponseWithInvalidToken" data-provider="InvalidTokens" finished-at="2022-02-13T13:16:05 IST" duration-ms="320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[c9c1647c-698a-gh93-9504-43726tyf70c4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetResponseWithInvalidToken -->
+        <test-method signature="testGetResponseWithInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:05 IST" name="testGetResponseWithInvalidToken" data-provider="InvalidTokens" finished-at="2022-02-13T13:16:05 IST" duration-ms="211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[c9c1177c-698a-ij93-9504-43726zuf70c4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetResponseWithInvalidToken -->
+        <test-method signature="testGetUsersPageInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:05 IST" name="testGetUsersPageInvalidToken" data-provider="InvalidTokens" finished-at="2022-02-13T13:16:06 IST" duration-ms="237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[c9c1347c-698a-ab93-9504-43726nhf70c4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsersPageInvalidToken -->
+        <test-method signature="testGetUsersPageInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:06 IST" name="testGetUsersPageInvalidToken" data-provider="InvalidTokens" finished-at="2022-02-13T13:16:06 IST" duration-ms="252" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[c9c1247c-698a-cd93-9504-43726adf70c4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsersPageInvalidToken -->
+        <test-method signature="testGetUsersPageInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:06 IST" name="testGetUsersPageInvalidToken" data-provider="InvalidTokens" finished-at="2022-02-13T13:16:06 IST" duration-ms="216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[c9c1347c-698a-ef93-9504-43726dwf70c4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsersPageInvalidToken -->
+        <test-method signature="testGetUsersPageInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:06 IST" name="testGetUsersPageInvalidToken" data-provider="InvalidTokens" finished-at="2022-02-13T13:16:06 IST" duration-ms="200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[c9c1647c-698a-gh93-9504-43726tyf70c4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsersPageInvalidToken -->
+        <test-method signature="testGetUsersPageInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:06 IST" name="testGetUsersPageInvalidToken" data-provider="InvalidTokens" finished-at="2022-02-13T13:16:07 IST" duration-ms="198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[c9c1177c-698a-ij93-9504-43726zuf70c4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsersPageInvalidToken -->
+        <test-method signature="testGetUsersPageWithoutToken()[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:07 IST" name="testGetUsersPageWithoutToken" finished-at="2022-02-13T13:16:08 IST" duration-ms="1934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsersPageWithoutToken -->
+        <test-method signature="testLogInForUnregisteredUsers(java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:08 IST" name="testLogInForUnregisteredUsers" data-provider="InvalidUserNamesAndPasswords" finished-at="2022-02-13T13:16:10 IST" duration-ms="1153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FakeEmail1@fake.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInForUnregisteredUsers -->
+        <test-method signature="testLogInForUnregisteredUsers(java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:10 IST" name="testLogInForUnregisteredUsers" data-provider="InvalidUserNamesAndPasswords" finished-at="2022-02-13T13:16:10 IST" duration-ms="240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FakeEmail2@fake.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInForUnregisteredUsers -->
+        <test-method signature="testLogInForUnregisteredUsers(java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:10 IST" name="testLogInForUnregisteredUsers" data-provider="InvalidUserNamesAndPasswords" finished-at="2022-02-13T13:16:10 IST" duration-ms="245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FakeEmail3@fake.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInForUnregisteredUsers -->
+        <test-method signature="testLogInForUnregisteredUsers(java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:10 IST" name="testLogInForUnregisteredUsers" data-provider="InvalidUserNamesAndPasswords" finished-at="2022-02-13T13:16:10 IST" duration-ms="220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FakeEmail4@fake.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInForUnregisteredUsers -->
+        <test-method signature="testLogInForUnregisteredUsers(java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:10 IST" name="testLogInForUnregisteredUsers" data-provider="InvalidUserNamesAndPasswords" finished-at="2022-02-13T13:16:11 IST" duration-ms="256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FakeEmail5@fake.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInForUnregisteredUsers -->
+        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:11 IST" name="testRegistration" data-provider="NewData" finished-at="2022-02-13T13:16:11 IST" duration-ms="251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gszxyah11111@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:11 IST" name="testRegistration" data-provider="NewData" finished-at="2022-02-13T13:16:11 IST" duration-ms="295" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gszxyah21111@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:11 IST" name="testRegistration" data-provider="NewData" finished-at="2022-02-13T13:16:11 IST" duration-ms="255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gszxyah31111@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123457]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:11 IST" name="testRegistration" data-provider="NewData" finished-at="2022-02-13T13:16:12 IST" duration-ms="226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gszxyah41111@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:12 IST" name="testRegistration" data-provider="NewData" finished-at="2022-02-13T13:16:12 IST" duration-ms="345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gszxyah51111@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method signature="testLogInWithValidUserNameAndWrongPassword(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:12 IST" name="testLogInWithValidUserNameAndWrongPassword" data-provider="NewData" finished-at="2022-02-13T13:16:12 IST" duration-ms="312" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gszxyah11111@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInWithValidUserNameAndWrongPassword -->
+        <test-method signature="testLogInWithValidUserNameAndWrongPassword(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:12 IST" name="testLogInWithValidUserNameAndWrongPassword" data-provider="NewData" finished-at="2022-02-13T13:16:13 IST" duration-ms="295" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gszxyah21111@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInWithValidUserNameAndWrongPassword -->
+        <test-method signature="testLogInWithValidUserNameAndWrongPassword(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:13 IST" name="testLogInWithValidUserNameAndWrongPassword" data-provider="NewData" finished-at="2022-02-13T13:16:13 IST" duration-ms="408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gszxyah31111@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123457]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInWithValidUserNameAndWrongPassword -->
+        <test-method signature="testLogInWithValidUserNameAndWrongPassword(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:13 IST" name="testLogInWithValidUserNameAndWrongPassword" data-provider="NewData" finished-at="2022-02-13T13:16:13 IST" duration-ms="311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gszxyah41111@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInWithValidUserNameAndWrongPassword -->
+        <test-method signature="testLogInWithValidUserNameAndWrongPassword(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:13 IST" name="testLogInWithValidUserNameAndWrongPassword" data-provider="NewData" finished-at="2022-02-13T13:16:14 IST" duration-ms="233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gszxyah51111@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInWithValidUserNameAndWrongPassword -->
+        <test-method signature="testLogIn(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:14 IST" name="testLogIn" data-provider="NewData" finished-at="2022-02-13T13:16:14 IST" depends-on-methods="com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration" duration-ms="438" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gszxyah11111@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogIn -->
+        <test-method signature="testLogIn(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:14 IST" name="testLogIn" data-provider="NewData" finished-at="2022-02-13T13:16:14 IST" depends-on-methods="com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration" duration-ms="253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gszxyah21111@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogIn -->
+        <test-method signature="testLogIn(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:14 IST" name="testLogIn" data-provider="NewData" finished-at="2022-02-13T13:16:14 IST" depends-on-methods="com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration" duration-ms="263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gszxyah31111@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123457]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogIn -->
+        <test-method signature="testLogIn(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:14 IST" name="testLogIn" data-provider="NewData" finished-at="2022-02-13T13:16:15 IST" depends-on-methods="com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration" duration-ms="372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gszxyah41111@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogIn -->
+        <test-method signature="testLogIn(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:15 IST" name="testLogIn" data-provider="NewData" finished-at="2022-02-13T13:16:15 IST" depends-on-methods="com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration" duration-ms="297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gszxyah51111@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogIn -->
+        <test-method signature="testGetUserDetailsRequestWithUserId(int,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:15 IST" name="testGetUserDetailsRequestWithUserId" data-provider="DataAfterLogIn" finished-at="2022-02-13T13:16:15 IST" depends-on-methods="com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn" duration-ms="279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18369]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1a7a2cfc-5395-427a-9985-4321227b8d71]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserDetailsRequestWithUserId -->
+        <test-method signature="testGetUserDetailsRequestWithUserId(int,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:15 IST" name="testGetUserDetailsRequestWithUserId" data-provider="DataAfterLogIn" finished-at="2022-02-13T13:16:16 IST" depends-on-methods="com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn" duration-ms="306" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18370]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[83d9dffd-154c-4e0f-837b-3e68fba14cf6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserDetailsRequestWithUserId -->
+        <test-method signature="testGetUserDetailsRequestWithUserId(int,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:16 IST" name="testGetUserDetailsRequestWithUserId" data-provider="DataAfterLogIn" finished-at="2022-02-13T13:16:16 IST" depends-on-methods="com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn" duration-ms="205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18371]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[98cb3f9b-7b11-43fe-b307-54a144dc668c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserDetailsRequestWithUserId -->
+        <test-method signature="testGetUserDetailsRequestWithUserId(int,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:16 IST" name="testGetUserDetailsRequestWithUserId" data-provider="DataAfterLogIn" finished-at="2022-02-13T13:16:16 IST" depends-on-methods="com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn" duration-ms="299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18372]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[514201d7-bba0-4776-994c-70259da03f46]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserDetailsRequestWithUserId -->
+        <test-method signature="testGetUserDetailsRequestWithUserId(int,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:16 IST" name="testGetUserDetailsRequestWithUserId" data-provider="DataAfterLogIn" finished-at="2022-02-13T13:16:17 IST" depends-on-methods="com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn" duration-ms="310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18373]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1bbf7d7e-00ea-4694-88bf-d97a5030a2a0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserDetailsRequestWithUserId -->
+        <test-method signature="testGetUsersRequest(int,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:17 IST" name="testGetUsersRequest" data-provider="DataAfterLogIn" finished-at="2022-02-13T13:16:20 IST" depends-on-methods="com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn" duration-ms="3069" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18369]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1a7a2cfc-5395-427a-9985-4321227b8d71]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsersRequest -->
+        <test-method signature="testGetUsersRequest(int,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:20 IST" name="testGetUsersRequest" data-provider="DataAfterLogIn" finished-at="2022-02-13T13:16:23 IST" depends-on-methods="com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn" duration-ms="2963" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18370]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[83d9dffd-154c-4e0f-837b-3e68fba14cf6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsersRequest -->
+        <test-method signature="testGetUsersRequest(int,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:23 IST" name="testGetUsersRequest" data-provider="DataAfterLogIn" finished-at="2022-02-13T13:16:25 IST" depends-on-methods="com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn" duration-ms="2347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18371]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[98cb3f9b-7b11-43fe-b307-54a144dc668c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsersRequest -->
+        <test-method signature="testGetUsersRequest(int,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:25 IST" name="testGetUsersRequest" data-provider="DataAfterLogIn" finished-at="2022-02-13T13:16:27 IST" depends-on-methods="com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn" duration-ms="2405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18372]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[514201d7-bba0-4776-994c-70259da03f46]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsersRequest -->
+        <test-method signature="testGetUsersRequest(int,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:27 IST" name="testGetUsersRequest" data-provider="DataAfterLogIn" finished-at="2022-02-13T13:16:30 IST" depends-on-methods="com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn" duration-ms="2525" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18373]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1bbf7d7e-00ea-4694-88bf-d97a5030a2a0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsersRequest -->
+      </class> <!-- com.epam.TestAutomation.API_Assignment.TestAPI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
