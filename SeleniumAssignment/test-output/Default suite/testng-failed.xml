@@ -3,15 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.epam.selenium.SeleniumAssignment.TestOrangeHRM">
+      <class name="com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithImplicitTime">
         <methods>
           <include name="testRemoveAdminRoleChanges"/>
           <include name="testChangeWhenAdminRoleRemoved"/>
           <include name="testLogOut"/>
           <include name="testChangeAdminRoleOfuser"/>
+          <include name="closeTab"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.epam.selenium.SeleniumAssignment.TestOrangeHRM -->
+      </class> <!-- com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithImplicitTime -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

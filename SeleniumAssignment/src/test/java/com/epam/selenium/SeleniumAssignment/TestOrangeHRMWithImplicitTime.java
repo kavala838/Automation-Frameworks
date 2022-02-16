@@ -2,28 +2,31 @@ package com.epam.selenium.SeleniumAssignment;
 
 import static org.testng.Assert.assertEquals;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class TestOrangeHRM {
+public class TestOrangeHRMWithImplicitTime {
 	WebDriver driver;
 	@BeforeClass
 	public void setUp() {
 		String driverPath="C:\\BrowserDrivers\\geckodriver\\geckodriver.exe";
 		System.setProperty("webdriver.gecko.driver", driverPath);
 		driver=new FirefoxDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.manage().window().maximize();
 		driver.get("https://prasoonr-trials73.orangehrmlive.com/");
 	}
 	@Test(priority=1)
 	public void testLogIn() throws InterruptedException {
 		
-		Thread.sleep(3000);
 		
 		driver.findElement(By.id("txtUsername"))
 	         .sendKeys("Admin");
@@ -36,7 +39,6 @@ public class TestOrangeHRM {
 		      .click();
 		
 		
-		Thread.sleep(5000);
 		
 		
 		assertEquals("https://prasoonr-trials73.orangehrmlive.com/client/#/dashboard",driver.getCurrentUrl());
@@ -54,41 +56,30 @@ public class TestOrangeHRM {
 		driver.findElement(By.xpath("//*[@id=\"menu_admin_viewSystemUsers\"]/span[2]"))
 		      .click();
 		
-		Thread.sleep(2000);
 		
 		assertEquals("https://prasoonr-trials73.orangehrmlive.com/client/#/admin/systemUsers",driver.getCurrentUrl());
 	}
 	@Test(priority=3)
 	public void testChangeAdminRoleOfuser() throws InterruptedException {
-		
-		
-		Thread.sleep(30000);
-		
-		  driver.findElement(By.xpath("//span[text()=\"amanda\"]"))
-				                       .findElement(By.xpath("./.."))
-				                       .findElement(By.xpath("./.."))
-				                       .findElement(By.xpath("./.."))
-				                       .findElement(By.xpath("//i[text()=\"ohrm_edit\"]")).click();
-		
-		  
-		 Thread.sleep(5000);
 		 
-		 WebElement dropDown= driver.findElement(By.xpath("//*[@id=\"modal-holder\"]/div/div/div/div[2]/form/oxd-decorator[3]/div/div[1]/div/div[1]/button"));
-		 dropDown.click();
-			
-		  driver.findElement(By.id("bs-select-3-2")) 
-		        .click();
+		  driver.findElement(By.xpath("//td/ng-include[span=\"amanda\"]/parent::td/parent::tr//i[\"ohrm_edit\"]")).click();
 		  
-		  driver.findElement(By.id("modal-save-button"))
-	            .click();
+		  Thread.sleep(2000);
+		  WebElement dropDown= driver.findElement(By.xpath(
+		  "//*[@id=\"modal-holder\"]/div/div/div/div[2]/form/oxd-decorator[3]/div/div[1]/div/div[1]/button"
+		  )); dropDown.click();
+		  
+		  driver.findElement(By.id("bs-select-3-2")) .click();
+		  
+		  driver.findElement(By.id("modal-save-button")) .click();
+		 
 	}
 	
 	
 	@Test(priority=4)
 	public void testTheChangesAdded() throws InterruptedException {
-		
+
 		Thread.sleep(1000);
-		
 		WebElement spanElement=driver.findElement(By.xpath("//*[@id=\"systemUserDiv\"]/crud-panel/div/div/list/table/tbody/tr[6]/td[3]/ng-include/span"));
 		String s=spanElement.getAttribute("innerHTML");
 		String[] arr=s.split(",");
@@ -107,14 +98,11 @@ public class TestOrangeHRM {
 	
 	@Test(priority=5)
 	public void testChangeWhenAdminRoleRemoved() throws InterruptedException {
-		driver.findElement(By.xpath("//span[text()=\"amanda\"]"))
-	          .findElement(By.xpath("./.."))
-	          .findElement(By.xpath("./.."))
-	          .findElement(By.xpath("./.."))
-	          .findElement(By.xpath("//i[text()=\"ohrm_edit\"]")).click();
+	
+		
+		driver.findElement(By.xpath("//td/ng-include[span=\"amanda\"]/parent::td/parent::tr//i[\"ohrm_edit\"]")).click();
 				 
-				
-		Thread.sleep(5000);
+		Thread.sleep(1000);
 		
 		WebElement dropDown = driver.findElement(By.xpath(
 						"//*[@id=\"modal-holder\"]/div/div/div/div[2]/form/oxd-decorator[3]/div/div[1]/div/div[1]/button"));
@@ -130,7 +118,6 @@ public class TestOrangeHRM {
 	
 	@Test(priority=6)
 	public void testRemoveAdminRoleChanges() throws InterruptedException {
-		
 		Thread.sleep(1000);
 		
 		WebElement spanElement=driver.findElement(By.xpath("//*[@id=\"systemUserDiv\"]/crud-panel/div/div/list/table/tbody/tr[6]/td[3]/ng-include/span"));
@@ -155,5 +142,9 @@ public class TestOrangeHRM {
 		driver.findElement(By.id("logoutLink")).click();
 		assertEquals("https://prasoonr-trials73.orangehrmlive.com/auth/login",driver.getCurrentUrl());
 		
+	}
+	@AfterClass
+	public void closeTab() {
+		driver.close();
 	}
 }
