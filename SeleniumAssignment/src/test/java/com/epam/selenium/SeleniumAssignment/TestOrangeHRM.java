@@ -54,7 +54,7 @@ public class TestOrangeHRM {
 		Thread.sleep(20000);
 		  driver.findElement(By.xpath(
 		  "//*[@id=\"systemUserDiv\"]/crud-panel/div/div/list/table/tbody/tr[6]/td[8]/i"
-		  )) .click();
+		    )) .click();
 		 
 		/*
 		 * Thread.sleep(20000); driver.findElement(By.xpath(
@@ -63,15 +63,17 @@ public class TestOrangeHRM {
 		 */
 		 Thread.sleep(5000);
 		 WebElement dropDown= driver.findElement(By.xpath("//*[@id=\"modal-holder\"]/div/div/div/div[2]/form/oxd-decorator[3]/div/div[1]/div/div[1]/button"));
-			dropDown.click();
+		 dropDown.click();
 			/*
 			 * Select dropDownList=new Select(dropDown);
 			 * dropDownList.selectByVisibleText("Global Admin");
 			 */
-			driver.findElement(By.id("bs-select-3-2")) .click();
+		  driver.findElement(By.id("bs-select-3-2")) .click();
 		  driver.findElement(By.id("modal-save-button"))
 	            .click();
 	}
+	
+	
 	@Test(priority=4)
 	public void testTheChangesAdded() throws InterruptedException {
 		Thread.sleep(1000);
@@ -87,32 +89,34 @@ public class TestOrangeHRM {
 		}
 		assert(flag);
 	}
+	
+	
 	@Test(priority=5)
 	public void testChangeWhenAdminRoleRemoved() throws InterruptedException {
-		driver.findElement(By.xpath(
-				  "//*[@id=\"systemUserDiv\"]/crud-panel/div/div/list/table/tbody/tr[6]/td[8]/i"
-				  )) .click();
+		driver.findElement(By.xpath("//*[@id=\"systemUserDiv\"]/crud-panel/div/div/list/table/tbody/tr[6]/td[8]/i"))
+				.click();
 				 
 				/*
 				 * Thread.sleep(20000); driver.findElement(By.xpath(
 				 * "//*[@data-tooltip-id=\"82c7db4b-8166-d8a7-58c9-7be18ee48899\"]/i"))
 				 * .click();
 				 */
-				 Thread.sleep(5000);
-				 WebElement dropDown= driver.findElement(By.xpath("//*[@id=\"modal-holder\"]/div/div/div/div[2]/form/oxd-decorator[3]/div/div[1]/div/div[1]/button"));
-				dropDown.click();
+		Thread.sleep(5000);
+		WebElement dropDown = driver.findElement(By.xpath(
+						"//*[@id=\"modal-holder\"]/div/div/div/div[2]/form/oxd-decorator[3]/div/div[1]/div/div[1]/button"));
+		dropDown.click();
 				/*
 				 * Select dropDownList=new Select(dropDown);
 				 * dropDownList.selectByVisibleText("-- Select --");
 				 */
-				
-				  driver.findElement(By.id("bs-select-6-0")) .click();
-				 
-				  
-				  driver.findElement(By.id("modal-save-button"))
-			            .click();
+
+		driver.findElement(By.id("bs-select-6-0")).click();
+
+		driver.findElement(By.id("modal-save-button")).click();
 		
 	}
+	
+	
 	@Test(priority=6)
 	public void testRemoveAdminRoleChanges() throws InterruptedException {
 		Thread.sleep(1000);
@@ -128,6 +132,8 @@ public class TestOrangeHRM {
 		}
 		assert(flag);
 	}
+	
+	
 	@Test(priority=7)
 	public void testLogOut() {
 		driver.findElement(By.id("user-dropdown")).click();
