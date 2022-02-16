@@ -145,6 +145,6 @@ public class TestOrangeHRMWithImplicitTime {
 	}
 	@AfterClass
 	public void closeTab() {
-		driver.close();
+		driver.quit();
 	}
 }
