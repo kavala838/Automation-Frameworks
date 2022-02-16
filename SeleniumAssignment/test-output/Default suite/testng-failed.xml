@@ -5,11 +5,11 @@
     <classes>
       <class name="com.epam.selenium.SeleniumAssignment.TestOrangeHRM">
         <methods>
+          <include name="testRemoveAdminRoleChanges"/>
           <include name="testChangeWhenAdminRoleRemoved"/>
           <include name="testLogOut"/>
           <include name="testChangeAdminRoleOfuser"/>
           <include name="setUp"/>
-          <include name="testTheChangesAdded"/>
         </methods>
       </class> <!-- com.epam.selenium.SeleniumAssignment.TestOrangeHRM -->
     </classes>
