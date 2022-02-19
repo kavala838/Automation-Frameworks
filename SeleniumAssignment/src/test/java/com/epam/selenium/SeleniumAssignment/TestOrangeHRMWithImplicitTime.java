@@ -11,15 +11,19 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import com.epam.selenium.SeleniumAssignment.WebDriverFactory.webDriverFactory;
+
 public class TestOrangeHRMWithImplicitTime {
-	WebDriver driver;
-	@BeforeClass
-	public void setUp() {
-		String driverPath="C:\\BrowserDrivers\\geckodriver\\geckodriver.exe";
-		System.setProperty("webdriver.gecko.driver", driverPath);
-		driver=new FirefoxDriver();
+WebDriver driver;
+	
+	@Parameters({"driverName"})
+	@Test
+	public void setUp(String driverName) {
+		
+		driver =webDriverFactory.getDriver(driverName);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.manage().window().maximize();
 		driver.get("https://prasoonr-trials73.orangehrmlive.com/");
@@ -64,14 +68,15 @@ public class TestOrangeHRMWithImplicitTime {
 		 
 		  driver.findElement(By.xpath("//td/ng-include[span=\"amanda\"]/parent::td/parent::tr//i[\"ohrm_edit\"]")).click();
 		  
-		  Thread.sleep(2000);
-		  WebElement dropDown= driver.findElement(By.xpath(
-		  "//*[@id=\"modal-holder\"]/div/div/div/div[2]/form/oxd-decorator[3]/div/div[1]/div/div[1]/button"
-		  )); dropDown.click();
+		 // Thread.sleep(2000);
 		  
-		  driver.findElement(By.id("bs-select-3-2")) .click();
+		   driver.findElement(By.xpath(
+		  "//button/div/div/div[text()=\"-- Select --\"]"
+		  )).click();
 		  
-		  driver.findElement(By.id("modal-save-button")) .click();
+		  driver.findElement(By.id("bs-select-3-2")).click();
+		  
+		  driver.findElement(By.id("modal-save-button")).click();
 		 
 	}
 	

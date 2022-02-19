@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-MyFirstSuite" class="navigator-link">
-              <span class="suite-name border-passed">MyFirstSuite</span>
+              <span class="suite-name border-failed">MyFirstSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-MyFirstSuite" class="navigator-link ">
-                    <span>C:\Users\Vinaykumar_Kavala\Test Automation\SeleniumAssignment\src\test\chromeDriverTest.xml</span>
+                    <span>C:\Users\Vinaykumar_Kavala\Test Automation\SeleniumAssignment\src\test\firefoxDriverTest.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods,   8 passed</span>
+                    <span class="method-stats">7 methods, 1 failed,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-MyFirstSuite" class="hide-methods failed suite-MyFirstSuite"> (hide)</a> <!-- hide-methods failed suite-MyFirstSuite -->
+                      <a href="#" panel-name="suite-MyFirstSuite" class="show-methods failed suite-MyFirstSuite"> (show)</a> <!-- show-methods failed suite-MyFirstSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-MyFirstSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyFirstSuite" title="com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread" class="method navigator-link" hash-for-method="testTheChangesAdded">testTheChangesAdded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-MyFirstSuite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,11 +116,6 @@
                       <a href="#" panel-name="suite-MyFirstSuite" class="show-methods passed suite-MyFirstSuite"> (show)</a> <!-- show-methods passed suite-MyFirstSuite -->
                     </span>
                     <div class="method-list-content passed suite-MyFirstSuite">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MyFirstSuite" title="com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread" class="method navigator-link" hash-for-method="setUp(chrome)">setUp(chrome)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-MyFirstSuite" title="com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread" class="method navigator-link" hash-for-method="testChangeAdminRoleOfuser">testChangeAdminRoleOfuser</a> <!-- method navigator-link -->
@@ -137,11 +146,6 @@
                         <a href="#" panel-name="suite-MyFirstSuite" title="com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread" class="method navigator-link" hash-for-method="testRemoveAdminRoleChanges">testRemoveAdminRoleChanges</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MyFirstSuite" title="com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread" class="method navigator-link" hash-for-method="testTheChangesAdded">testTheChangesAdded</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                     </div> <!-- method-list-content passed suite-MyFirstSuite -->
                   </li>
                 </ul>
@@ -154,20 +158,32 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-MyFirstSuite" class="panel MyFirstSuite">
+          <div class="suite-MyFirstSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTheChangesAdded">
+                  </a> <!-- testTheChangesAdded -->
+                  <span class="method-name">testTheChangesAdded</span>
+                  <div class="stack-trace">java.lang.AssertionError
+	at com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread.testTheChangesAdded(TestOrangeHRMWithThread.java:104)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MyFirstSuite-class-failed -->
           <div class="suite-MyFirstSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="setUp(chrome)">
-                  </a> <!-- setUp(chrome) -->
-                  <span class="method-name">setUp</span>
-                  <span class="parameters">(chrome)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="testChangeAdminRoleOfuser">
@@ -210,19 +226,12 @@
                   <span class="method-name">testRemoveAdminRoleChanges</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testTheChangesAdded">
-                  </a> <!-- testTheChangesAdded -->
-                  <span class="method-name">testTheChangesAdded</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-MyFirstSuite-class-passed -->
         </div> <!-- panel MyFirstSuite -->
         <div panel-name="test-xml-MyFirstSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Vinaykumar_Kavala\Test Automation\SeleniumAssignment\src\test\chromeDriverTest.xml</span>
+            <span class="header-content">C:\Users\Vinaykumar_Kavala\Test Automation\SeleniumAssignment\src\test\firefoxDriverTest.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -230,7 +239,7 @@
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;MyFirstSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;MyFirstTest&quot;&gt;
-    &lt;parameter name=&quot;driverName&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;driverName&quot; value=&quot;firefox&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread&quot;/&gt;
     &lt;/classes&gt;
@@ -272,39 +281,35 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(8);
+data.addRows(7);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testChangeAdminRoleOfuser')
 data.setCell(0, 2, 'com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread')
-data.setCell(0, 3, 65455);
+data.setCell(0, 3, 66504);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testLogIn')
 data.setCell(1, 2, 'com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread')
-data.setCell(1, 3, 12959);
+data.setCell(1, 3, 26398);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testLogOut')
 data.setCell(2, 2, 'com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread')
-data.setCell(2, 3, 11548);
+data.setCell(2, 3, 12035);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'testChangeWhenAdminRoleRemoved')
 data.setCell(3, 2, 'com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread')
-data.setCell(3, 3, 7398);
+data.setCell(3, 3, 8064);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'setUp')
+data.setCell(4, 1, 'testNavigateToUsers')
 data.setCell(4, 2, 'com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread')
-data.setCell(4, 3, 4562);
+data.setCell(4, 3, 4877);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testNavigateToUsers')
+data.setCell(5, 1, 'testTheChangesAdded')
 data.setCell(5, 2, 'com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread')
-data.setCell(5, 3, 4270);
+data.setCell(5, 3, 1062);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testTheChangesAdded')
+data.setCell(6, 1, 'testRemoveAdminRoleChanges')
 data.setCell(6, 2, 'com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread')
-data.setCell(6, 3, 1071);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'testRemoveAdminRoleChanges')
-data.setCell(7, 2, 'com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread')
-data.setCell(7, 3, 1038);
+data.setCell(6, 3, 1051);
 window.suiteTableData['MyFirstSuite']= { tableData: data, tableDiv: 'times-div-MyFirstSuite'}
 return data;
 }
@@ -336,41 +341,43 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">setUp(chrome)</span>
+              <div class="configuration-class before">
+                <span class="method-name">setUp(firefox)</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
+              </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testLogIn</span>
-                <span class="method-start">4568 ms</span>
+                <span class="method-start">7129 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testNavigateToUsers</span>
-                <span class="method-start">17530 ms</span>
+                <span class="method-start">33537 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testChangeAdminRoleOfuser</span>
-                <span class="method-start">21803 ms</span>
+                <span class="method-start">38416 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">testTheChangesAdded</span>
-                <span class="method-start">87261 ms</span>
+                <span class="method-start">104922 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testChangeWhenAdminRoleRemoved</span>
-                <span class="method-start">88333 ms</span>
+                <span class="method-start">105989 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testRemoveAdminRoleChanges</span>
-                <span class="method-start">95732 ms</span>
+                <span class="method-start">114056 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testLogOut</span>
-                <span class="method-start">96772 ms</span>
+                <span class="method-start">115109 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeTab</span>
-                <span class="method-start">108322 ms</span>
+                <span class="method-start">127146 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
