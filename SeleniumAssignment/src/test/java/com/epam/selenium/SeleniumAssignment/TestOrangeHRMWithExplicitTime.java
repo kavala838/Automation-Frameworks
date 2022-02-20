@@ -77,24 +77,15 @@ WebDriver driver;
          .until(driver -> driver.findElement(By.xpath("//td/ng-include[span=\"amanda\"]/parent::td/parent::tr//i[\"ohrm_edit\"]")))
          .click();
 		  
-		 // Thread.sleep(1000);
-	     new WebDriverWait(driver, Duration.ofSeconds(3)).until(ExpectedConditions.invisibilityOfElementLocated(By.id("preloader")));
-	     
-		 //Selecting DropDown Button
-	     //input[@id="user_name"]
-	    WebElement ele= new WebDriverWait(driver, Duration.ofSeconds(30))
-         .until(driver -> driver.findElement(By.xpath("//*[@id=\"modal-holder\"]/div/div/div/div[2]/form/oxd-decorator[3]/div/div[1]/div/div[1]/button/div/div/div")))
-         ;
-	    new WebDriverWait(driver,Duration.ofSeconds(10))
-		  .until(ExpectedConditions.attributeToBeNotEmpty(ele,"innerHTML"));
-	     System.out.println("pre-click of dropdown");
+		 
 	     //System.out.println(ele.getText());
-		 new WebDriverWait(driver, Duration.ofSeconds(4))
-         .until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[3]/div/div/div/div[2]/form/oxd-decorator[3]/div/div[1]/div/div[2]/div/button/i[2]")))
+		 new WebDriverWait(driver, Duration.ofSeconds(10))
+         .until(ExpectedConditions.elementToBeClickable(By.xpath("//label[@for=\"adminrole\"]/following::div/following::div/following::div/div/button/i[@class=\"material-icons\"]")))
          .click();
+		 
+		 
 		 System.out.println("clicked");
-		//*[@id="modal-holder"]/div/div/div/div[2]/form/oxd-decorator[3]/div/div[1]/div/div[2]/div/button/i[2]
-		 //Selecting Global Admin in DropDown Options
+		
 		 new WebDriverWait(driver, Duration.ofSeconds(20))
          .until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//ul/li/a/span[text()=\"Global Admin\"]")))
          .click();
@@ -104,7 +95,7 @@ WebDriver driver;
 		 
 		 
 		 new WebDriverWait(driver,Duration.ofSeconds(2))
-		 .until(ExpectedConditions.elementToBeClickable(By.id("modal-save-button")));
+		 .until(ExpectedConditions.elementToBeClickable(By.id("modal-save-button"))).click();
 	}
 	
 	
@@ -138,7 +129,7 @@ WebDriver driver;
 		
 		
 		new WebDriverWait(driver, Duration.ofSeconds(10))
-	     .until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[3]/div/div/div/div[2]/form/oxd-decorator[3]/div/div[1]/div/div[2]/div/button/i[2]")))
+	     .until(ExpectedConditions.elementToBeClickable(By.xpath("//label[@for=\"adminrole\"]/following::div/following::div/following::div/div/button/i[@class=\"material-icons\"]")))
 	     .click();
 	   
 
@@ -149,8 +140,8 @@ WebDriver driver;
 	    new WebDriverWait(driver,Duration.ofSeconds(5))
 		  .until(ExpectedConditions.textToBePresentInElementLocated(By.xpath("//select[@id=\"adminrole\"]/parent::div/button/div/div/div"), "-- Select --"));
 
-	    new WebDriverWait(driver,Duration.ofSeconds(2))
-		 .until(ExpectedConditions.elementToBeClickable(By.id("modal-save-button")));
+	    new WebDriverWait(driver,Duration.ofSeconds(5))
+		 .until(ExpectedConditions.elementToBeClickable(By.id("modal-save-button"))).click();
 		
 	}
 	

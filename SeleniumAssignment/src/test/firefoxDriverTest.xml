@@ -10,7 +10,11 @@
 			<!-- <class name="com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread" /> -->
 			<!-- <class name="com.epam.selenium.SeleniumAssignment.SeleniumFeatures.Screenshot" /> -->
 			<!-- <class name="com.epam.selenium.SeleniumAssignment.SeleniumFeatures.alertMessage" /> -->
-			<class name="com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread" />
+			<!-- <class name="com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread" /> -->
+			<!-- <class name="com.epam.selenium.SeleniumAssignment.TestLogInFunctionalityWithDifferentScenarios" /> -->
+			<!-- <class name="com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithExplicitTime" /> -->
+			<!-- <class name="com.epam.selenium.SeleniumAssignment.TestAssigningAndRemovingRolesToUsers" /> -->
+			<class name="com.epam.selenium.SeleniumAssignment.OrangeHrmApplyLeaveFunctionalityWithDifferentScenarios" />
 			<!-- <class name="com.epam.selenium.SeleniumAssignment.SeleniumFeatures.DragAnddrop" /> -->
 		</classes>
 	</test>

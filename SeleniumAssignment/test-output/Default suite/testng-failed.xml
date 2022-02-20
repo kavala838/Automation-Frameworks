@@ -3,19 +3,18 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithExplicitTime">
+      <class name="com.epam.selenium.SeleniumAssignment.OrangeHrmApplyLeaveFunctionalityWithDifferentScenarios">
         <methods>
-          <include name="testChangeWhenAdminRoleRemoved"/>
-          <include name="testRemoveAdminRoleChanges"/>
           <include name="setUp"/>
-          <include name="closeTab"/>
-          <include name="testLogOut"/>
-          <include name="testChangeAdminRoleOfuser"/>
-          <include name="testNavigateToUsers"/>
-          <include name="testLogIn"/>
-          <include name="testTheChangesAdded"/>
+          <include name="testNavigationToApplyLeavePageFromDashBoardPage"/>
+          <include name="FillTheLeaveListForm"/>
+          <include name="testSelectLeaveTypeInDropDownInApplyLeavePage"/>
+          <include name="testErrorMessageWhenFromDateIsAfterToDate"/>
+          <include name="testNavigateToLeaveListPageFromApplyLeavePage"/>
+          <include name="testErrorMessageDisappearanceAfterToDateModified"/>
+          <include name="testLeaveBalnceAvailable"/>
         </methods>
-      </class> <!-- com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithExplicitTime -->
+      </class> <!-- com.epam.selenium.SeleniumAssignment.OrangeHrmApplyLeaveFunctionalityWithDifferentScenarios -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

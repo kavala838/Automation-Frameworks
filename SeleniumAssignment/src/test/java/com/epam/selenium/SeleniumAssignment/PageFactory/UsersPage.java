@@ -14,21 +14,23 @@ public class UsersPage extends MenuContentSection {
 		js=(JavascriptExecutor)driver;
 	}
 	
-	public boolean checkTheUserWhetherAssignedToGivenRole(String username,String role) {
-		
-		WebElement RolesElement=driver.findElement(By.xpath("//span[text()=\"amanda\"]/parent::ng-include/parent::td/following-sibling::td/ng-include/span"));
+	public boolean checkTheUserWhetherAssignedToGivenRole(String username,String role) throws InterruptedException {
+		Thread.sleep(2000);
+		WebElement RolesElement=driver.findElement(By.xpath("//span[text()=\""+username+"\"]/parent::ng-include/parent::td/following-sibling::td/ng-include/span"));
 		
 		String roles=RolesElement.getText();
 		
 		return(roles.contains(role));
 	}
 	
-	public UsersPage AssignThisRoleToTheUser(String username) {
-		String script="document.evaluate('//td/ng-include[span=\""+username+"\"]/parent::td/parent::tr//i[\"ohrm_edit\"]', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();";
+	public UsersPage AssignGlobalAdminRoleToTheUser(String username) throws InterruptedException {
+		Thread.sleep(30000);
+		String script="document.evaluate('//td/ng-include[span=\"amanda\"]/parent::td/parent::tr/td/i[text()=\"ohrm_edit\"]', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();";
 		js.executeScript(script);
 		
-		script="document.evaluate('//label[@for=\"adminrole\"]/following-sibling::div', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();";
-		js.executeScript(script);
+		//Thread.sleep(4000);
+		script="document.evaluate('//label[@for=\"adminrole\"]/following::div/following::div/following::div/div/button/i[@class=\"material-icons\"]', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();";
+		js.executeAsyncScript(script);
 		
 		script="document.evaluate('//ul/li/a/span[text()=\"Global Admin\"]', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();";
 		js.executeScript(script);
@@ -39,11 +41,12 @@ public class UsersPage extends MenuContentSection {
 		return this;
 	}
 	
-	public UsersPage RemoveThisRoleToTheUserIfNotDefaultRole(String username) {
-		String script="document.evaluate('//td/ng-include[span=\""+username+"\"]/parent::td/parent::tr//i[\"ohrm_edit\"]', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();";
+	public UsersPage RemoveGlobalAdminRoleToTheUser(String username) throws InterruptedException {
+		Thread.sleep(2000);
+		String script="document.evaluate('//td/ng-include[span=\""+username+"\"]/parent::td/parent::tr//i[text()=\"ohrm_edit\"]', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();";
 		js.executeScript(script);
-		
-		script="document.evaluate('//label[@for=\"adminrole\"]/following-sibling::div', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();";
+		Thread.sleep(4000);
+		script="document.evaluate('//label[@for=\\\"adminrole\\\"]/following::div/following::div/following::div/div/button/i[@class=\\\"material-icons\\\"]', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();";
 		js.executeScript(script);
 		
 		script="document.evaluate('//*[@id=\"bs-select-6-0\"]', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();";

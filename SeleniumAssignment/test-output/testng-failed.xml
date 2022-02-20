@@ -4,13 +4,12 @@
   <test thread-count="5" name="MyFirstTest(failed)">
     <parameter name="driverName" value="firefox"/>
     <classes>
-      <class name="com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread">
+      <class name="com.epam.selenium.SeleniumAssignment.OrangeHrmApplyLeaveFunctionalityWithDifferentScenarios">
         <methods>
-          <include name="testTheChangesAdded"/>
           <include name="setUp"/>
-          <include name="closeTab"/>
+          <include name="FillTheLeaveListForm"/>
         </methods>
-      </class> <!-- com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread -->
+      </class> <!-- com.epam.selenium.SeleniumAssignment.OrangeHrmApplyLeaveFunctionalityWithDifferentScenarios -->
     </classes>
   </test> <!-- MyFirstTest(failed) -->
 </suite> <!-- Failed suite [MyFirstSuite] -->

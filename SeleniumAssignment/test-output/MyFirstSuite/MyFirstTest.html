@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>MyFirstTest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Feb 19 16:09:35 IST 2022</td>
+<td>Started on:</td><td>Mon Feb 21 00:00:36 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>127 seconds (127957 ms)</td>
+<tr><td>Total time:</td><td>42 seconds (42617 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,21 +67,67 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread.testTheChangesAdded()'><b>testTheChangesAdded</b><br>Test class: com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread</td>
-<td><div><pre>java.lang.AssertionError
-	at com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread.testTheChangesAdded(TestOrangeHRMWithThread.java:104)
+<td title='com.epam.selenium.SeleniumAssignment.OrangeHrmApplyLeaveFunctionalityWithDifferentScenarios.testNavigateToLeaveListPageFromApplyLeavePage()'><b>testNavigateToLeaveListPageFromApplyLeavePage</b><br>Test class: com.epam.selenium.SeleniumAssignment.OrangeHrmApplyLeaveFunctionalityWithDifferentScenarios</td>
+<td></td>
+<td>0</td>
+<td>com.epam.selenium.SeleniumAssignment.OrangeHrmApplyLeaveFunctionalityWithDifferentScenarios@54a7079e</td></tr>
+<tr>
+<td title='com.epam.selenium.SeleniumAssignment.OrangeHrmApplyLeaveFunctionalityWithDifferentScenarios.testSelectLeaveTypeInDropDownInApplyLeavePage()'><b>testSelectLeaveTypeInDropDownInApplyLeavePage</b><br>Test class: com.epam.selenium.SeleniumAssignment.OrangeHrmApplyLeaveFunctionalityWithDifferentScenarios</td>
+<td></td>
+<td>6</td>
+<td>com.epam.selenium.SeleniumAssignment.OrangeHrmApplyLeaveFunctionalityWithDifferentScenarios@54a7079e</td></tr>
+<tr>
+<td title='com.epam.selenium.SeleniumAssignment.OrangeHrmApplyLeaveFunctionalityWithDifferentScenarios.testErrorMessageWhenFromDateIsAfterToDate()'><b>testErrorMessageWhenFromDateIsAfterToDate</b><br>Test class: com.epam.selenium.SeleniumAssignment.OrangeHrmApplyLeaveFunctionalityWithDifferentScenarios</td>
+<td></td>
+<td>1</td>
+<td>com.epam.selenium.SeleniumAssignment.OrangeHrmApplyLeaveFunctionalityWithDifferentScenarios@54a7079e</td></tr>
+<tr>
+<td title='com.epam.selenium.SeleniumAssignment.OrangeHrmApplyLeaveFunctionalityWithDifferentScenarios.testErrorMessageDisappearanceAfterToDateModified()'><b>testErrorMessageDisappearanceAfterToDateModified</b><br>Test class: com.epam.selenium.SeleniumAssignment.OrangeHrmApplyLeaveFunctionalityWithDifferentScenarios</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Timed out after 10 seconds. Unable to locate the element
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:99)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
+	at com.epam.selenium.SeleniumAssignment.OrangeHrmApplyLeaveFunctionalityWithDifferentScenarios.testErrorMessageDisappearanceAfterToDateModified(OrangeHrmApplyLeaveFunctionalityWithDifferentScenarios.java:89)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace569959775", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace569959775'><pre>java.lang.AssertionError
-	at com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread.testTheChangesAdded(TestOrangeHRMWithThread.java:104)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //span[text()=&quot;From date should be before to date&quot;]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;EPINHYDW0D51&apos;, ip: &apos;192.168.43.73&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [84f89428-e85f-4a2a-808c-169283606787, findElement {using=xpath, value=//span[text()=&quot;From date should be before to date&quot;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:debuggerAddress: localhost:53323, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 25472, moz:profile: C:\Users\Vinaykumar_Kavala\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:53323/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 84f89428-e85f-4a2a-808c-169283606787
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:39)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:165)
+	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:72)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:95)
+	... 31 more
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1755634886", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1755634886'><pre>org.openqa.selenium.NoSuchElementException: Timed out after 10 seconds. Unable to locate the element
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:99)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
+	at com.epam.selenium.SeleniumAssignment.OrangeHrmApplyLeaveFunctionalityWithDifferentScenarios.testErrorMessageDisappearanceAfterToDateModified(OrangeHrmApplyLeaveFunctionalityWithDifferentScenarios.java:89)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -110,47 +156,53 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //span[text()=&quot;From date should be before to date&quot;]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;EPINHYDW0D51&apos;, ip: &apos;192.168.43.73&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [84f89428-e85f-4a2a-808c-169283606787, findElement {using=xpath, value=//span[text()=&quot;From date should be before to date&quot;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:debuggerAddress: localhost:53323, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 25472, moz:profile: C:\Users\Vinaykumar_Kavala\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:53323/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 84f89428-e85f-4a2a-808c-169283606787
+	at jdk.internal.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:39)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:165)
+	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:72)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:95)
+	... 31 more
 </pre></div></td>
-<td>1</td>
-<td>com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread@290222c1</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
+<td>10</td>
+<td>com.epam.selenium.SeleniumAssignment.OrangeHrmApplyLeaveFunctionalityWithDifferentScenarios@54a7079e</td></tr>
 <tr>
-<td title='com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread.testChangeWhenAdminRoleRemoved()'><b>testChangeWhenAdminRoleRemoved</b><br>Test class: com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread</td>
+<td title='com.epam.selenium.SeleniumAssignment.OrangeHrmApplyLeaveFunctionalityWithDifferentScenarios.FillTheLeaveListForm()'><b>FillTheLeaveListForm</b><br>Test class: com.epam.selenium.SeleniumAssignment.OrangeHrmApplyLeaveFunctionalityWithDifferentScenarios</td>
 <td></td>
-<td>8</td>
-<td>com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread@290222c1</td></tr>
+<td>2</td>
+<td>com.epam.selenium.SeleniumAssignment.OrangeHrmApplyLeaveFunctionalityWithDifferentScenarios@54a7079e</td></tr>
 <tr>
-<td title='com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread.testLogOut()'><b>testLogOut</b><br>Test class: com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread</td>
+<td title='com.epam.selenium.SeleniumAssignment.OrangeHrmApplyLeaveFunctionalityWithDifferentScenarios.testNavigationToApplyLeavePageFromDashBoardPage()'><b>testNavigationToApplyLeavePageFromDashBoardPage</b><br>Test class: com.epam.selenium.SeleniumAssignment.OrangeHrmApplyLeaveFunctionalityWithDifferentScenarios</td>
 <td></td>
-<td>12</td>
-<td>com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread@290222c1</td></tr>
+<td>0</td>
+<td>com.epam.selenium.SeleniumAssignment.OrangeHrmApplyLeaveFunctionalityWithDifferentScenarios@54a7079e</td></tr>
 <tr>
-<td title='com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread.testNavigateToUsers()'><b>testNavigateToUsers</b><br>Test class: com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread</td>
-<td></td>
-<td>4</td>
-<td>com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread@290222c1</td></tr>
-<tr>
-<td title='com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread.testRemoveAdminRoleChanges()'><b>testRemoveAdminRoleChanges</b><br>Test class: com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread</td>
+<td title='com.epam.selenium.SeleniumAssignment.OrangeHrmApplyLeaveFunctionalityWithDifferentScenarios.testLeaveBalnceAvailable()'><b>testLeaveBalnceAvailable</b><br>Test class: com.epam.selenium.SeleniumAssignment.OrangeHrmApplyLeaveFunctionalityWithDifferentScenarios</td>
 <td></td>
 <td>1</td>
-<td>com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread@290222c1</td></tr>
-<tr>
-<td title='com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread.testLogIn()'><b>testLogIn</b><br>Test class: com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread</td>
-<td></td>
-<td>26</td>
-<td>com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread@290222c1</td></tr>
-<tr>
-<td title='com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread.testChangeAdminRoleOfuser()'><b>testChangeAdminRoleOfuser</b><br>Test class: com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread</td>
-<td></td>
-<td>66</td>
-<td>com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread@290222c1</td></tr>
+<td>com.epam.selenium.SeleniumAssignment.OrangeHrmApplyLeaveFunctionalityWithDifferentScenarios@54a7079e</td></tr>
 </table><p>
 </body>
 </html>
