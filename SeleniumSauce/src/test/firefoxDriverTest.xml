@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+
+<suite name="MyFirstSuite">
+	<test name="MyFirstTest">
+	<parameter name = "driverName" value="firefox"/>
+		<classes>
+			<!-- <class name="com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread" /> -->
+			<!-- <class name="com.epam.selenium.SeleniumAssignment.SeleniumFeatures.Screenshot" /> -->
+			<!-- <class name="com.epam.selenium.SeleniumAssignment.SeleniumFeatures.alertMessage" /> -->
+			<!-- <class name="com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithThread" /> -->
+			<class name="com.epam.selenium.SeleniumSauce.Tests.TestLogInScenariosOrangeHRM" />
+			<!-- <class name="com.epam.selenium.SeleniumAssignment.TestOrangeHRMWithExplicitTime" /> -->
+			<!-- <class name="com.epam.selenium.SeleniumAssignment.TestAssigningAndRemovingRolesToUsers" /> -->
+			<!-- <class name="com.epam.selenium.SeleniumAssignment.OrangeHrmApplyLeaveFunctionalityWithDifferentScenarios" /> -->
+			<!-- <class name="com.epam.selenium.SeleniumAssignment.SeleniumFeatures.DragAnddrop" /> -->
+		</classes>
+	</test>
+</suite>

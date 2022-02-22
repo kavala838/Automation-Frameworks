@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 
+
 public class LogInPageWithJSExecutor {
 	private final WebDriver driver;
 	JavascriptExecutor js;

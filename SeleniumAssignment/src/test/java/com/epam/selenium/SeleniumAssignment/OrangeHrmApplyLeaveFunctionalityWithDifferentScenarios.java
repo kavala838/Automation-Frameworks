@@ -1,5 +1,5 @@
 package com.epam.selenium.SeleniumAssignment;
-
+import com.epam.selenium.SeleniumAssignment.Listeners.*;
 import java.io.IOException;
 import java.time.Duration;
 
@@ -9,8 +9,10 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.ITestContext;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -19,13 +21,17 @@ import com.epam.selenium.SeleniumAssignment.PageFactory.DashBoardPage;
 import com.epam.selenium.SeleniumAssignment.PageFactory.LeaveListPage;
 import com.epam.selenium.SeleniumAssignment.PageFactory.LogInPage;
 import com.epam.selenium.SeleniumAssignment.WebDriverFactory.webDriverFactory;
-
+@Listeners(TestListenerImpl.class)
 public class OrangeHrmApplyLeaveFunctionalityWithDifferentScenarios {
-  WebDriver driver;
+ ITestContext context;
+ public WebDriver driver;
   LogInPage logInPage;
   DashBoardPage dashBoardPage;
   ApplyLeavePage applyLeavePage;
   LeaveListPage leaveListPage;
+  public WebDriver getDriver() {
+	  return this.driver;
+  }
 	@Parameters({"driverName"})
 	@BeforeClass
 	public void setUp(String driverName) {
@@ -37,11 +43,12 @@ public class OrangeHrmApplyLeaveFunctionalityWithDifferentScenarios {
 		
 		logInPage=new LogInPage(driver);
 		
-		logInPage.login("Admin", "U@qBLVtm09");
+		logInPage.login("Admin1", "U@qBLVtm09");
 		
 		dashBoardPage= new DashBoardPage(driver);
 		applyLeavePage=new ApplyLeavePage(driver);
 		leaveListPage=new LeaveListPage(driver);
+		context.setAttribute("WebDriver", driver);
 	}
 	
 	
