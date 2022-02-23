@@ -26,7 +26,7 @@ public class TestAssigningAndRemovingGlobalAdminToUser {
 	  WebDriver driver;
 	  LogInPage logInPage;
 	  DashBoardPage dashBoardPage;
-	  UsersPage usersPage=new UsersPage(driver);
+	  UsersPage usersPage;
 	  String platformName;
 	  
 	    //SetUp Navigates to DashBoard Page
@@ -37,6 +37,7 @@ public class TestAssigningAndRemovingGlobalAdminToUser {
 			driver=DriverFactoryProvider.getDriverFactory(platformName).getWebDriver(driverName);
 			
 			String url=context.getCurrentXmlTest().getParameter("OrangeHRMUrl");
+			driver.manage().window().maximize();
 			driver.get(url);
 			
 			logInPage=new LogInPage(driver);
@@ -46,7 +47,9 @@ public class TestAssigningAndRemovingGlobalAdminToUser {
 			String userName=context.getCurrentXmlTest().getParameter("userName");
 			String password=context.getCurrentXmlTest().getParameter("Password");
 			dashBoardPage=logInPage.login(userName, password);
-			
+			usersPage=new UsersPage(driver);
+		
+			context.setAttribute("WebDriver", driver);
 		}
 		
 		@Test(priority=1)
@@ -88,8 +91,10 @@ public class TestAssigningAndRemovingGlobalAdminToUser {
 			}
 			
 		}
-		@AfterClass
-		public void closeTab() {
-			driver.quit();
-		}
+		
+		  @AfterClass 
+		  public void EndReportTest() { 
+			  ExtentReportsClass.endReport();
+			  }
+		 
 }

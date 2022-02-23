@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-TestOrangeHRM" class="navigator-link">
-              <span class="suite-name border-failed">TestOrangeHRM</span>
+              <span class="suite-name border-passed">TestOrangeHRM</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,26 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 2 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-TestOrangeHRM" class="hide-methods failed suite-TestOrangeHRM"> (hide)</a> <!-- hide-methods failed suite-TestOrangeHRM -->
-                      <a href="#" panel-name="suite-TestOrangeHRM" class="show-methods failed suite-TestOrangeHRM"> (show)</a> <!-- show-methods failed suite-TestOrangeHRM -->
-                    </span>
-                    <div class="method-list-content failed suite-TestOrangeHRM">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-TestOrangeHRM" title="com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser" class="method navigator-link" hash-for-method="testAssigningGlobalAdminRole(org.testng.TestRunner@129fed45)">testAssigningGlobalAdminRole(org.testng.TestRunner@129fed45)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-TestOrangeHRM" title="com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser" class="method navigator-link" hash-for-method="testRemovingGlobalAdminRole(org.testng.TestRunner@129fed45)">testRemovingGlobalAdminRole(org.testng.TestRunner@129fed45)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-TestOrangeHRM -->
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -123,7 +104,17 @@
                     <div class="method-list-content passed suite-TestOrangeHRM">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestOrangeHRM" title="com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser" class="method navigator-link" hash-for-method="testAssigningGlobalAdminRole(org.testng.TestRunner@4248b963)">testAssigningGlobalAdminRole(org.testng.TestRunner@4248b963)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-TestOrangeHRM" title="com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser" class="method navigator-link" hash-for-method="testNavigationToUsersPageFromDashBoardPage">testNavigationToUsersPageFromDashBoardPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestOrangeHRM" title="com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser" class="method navigator-link" hash-for-method="testRemovingGlobalAdminRole(org.testng.TestRunner@4248b963)">testRemovingGlobalAdminRole(org.testng.TestRunner@4248b963)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-TestOrangeHRM -->
@@ -138,42 +129,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-TestOrangeHRM" class="panel TestOrangeHRM">
-          <div class="suite-TestOrangeHRM-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testAssigningGlobalAdminRole(org.testng.TestRunner@129fed45)">
-                  </a> <!-- testAssigningGlobalAdminRole(org.testng.TestRunner@129fed45) -->
-                  <span class="method-name">testAssigningGlobalAdminRole</span>
-                  <span class="parameters">(org.testng.TestRunner@129fed45)</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])&quot; because &quot;this.js&quot; is null
-	at com.epam.selenium.OrangeHRM.PomPages.UsersPage.AssignGlobalAdminRoleToTheUser(UsersPage.java:29)
-	at com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser.testAssigningGlobalAdminRole(TestAssigningAndRemovingGlobalAdminToUser.java:67)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testRemovingGlobalAdminRole(org.testng.TestRunner@129fed45)">
-                  </a> <!-- testRemovingGlobalAdminRole(org.testng.TestRunner@129fed45) -->
-                  <span class="method-name">testRemovingGlobalAdminRole</span>
-                  <span class="parameters">(org.testng.TestRunner@129fed45)</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])&quot; because &quot;this.js&quot; is null
-	at com.epam.selenium.OrangeHRM.PomPages.UsersPage.RemoveGlobalAdminRoleToTheUser(UsersPage.java:47)
-	at com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser.testRemovingGlobalAdminRole(TestAssigningAndRemovingGlobalAdminToUser.java:78)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-TestOrangeHRM-class-failed -->
           <div class="suite-TestOrangeHRM-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -182,9 +137,25 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="testAssigningGlobalAdminRole(org.testng.TestRunner@4248b963)">
+                  </a> <!-- testAssigningGlobalAdminRole(org.testng.TestRunner@4248b963) -->
+                  <span class="method-name">testAssigningGlobalAdminRole</span>
+                  <span class="parameters">(org.testng.TestRunner@4248b963)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="testNavigationToUsersPageFromDashBoardPage">
                   </a> <!-- testNavigationToUsersPageFromDashBoardPage -->
                   <span class="method-name">testNavigationToUsersPageFromDashBoardPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRemovingGlobalAdminRole(org.testng.TestRunner@4248b963)">
+                  </a> <!-- testRemovingGlobalAdminRole(org.testng.TestRunner@4248b963) -->
+                  <span class="method-name">testRemovingGlobalAdminRole</span>
+                  <span class="parameters">(org.testng.TestRunner@4248b963)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -199,11 +170,16 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;TestOrangeHRM&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.epam.selenium.OrangeHRM.Listeners.ReportListenerImpl&quot;/&gt;
+    &lt;listener class-name=&quot;com.epam.selenium.OrangeHRM.Listeners.TestListenerImpl&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;TestLogIn&quot;&gt;
     &lt;parameter name=&quot;PlatformName&quot; value=&quot;LocalWebDriver&quot;/&gt;
     &lt;parameter name=&quot;OrangeHRMUrl&quot; value=&quot;https://prasoonr-trials73.orangehrmlive.com/&quot;/&gt;
     &lt;parameter name=&quot;driverName&quot; value=&quot;firefox&quot;/&gt;
     &lt;parameter name=&quot;userName&quot; value=&quot;Admin&quot;/&gt;
+    &lt;parameter name=&quot;user&quot; value=&quot;amanda&quot;/&gt;
     &lt;parameter name=&quot;Password&quot; value=&quot;U@qBLVtm09&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser&quot;/&gt;
@@ -250,20 +226,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testAssigningGlobalAdminRole')
 data.setCell(0, 2, 'com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser')
-data.setCell(0, 3, 30014);
+data.setCell(0, 3, 27026);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testRemovingGlobalAdminRole')
 data.setCell(1, 2, 'com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser')
-data.setCell(1, 3, 2010);
+data.setCell(1, 3, 7335);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testNavigationToUsersPageFromDashBoardPage')
 data.setCell(2, 2, 'com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser')
-data.setCell(2, 3, 896);
+data.setCell(2, 3, 1094);
 window.suiteTableData['TestOrangeHRM']= { tableData: data, tableDiv: 'times-div-TestOrangeHRM'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 32 seconds</span>
+              <span class="suite-total-time">Total running time: 35 seconds</span>
               <div id="times-div-TestOrangeHRM">
               </div> <!-- times-div-TestOrangeHRM -->
             </div> <!-- times-div -->
@@ -291,40 +267,36 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUp(org.testng.TestRunner@129fed45)</span>
+                <span class="method-name">setUp(org.testng.TestRunner@4248b963)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testNavigationToUsersPageFromDashBoardPage</span>
-                <span class="method-start">15950 ms</span>
+                <span class="method-start">14689 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">setStatus([TestResult name=testNavigationToUsersPageFromDashBoardPage status=SUCCESS method=TestAssigningAndRe...)</span>
-                <span class="method-start">16850 ms</span>
+                <span class="method-start">15789 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">testAssigningGlobalAdminRole(org.testng.TestRunner@129fed45)</span>
-                <span class="method-start">16856 ms</span>
+                <span class="method-name">testAssigningGlobalAdminRole(org.testng.TestRunner@4248b963)</span>
+                <span class="method-start">15795 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">setStatus([TestResult name=testAssigningGlobalAdminRole status=FAILURE method=TestAssigningAndRemovingGlobalAd...)</span>
-                <span class="method-start">46877 ms</span>
+                <span class="method-name">setStatus([TestResult name=testAssigningGlobalAdminRole status=SUCCESS method=TestAssigningAndRemovingGlobalAd...)</span>
+                <span class="method-start">42823 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">testRemovingGlobalAdminRole(org.testng.TestRunner@129fed45)</span>
-                <span class="method-start">46878 ms</span>
+                <span class="method-name">testRemovingGlobalAdminRole(org.testng.TestRunner@4248b963)</span>
+                <span class="method-start">42824 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">setStatus([TestResult name=testRemovingGlobalAdminRole status=FAILURE method=TestAssigningAndRemovingGlobalAdm...)</span>
-                <span class="method-start">48889 ms</span>
+                <span class="method-name">setStatus([TestResult name=testRemovingGlobalAdminRole status=SUCCESS method=TestAssigningAndRemovingGlobalAdm...)</span>
+                <span class="method-start">50161 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
-                <span class="method-name">closeTab</span>
-                <span class="method-start">48890 ms</span>
+                <span class="method-name">EndReportTest</span>
+                <span class="method-start">50162 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

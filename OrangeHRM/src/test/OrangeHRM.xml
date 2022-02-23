@@ -4,18 +4,28 @@
 
 
 <suite name="TestOrangeHRM">
+	<listeners>
+		<listener
+			class-name="com.epam.selenium.OrangeHRM.Listeners.ReportListenerImpl" />
+		<listener
+			class-name="com.epam.selenium.OrangeHRM.Listeners.TestListenerImpl" />
+	</listeners>
 	<test name="TestLogIn">
 
-		<parameter name="driverName" value="firefox"/>
-		<parameter name="PlatformName" value="LocalWebDriver"/>
-		<parameter name="OrangeHRMUrl" value="https://prasoonr-trials73.orangehrmlive.com/"/>
-		<parameter name="userName" value="Admin"/>
-		<parameter name="Password" value="U@qBLVtm09"/>
+		<parameter name="driverName" value="firefox" />
+		<parameter name="PlatformName" value="LocalWebDriver" />
+		<parameter name="OrangeHRMUrl"
+			value="https://prasoonr-trials73.orangehrmlive.com/" />
+		<parameter name="userName" value="Admin" />
+		<parameter name="Password" value="U@qBLVtm09" />
+		<parameter name="user" value="amanda" />
 		<classes>
-			
-			<!-- <class name="com.epam.selenium.OrangeHRM.Tests.TestLogInFunctionality" /> -->
-			<class name="com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser" />	
-			
+
+			<!-- <class name="com.epam.selenium.OrangeHRM.Tests.TestLogInFunctionality" 
+				/> -->
+			<class
+				name="com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser" />
+
 		</classes>
 	</test>
 </suite>

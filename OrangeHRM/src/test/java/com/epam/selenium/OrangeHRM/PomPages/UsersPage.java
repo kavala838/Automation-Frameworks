@@ -24,17 +24,19 @@ public class UsersPage extends MenuContentSection {
 	}
 	
 	public UsersPage AssignGlobalAdminRoleToTheUser(String username) throws InterruptedException {
-		Thread.sleep(30000);
+		driver.findElement(By.xpath("//td/ng-include[span=\""+username+"\"]/parent::td/parent::tr/td/i[text()=\"ohrm_edit\"]"));
 		String script="document.evaluate('//td/ng-include[span=\""+username+"\"]/parent::td/parent::tr/td/i[text()=\"ohrm_edit\"]', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();";
 		js.executeScript(script);
 		
-		//Thread.sleep(4000);
+		driver.findElement(By.xpath("//label[@for=\"adminrole\"]/following::div/following::div/following::div/div/button/i[@class=\"material-icons\"]"));
+		Thread.sleep(2000);
 		script="document.evaluate('//label[@for=\"adminrole\"]/following::div/following::div/following::div/div/button/i[@class=\"material-icons\"]', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();";
 		js.executeScript(script);
 		
 		script="document.evaluate('//ul/li/a/span[text()=\"Global Admin\"]', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();";
 		js.executeScript(script);
 		
+		Thread.sleep(2000);
 		script="document.getElementById('modal-save-button').click();";
 		js.executeScript(script);
 		
@@ -42,16 +44,20 @@ public class UsersPage extends MenuContentSection {
 	}
 	
 	public UsersPage RemoveGlobalAdminRoleToTheUser(String username) throws InterruptedException {
-		Thread.sleep(2000);
+		driver.findElement(By.xpath("//td/ng-include[span=\""+username+"\"]/parent::td/parent::tr/td/i[text()=\"ohrm_edit\"]"));
 		String script="document.evaluate('//td/ng-include[span=\""+username+"\"]/parent::td/parent::tr//i[text()=\"ohrm_edit\"]', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();";
 		js.executeScript(script);
-		Thread.sleep(4000);
+		
+		driver.findElement(By.xpath("//label[@for=\"adminrole\"]/following::div/following::div/following::div/div/button/i[@class=\"material-icons\"]"));
+		Thread.sleep(2000);
 		script="document.evaluate('//label[@for=\\\"adminrole\\\"]/following::div/following::div/following::div/div/button/i[@class=\\\"material-icons\\\"]', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();";
 		js.executeScript(script);
+		
 		
 		script="document.evaluate('//*[@id=\"bs-select-6-0\"]', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();";
 		js.executeScript(script);
 		
+		Thread.sleep(2000);
 		script="document.getElementById('modal-save-button').click();";
 		js.executeScript(script);
 		

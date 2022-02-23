@@ -12,4 +12,8 @@ public class ExtentReportsClass {
 	public static void initExtentReports(ITestContext context) {
 		context.setAttribute("ExtentTest", test);
 	}
+	public static void endReport() {
+		report.endTest(test);
+		report.flush();
+	}
 }

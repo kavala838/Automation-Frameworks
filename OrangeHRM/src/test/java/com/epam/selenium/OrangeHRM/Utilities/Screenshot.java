@@ -15,7 +15,7 @@ public class Screenshot {
 		TakesScreenshot screenShot = (TakesScreenshot)driver;
 		File screenShotFile = screenShot.getScreenshotAs(OutputType.FILE);
 		String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
-		String destination = System.getProperty("user.dir")+"//src//main//resources//"+name+dateName+".png";
+		String destination = System.getProperty("user.dir")+"//src//main//resources//screenshots//"+name+dateName+".png";
 		java.io.File finalDestination = new File(destination);
 		try {
 			FileUtils.copyFile(screenShotFile, finalDestination);
