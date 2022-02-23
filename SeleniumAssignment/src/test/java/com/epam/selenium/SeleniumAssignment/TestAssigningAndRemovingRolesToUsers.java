@@ -37,6 +37,7 @@ public class TestAssigningAndRemovingRolesToUsers {
 			dashBoardPage= new DashBoardPage(driver);
 			usersPage=new UsersPage(driver);
 		}
+		
 		@Test(priority=1)
 		public void testNavigationToUsersPageFromDashBoardPage() {
 			dashBoardPage.clickOnElementInMenuContent("Admin")
@@ -52,6 +53,7 @@ public class TestAssigningAndRemovingRolesToUsers {
 					 .checkTheUserWhetherAssignedToGivenRole("amanda", "Global Admin");
 			assert(isGlobalAdminAssigned);
 		}
+		
 		@Test(priority=3)
 		public void testRemovingGlobalAdminRole() throws InterruptedException {
 			boolean isGlobalAdminAssigned=usersPage.RemoveGlobalAdminRoleToTheUser("amanda")
