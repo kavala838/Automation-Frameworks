@@ -69,4 +69,5 @@ public class TestLogInAndLogOut {
 	public void closeTab() {
 		driver.quit();
 	}
+	//Comment
 }
