@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-05T19:39:57 IST" name="TestOrangeHRM" finished-at="2022-03-05T19:40:25 IST" duration-ms="27250">
+    <groups>
+    </groups>
+    <test started-at="2022-03-05T19:39:57 IST" name="TestLogIn" finished-at="2022-03-05T19:40:25 IST" duration-ms="27250">
+      <class name="com.epam.TestAutomation.BDD.Tests.TestLogInWithRunner">
+        <test-method is-config="true" signature="testlogIn(org.testng.ITestContext)[pri:0, instance:com.epam.TestAutomation.BDD.Tests.TestLogInWithRunner@7a1a14a4]" started-at="2022-03-05T19:39:57 IST" name="testlogIn" finished-at="2022-03-05T19:39:57 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@64aad809]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogIn -->
+        <test-method signature="testLogIn(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.epam.TestAutomation.BDD.Tests.TestLogInWithRunner@7a1a14a4]" started-at="2022-03-05T19:39:57 IST" name="testLogIn" data-provider="Scenarios" finished-at="2022-03-05T19:40:11 IST" duration-ms="13612" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["LogIn Page with correct User"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[LogIn Page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogIn -->
+        <test-method signature="testLogIn(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.epam.TestAutomation.BDD.Tests.TestLogInWithRunner@7a1a14a4]" started-at="2022-03-05T19:40:11 IST" name="testLogIn" data-provider="Scenarios" finished-at="2022-03-05T19:40:25 IST" duration-ms="13593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["LogIn Page with inorrect User"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[LogIn Page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogIn -->
+      </class> <!-- com.epam.TestAutomation.BDD.Tests.TestLogInWithRunner -->
+    </test> <!-- TestLogIn -->
+  </suite> <!-- TestOrangeHRM -->
+</testng-results>
