@@ -1,0 +1,100 @@
+<html>
+
+<head></head>
+
+<body>
+	<div>
+		<button id="0" onclick="display(this.id)">0</button>
+		<button id="1" onclick="display(this.id)">1</button>
+		<button id="2" onclick="display(this.id)">2</button>
+		<button id="3" onclick="display(this.id)">3</button>
+		<button id="4" onclick="display(this.id)">4</button>
+		<button id="5" onclick="display(this.id)">5</button>
+		<button id="6" onclick="display(this.id)">6</button>
+		<button id="7" onclick="display(this.id)">7</button>
+		<button id="8" onclick="display(this.id)">8</button>
+		<button id="9" onclick="display(this.id)">9</button>
+	</div>
+
+	<div>
+		<button id="plus" onclick="display(this.id)">+</button id="plus">
+		<button id="minus" onclick="display(this.id)">-</button>
+		<button id="multiply" onclick="display(this.id)">*</button id="multiply">
+		<button id="divide" onclick="display(this.id)">%</button>
+		<button id="equal" onclick="result()">=</button>
+	</div>
+
+	<div id="displayField">
+	</div>
+	<style>
+		#displayField {
+			border-style: solid;
+			height: 20px;
+			width: 140px;
+			border-color: black;
+		}
+
+		#multiply {
+			color: blue;
+		}
+
+		#divide {
+			color: blue;
+		}
+
+		#equal {
+			color: red;
+		}
+	</style>
+	<script type="text/javascript">
+		function display(id) {
+			let displayEle = document.getElementById("displayField");
+			let displayContent = document.getElementById(id).innerText;
+			//<!--if(displayEle.innerText!==null)
+
+			displayContent = displayEle.innerHTML + displayContent;
+
+			displayEle.innerHTML = displayContent;
+		}
+
+		function result() {
+			let a;
+			let b;
+			let c;
+			let str = document.getElementById("displayField").innerText;
+			let i;
+			for (i = 0; i < str.length; i++) {
+				if (str[i] === "+" || str[i] === "-" || str[i] === "*" || str[i] === "%") {
+					break;
+				}
+			}
+			a = parseInt(str.substring(0, i));
+			b = parseInt(str.substring(i + 1, str.length));
+			c = str.charAt(i);
+			let ans;
+			switch (c) {
+				case '+':
+					ans=a+b;
+					document.getElementById("displayField").innerHTML=ans;
+					break;
+				case '-':
+					ans=a-b;
+					document.getElementById("displayField").innerHTML=ans;
+					break;
+				case '*':
+					ans=a*b;
+					document.getElementById("displayField").innerHTML=ans;
+					break;
+				case '%':
+					ans=a/b;
+					document.getElementById("displayField").innerHTML=ans;
+					break;
+			}
+			console.log(a);
+			console.log(b);
+
+		}
+	</script>
+</body>
+
+</html>
