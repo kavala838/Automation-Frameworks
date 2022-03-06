@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="42" passed="42" failed="0" skipped="0">
+<testng-results ignored="0" total="30" passed="22" failed="5" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-13T13:15:59 IST" name="Default suite" finished-at="2022-02-13T13:16:30 IST" duration-ms="30605">
+  <suite started-at="2022-03-04T21:11:04 IST" name="Default suite" finished-at="2022-03-04T21:11:17 IST" duration-ms="12693">
     <groups>
     </groups>
-    <test started-at="2022-02-13T13:15:59 IST" name="Default test" finished-at="2022-02-13T13:16:30 IST" duration-ms="30605">
+    <test started-at="2022-03-04T21:11:04 IST" name="Default test" finished-at="2022-03-04T21:11:17 IST" duration-ms="12693">
       <class name="com.epam.TestAutomation.API_Assignment.TestAPI">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:15:59 IST" name="setUp" finished-at="2022-02-13T13:16:00 IST" duration-ms="890" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-04T21:11:04 IST" name="setUp" finished-at="2022-03-04T21:11:04 IST" duration-ms="490" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testFetUserWithIdWithoutToken()[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:00 IST" name="testFetUserWithIdWithoutToken" finished-at="2022-02-13T13:16:04 IST" duration-ms="3827" status="PASS">
+        <test-method signature="testFetUserWithIdWithoutToken()[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-04T21:11:04 IST" name="testFetUserWithIdWithoutToken" finished-at="2022-03-04T21:11:07 IST" duration-ms="3043" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFetUserWithIdWithoutToken -->
-        <test-method signature="testGetResponseWithInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:04 IST" name="testGetResponseWithInvalidToken" data-provider="InvalidTokens" finished-at="2022-02-13T13:16:04 IST" duration-ms="241" status="PASS">
+        <test-method signature="testGetResponseWithInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-04T21:11:07 IST" name="testGetResponseWithInvalidToken" data-provider="InvalidTokens" finished-at="2022-03-04T21:11:08 IST" duration-ms="334" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,7 +26,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetResponseWithInvalidToken -->
-        <test-method signature="testGetResponseWithInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:04 IST" name="testGetResponseWithInvalidToken" data-provider="InvalidTokens" finished-at="2022-02-13T13:16:05 IST" duration-ms="281" status="PASS">
+        <test-method signature="testGetResponseWithInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-04T21:11:08 IST" name="testGetResponseWithInvalidToken" data-provider="InvalidTokens" finished-at="2022-03-04T21:11:08 IST" duration-ms="283" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetResponseWithInvalidToken -->
-        <test-method signature="testGetResponseWithInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:05 IST" name="testGetResponseWithInvalidToken" data-provider="InvalidTokens" finished-at="2022-02-13T13:16:05 IST" duration-ms="304" status="PASS">
+        <test-method signature="testGetResponseWithInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-04T21:11:08 IST" name="testGetResponseWithInvalidToken" data-provider="InvalidTokens" finished-at="2022-03-04T21:11:08 IST" duration-ms="305" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,7 +48,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetResponseWithInvalidToken -->
-        <test-method signature="testGetResponseWithInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:05 IST" name="testGetResponseWithInvalidToken" data-provider="InvalidTokens" finished-at="2022-02-13T13:16:05 IST" duration-ms="320" status="PASS">
+        <test-method signature="testGetResponseWithInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-04T21:11:08 IST" name="testGetResponseWithInvalidToken" data-provider="InvalidTokens" finished-at="2022-03-04T21:11:09 IST" duration-ms="305" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,7 +59,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetResponseWithInvalidToken -->
-        <test-method signature="testGetResponseWithInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:05 IST" name="testGetResponseWithInvalidToken" data-provider="InvalidTokens" finished-at="2022-02-13T13:16:05 IST" duration-ms="211" status="PASS">
+        <test-method signature="testGetResponseWithInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-04T21:11:09 IST" name="testGetResponseWithInvalidToken" data-provider="InvalidTokens" finished-at="2022-03-04T21:11:09 IST" duration-ms="306" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -70,7 +70,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetResponseWithInvalidToken -->
-        <test-method signature="testGetUsersPageInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:05 IST" name="testGetUsersPageInvalidToken" data-provider="InvalidTokens" finished-at="2022-02-13T13:16:06 IST" duration-ms="237" status="PASS">
+        <test-method signature="testGetUsersPageInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-04T21:11:09 IST" name="testGetUsersPageInvalidToken" data-provider="InvalidTokens" finished-at="2022-03-04T21:11:09 IST" duration-ms="312" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -81,7 +81,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUsersPageInvalidToken -->
-        <test-method signature="testGetUsersPageInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:06 IST" name="testGetUsersPageInvalidToken" data-provider="InvalidTokens" finished-at="2022-02-13T13:16:06 IST" duration-ms="252" status="PASS">
+        <test-method signature="testGetUsersPageInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-04T21:11:09 IST" name="testGetUsersPageInvalidToken" data-provider="InvalidTokens" finished-at="2022-03-04T21:11:10 IST" duration-ms="298" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -92,7 +92,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUsersPageInvalidToken -->
-        <test-method signature="testGetUsersPageInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:06 IST" name="testGetUsersPageInvalidToken" data-provider="InvalidTokens" finished-at="2022-02-13T13:16:06 IST" duration-ms="216" status="PASS">
+        <test-method signature="testGetUsersPageInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-04T21:11:10 IST" name="testGetUsersPageInvalidToken" data-provider="InvalidTokens" finished-at="2022-03-04T21:11:10 IST" duration-ms="199" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -103,7 +103,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUsersPageInvalidToken -->
-        <test-method signature="testGetUsersPageInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:06 IST" name="testGetUsersPageInvalidToken" data-provider="InvalidTokens" finished-at="2022-02-13T13:16:06 IST" duration-ms="200" status="PASS">
+        <test-method signature="testGetUsersPageInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-04T21:11:10 IST" name="testGetUsersPageInvalidToken" data-provider="InvalidTokens" finished-at="2022-03-04T21:11:10 IST" duration-ms="239" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -114,7 +114,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUsersPageInvalidToken -->
-        <test-method signature="testGetUsersPageInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:06 IST" name="testGetUsersPageInvalidToken" data-provider="InvalidTokens" finished-at="2022-02-13T13:16:07 IST" duration-ms="198" status="PASS">
+        <test-method signature="testGetUsersPageInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-04T21:11:10 IST" name="testGetUsersPageInvalidToken" data-provider="InvalidTokens" finished-at="2022-03-04T21:11:10 IST" duration-ms="277" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -125,11 +125,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUsersPageInvalidToken -->
-        <test-method signature="testGetUsersPageWithoutToken()[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:07 IST" name="testGetUsersPageWithoutToken" finished-at="2022-02-13T13:16:08 IST" duration-ms="1934" status="PASS">
+        <test-method signature="testGetUsersPageWithoutToken()[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-04T21:11:10 IST" name="testGetUsersPageWithoutToken" finished-at="2022-03-04T21:11:12 IST" duration-ms="1942" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUsersPageWithoutToken -->
-        <test-method signature="testLogInForUnregisteredUsers(java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:08 IST" name="testLogInForUnregisteredUsers" data-provider="InvalidUserNamesAndPasswords" finished-at="2022-02-13T13:16:10 IST" duration-ms="1153" status="PASS">
+        <test-method signature="testLogInForUnregisteredUsers(java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-04T21:11:12 IST" name="testLogInForUnregisteredUsers" data-provider="InvalidUserNamesAndPasswords" finished-at="2022-03-04T21:11:13 IST" duration-ms="764" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -145,7 +145,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogInForUnregisteredUsers -->
-        <test-method signature="testLogInForUnregisteredUsers(java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:10 IST" name="testLogInForUnregisteredUsers" data-provider="InvalidUserNamesAndPasswords" finished-at="2022-02-13T13:16:10 IST" duration-ms="240" status="PASS">
+        <test-method signature="testLogInForUnregisteredUsers(java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-04T21:11:13 IST" name="testLogInForUnregisteredUsers" data-provider="InvalidUserNamesAndPasswords" finished-at="2022-03-04T21:11:13 IST" duration-ms="204" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -161,7 +161,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogInForUnregisteredUsers -->
-        <test-method signature="testLogInForUnregisteredUsers(java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:10 IST" name="testLogInForUnregisteredUsers" data-provider="InvalidUserNamesAndPasswords" finished-at="2022-02-13T13:16:10 IST" duration-ms="245" status="PASS">
+        <test-method signature="testLogInForUnregisteredUsers(java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-04T21:11:13 IST" name="testLogInForUnregisteredUsers" data-provider="InvalidUserNamesAndPasswords" finished-at="2022-03-04T21:11:13 IST" duration-ms="207" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -177,7 +177,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogInForUnregisteredUsers -->
-        <test-method signature="testLogInForUnregisteredUsers(java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:10 IST" name="testLogInForUnregisteredUsers" data-provider="InvalidUserNamesAndPasswords" finished-at="2022-02-13T13:16:10 IST" duration-ms="220" status="PASS">
+        <test-method signature="testLogInForUnregisteredUsers(java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-04T21:11:13 IST" name="testLogInForUnregisteredUsers" data-provider="InvalidUserNamesAndPasswords" finished-at="2022-03-04T21:11:14 IST" duration-ms="211" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -193,7 +193,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogInForUnregisteredUsers -->
-        <test-method signature="testLogInForUnregisteredUsers(java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:10 IST" name="testLogInForUnregisteredUsers" data-provider="InvalidUserNamesAndPasswords" finished-at="2022-02-13T13:16:11 IST" duration-ms="256" status="PASS">
+        <test-method signature="testLogInForUnregisteredUsers(java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-04T21:11:14 IST" name="testLogInForUnregisteredUsers" data-provider="InvalidUserNamesAndPasswords" finished-at="2022-03-04T21:11:14 IST" duration-ms="211" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -209,7 +209,332 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogInForUnregisteredUsers -->
-        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:11 IST" name="testRegistration" data-provider="NewData" finished-at="2022-02-13T13:16:11 IST" duration-ms="251" status="PASS">
+        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-04T21:11:14 IST" name="testRegistration" data-provider="NewData" finished-at="2022-03-04T21:11:14 IST" duration-ms="250" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gszxyah11111@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [success] but found [The email address you have entered is already registered]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [success] but found [The email address you have entered is already registered]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration(TestAPI.java:49)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-04T21:11:14 IST" name="testRegistration" data-provider="NewData" finished-at="2022-03-04T21:11:14 IST" duration-ms="309" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gszxyah21111@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [success] but found [The email address you have entered is already registered]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [success] but found [The email address you have entered is already registered]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration(TestAPI.java:49)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-04T21:11:14 IST" name="testRegistration" data-provider="NewData" finished-at="2022-03-04T21:11:15 IST" duration-ms="304" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gszxyah31111@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123457]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [success] but found [The email address you have entered is already registered]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [success] but found [The email address you have entered is already registered]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration(TestAPI.java:49)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-04T21:11:15 IST" name="testRegistration" data-provider="NewData" finished-at="2022-03-04T21:11:15 IST" duration-ms="200" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gszxyah41111@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [success] but found [The email address you have entered is already registered]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [success] but found [The email address you have entered is already registered]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration(TestAPI.java:49)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-04T21:11:15 IST" name="testRegistration" data-provider="NewData" finished-at="2022-03-04T21:11:15 IST" duration-ms="304" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gszxyah51111@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [success] but found [The email address you have entered is already registered]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [success] but found [The email address you have entered is already registered]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration(TestAPI.java:49)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method signature="testLogInWithValidUserNameAndWrongPassword(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-04T21:11:15 IST" name="testLogInWithValidUserNameAndWrongPassword" data-provider="NewData" finished-at="2022-03-04T21:11:16 IST" duration-ms="310" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -229,113 +554,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testRegistration -->
-        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:11 IST" name="testRegistration" data-provider="NewData" finished-at="2022-02-13T13:16:11 IST" duration-ms="295" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[name2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Gszxyah21111@gmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testRegistration -->
-        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:11 IST" name="testRegistration" data-provider="NewData" finished-at="2022-02-13T13:16:11 IST" duration-ms="255" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[name3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Gszxyah31111@gmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[123457]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testRegistration -->
-        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:11 IST" name="testRegistration" data-provider="NewData" finished-at="2022-02-13T13:16:12 IST" duration-ms="226" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[name4]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Gszxyah41111@gmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testRegistration -->
-        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:12 IST" name="testRegistration" data-provider="NewData" finished-at="2022-02-13T13:16:12 IST" duration-ms="345" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[name5]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Gszxyah51111@gmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testRegistration -->
-        <test-method signature="testLogInWithValidUserNameAndWrongPassword(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:12 IST" name="testLogInWithValidUserNameAndWrongPassword" data-provider="NewData" finished-at="2022-02-13T13:16:12 IST" duration-ms="312" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[name1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Gszxyah11111@gmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
         </test-method> <!-- testLogInWithValidUserNameAndWrongPassword -->
-        <test-method signature="testLogInWithValidUserNameAndWrongPassword(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:12 IST" name="testLogInWithValidUserNameAndWrongPassword" data-provider="NewData" finished-at="2022-02-13T13:16:13 IST" duration-ms="295" status="PASS">
+        <test-method signature="testLogInWithValidUserNameAndWrongPassword(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-04T21:11:16 IST" name="testLogInWithValidUserNameAndWrongPassword" data-provider="NewData" finished-at="2022-03-04T21:11:16 IST" duration-ms="309" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -356,7 +576,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogInWithValidUserNameAndWrongPassword -->
-        <test-method signature="testLogInWithValidUserNameAndWrongPassword(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:13 IST" name="testLogInWithValidUserNameAndWrongPassword" data-provider="NewData" finished-at="2022-02-13T13:16:13 IST" duration-ms="408" status="PASS">
+        <test-method signature="testLogInWithValidUserNameAndWrongPassword(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-04T21:11:16 IST" name="testLogInWithValidUserNameAndWrongPassword" data-provider="NewData" finished-at="2022-03-04T21:11:16 IST" duration-ms="212" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -377,7 +597,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogInWithValidUserNameAndWrongPassword -->
-        <test-method signature="testLogInWithValidUserNameAndWrongPassword(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:13 IST" name="testLogInWithValidUserNameAndWrongPassword" data-provider="NewData" finished-at="2022-02-13T13:16:13 IST" duration-ms="311" status="PASS">
+        <test-method signature="testLogInWithValidUserNameAndWrongPassword(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-04T21:11:16 IST" name="testLogInWithValidUserNameAndWrongPassword" data-provider="NewData" finished-at="2022-03-04T21:11:16 IST" duration-ms="199" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -398,7 +618,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogInWithValidUserNameAndWrongPassword -->
-        <test-method signature="testLogInWithValidUserNameAndWrongPassword(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:13 IST" name="testLogInWithValidUserNameAndWrongPassword" data-provider="NewData" finished-at="2022-02-13T13:16:14 IST" duration-ms="233" status="PASS">
+        <test-method signature="testLogInWithValidUserNameAndWrongPassword(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-04T21:11:16 IST" name="testLogInWithValidUserNameAndWrongPassword" data-provider="NewData" finished-at="2022-03-04T21:11:17 IST" duration-ms="297" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -419,268 +639,105 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogInWithValidUserNameAndWrongPassword -->
-        <test-method signature="testLogIn(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:14 IST" name="testLogIn" data-provider="NewData" finished-at="2022-02-13T13:16:14 IST" depends-on-methods="com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration" duration-ms="438" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[name1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Gszxyah11111@gmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="testLogIn(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-04T21:11:17 IST" name="testLogIn" finished-at="2022-03-04T21:11:17 IST" depends-on-methods="com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e depends on not successfully finished methods 
+[com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e depends on not successfully finished methods 
+[com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:149)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogIn -->
-        <test-method signature="testLogIn(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:14 IST" name="testLogIn" data-provider="NewData" finished-at="2022-02-13T13:16:14 IST" depends-on-methods="com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration" duration-ms="253" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[name2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Gszxyah21111@gmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogIn -->
-        <test-method signature="testLogIn(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:14 IST" name="testLogIn" data-provider="NewData" finished-at="2022-02-13T13:16:14 IST" depends-on-methods="com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration" duration-ms="263" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[name3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Gszxyah31111@gmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[123457]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogIn -->
-        <test-method signature="testLogIn(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:14 IST" name="testLogIn" data-provider="NewData" finished-at="2022-02-13T13:16:15 IST" depends-on-methods="com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration" duration-ms="372" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[name4]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Gszxyah41111@gmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogIn -->
-        <test-method signature="testLogIn(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:15 IST" name="testLogIn" data-provider="NewData" finished-at="2022-02-13T13:16:15 IST" depends-on-methods="com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration" duration-ms="297" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[name5]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Gszxyah51111@gmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogIn -->
-        <test-method signature="testGetUserDetailsRequestWithUserId(int,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:15 IST" name="testGetUserDetailsRequestWithUserId" data-provider="DataAfterLogIn" finished-at="2022-02-13T13:16:15 IST" depends-on-methods="com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn" duration-ms="279" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[18369]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1a7a2cfc-5395-427a-9985-4321227b8d71]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="testGetUserDetailsRequestWithUserId(int,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-04T21:11:17 IST" name="testGetUserDetailsRequestWithUserId" finished-at="2022-03-04T21:11:17 IST" depends-on-methods="com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.epam.TestAutomation.API_Assignment.TestAPI.testGetUserDetailsRequestWithUserId() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e depends on not successfully finished methods 
+[com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.epam.TestAutomation.API_Assignment.TestAPI.testGetUserDetailsRequestWithUserId() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e depends on not successfully finished methods 
+[com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:149)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUserDetailsRequestWithUserId -->
-        <test-method signature="testGetUserDetailsRequestWithUserId(int,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:15 IST" name="testGetUserDetailsRequestWithUserId" data-provider="DataAfterLogIn" finished-at="2022-02-13T13:16:16 IST" depends-on-methods="com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn" duration-ms="306" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[18370]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[83d9dffd-154c-4e0f-837b-3e68fba14cf6]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetUserDetailsRequestWithUserId -->
-        <test-method signature="testGetUserDetailsRequestWithUserId(int,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:16 IST" name="testGetUserDetailsRequestWithUserId" data-provider="DataAfterLogIn" finished-at="2022-02-13T13:16:16 IST" depends-on-methods="com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn" duration-ms="205" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[18371]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[98cb3f9b-7b11-43fe-b307-54a144dc668c]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetUserDetailsRequestWithUserId -->
-        <test-method signature="testGetUserDetailsRequestWithUserId(int,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:16 IST" name="testGetUserDetailsRequestWithUserId" data-provider="DataAfterLogIn" finished-at="2022-02-13T13:16:16 IST" depends-on-methods="com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn" duration-ms="299" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[18372]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[514201d7-bba0-4776-994c-70259da03f46]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetUserDetailsRequestWithUserId -->
-        <test-method signature="testGetUserDetailsRequestWithUserId(int,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:16 IST" name="testGetUserDetailsRequestWithUserId" data-provider="DataAfterLogIn" finished-at="2022-02-13T13:16:17 IST" depends-on-methods="com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn" duration-ms="310" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[18373]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1bbf7d7e-00ea-4694-88bf-d97a5030a2a0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetUserDetailsRequestWithUserId -->
-        <test-method signature="testGetUsersRequest(int,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:17 IST" name="testGetUsersRequest" data-provider="DataAfterLogIn" finished-at="2022-02-13T13:16:20 IST" depends-on-methods="com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn" duration-ms="3069" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[18369]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1a7a2cfc-5395-427a-9985-4321227b8d71]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetUsersRequest -->
-        <test-method signature="testGetUsersRequest(int,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:20 IST" name="testGetUsersRequest" data-provider="DataAfterLogIn" finished-at="2022-02-13T13:16:23 IST" depends-on-methods="com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn" duration-ms="2963" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[18370]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[83d9dffd-154c-4e0f-837b-3e68fba14cf6]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetUsersRequest -->
-        <test-method signature="testGetUsersRequest(int,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:23 IST" name="testGetUsersRequest" data-provider="DataAfterLogIn" finished-at="2022-02-13T13:16:25 IST" depends-on-methods="com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn" duration-ms="2347" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[18371]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[98cb3f9b-7b11-43fe-b307-54a144dc668c]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetUsersRequest -->
-        <test-method signature="testGetUsersRequest(int,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:25 IST" name="testGetUsersRequest" data-provider="DataAfterLogIn" finished-at="2022-02-13T13:16:27 IST" depends-on-methods="com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn" duration-ms="2405" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[18372]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[514201d7-bba0-4776-994c-70259da03f46]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetUsersRequest -->
-        <test-method signature="testGetUsersRequest(int,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-02-13T13:16:27 IST" name="testGetUsersRequest" data-provider="DataAfterLogIn" finished-at="2022-02-13T13:16:30 IST" depends-on-methods="com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn" duration-ms="2525" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[18373]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1bbf7d7e-00ea-4694-88bf-d97a5030a2a0]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="testGetUsersRequest(int,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-04T21:11:17 IST" name="testGetUsersRequest" finished-at="2022-03-04T21:11:17 IST" depends-on-methods="com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.epam.TestAutomation.API_Assignment.TestAPI.testGetUsersRequest() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e depends on not successfully finished methods 
+[com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.epam.TestAutomation.API_Assignment.TestAPI.testGetUsersRequest() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e depends on not successfully finished methods 
+[com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:149)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUsersRequest -->

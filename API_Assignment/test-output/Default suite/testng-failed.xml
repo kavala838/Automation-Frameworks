@@ -5,9 +5,10 @@
     <classes>
       <class name="com.epam.TestAutomation.API_Assignment.TestAPI">
         <methods>
-          <include name="testRegistration"/>
+          <include name="testRegistration" invocation-numbers="0 1 2 3 4"/>
+          <include name="testGetUsersRequest"/>
           <include name="testLogIn"/>
-          <include name="testGetUserDetailsRequestWithUserId" invocation-numbers="0 1 2 3 4"/>
+          <include name="testGetUserDetailsRequestWithUserId"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.epam.TestAutomation.API_Assignment.TestAPI -->

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>42/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>22/5/3</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Feb 13 13:15:59 IST 2022</td>
+<td>Started on:</td><td>Fri Mar 04 21:11:04 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>30 seconds (30605 ms)</td>
+<tr><td>Total time:</td><td>12 seconds (12693 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,404 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration()'><b>testRegistration</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: name5, Gszxyah51111@gmail.com, 123456</td>
+<td><div><pre>java.lang.AssertionError: expected [success] but found [The email address you have entered is already registered]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration(TestAPI.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace266376067", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace266376067'><pre>java.lang.AssertionError: expected [success] but found [The email address you have entered is already registered]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration(TestAPI.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
+<tr>
+<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration()'><b>testRegistration</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: name4, Gszxyah41111@gmail.com, 123456</td>
+<td><div><pre>java.lang.AssertionError: expected [success] but found [The email address you have entered is already registered]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration(TestAPI.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1451516720", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1451516720'><pre>java.lang.AssertionError: expected [success] but found [The email address you have entered is already registered]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration(TestAPI.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
+<tr>
+<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration()'><b>testRegistration</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: name1, Gszxyah11111@gmail.com, 123456</td>
+<td><div><pre>java.lang.AssertionError: expected [success] but found [The email address you have entered is already registered]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration(TestAPI.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2142052682", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2142052682'><pre>java.lang.AssertionError: expected [success] but found [The email address you have entered is already registered]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration(TestAPI.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
+<tr>
+<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration()'><b>testRegistration</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: name2, Gszxyah21111@gmail.com, 123456</td>
+<td><div><pre>java.lang.AssertionError: expected [success] but found [The email address you have entered is already registered]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration(TestAPI.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2133998394", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2133998394'><pre>java.lang.AssertionError: expected [success] but found [The email address you have entered is already registered]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration(TestAPI.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
+<tr>
+<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration()'><b>testRegistration</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: name3, Gszxyah31111@gmail.com, 123457</td>
+<td><div><pre>java.lang.AssertionError: expected [success] but found [The email address you have entered is already registered]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration(TestAPI.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace302007694", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace302007694'><pre>java.lang.AssertionError: expected [success] but found [The email address you have entered is already registered]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration(TestAPI.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,92 +473,7 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testLogInForUnregisteredUsers()'><b>testLogInForUnregisteredUsers</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: FakeEmail4@fake.com, 1234567</td>
-<td></td>
-<td>0</td>
-<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
-<tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration()'><b>testRegistration</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: name2, Gszxyah21111@gmail.com, 123456</td>
-<td></td>
-<td>0</td>
-<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
-<tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testGetResponseWithInvalidToken()'><b>testGetResponseWithInvalidToken</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: c9c1177c-698a-ij93-9504-43726zuf70c4</td>
-<td></td>
-<td>0</td>
-<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
-<tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testGetUsersPageWithoutToken()'><b>testGetUsersPageWithoutToken</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI</td>
-<td></td>
-<td>1</td>
-<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
-<tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testLogInWithValidUserNameAndWrongPassword()'><b>testLogInWithValidUserNameAndWrongPassword</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: name2, Gszxyah21111@gmail.com, 123456</td>
-<td></td>
-<td>0</td>
-<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
-<tr>
 <td title='com.epam.TestAutomation.API_Assignment.TestAPI.testLogInForUnregisteredUsers()'><b>testLogInForUnregisteredUsers</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: FakeEmail5@fake.com, 1234567</td>
-<td></td>
-<td>0</td>
-<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
-<tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration()'><b>testRegistration</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: name4, Gszxyah41111@gmail.com, 123456</td>
-<td></td>
-<td>0</td>
-<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
-<tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testLogInWithValidUserNameAndWrongPassword()'><b>testLogInWithValidUserNameAndWrongPassword</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: name3, Gszxyah31111@gmail.com, 123457</td>
-<td></td>
-<td>0</td>
-<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
-<tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testLogInWithValidUserNameAndWrongPassword()'><b>testLogInWithValidUserNameAndWrongPassword</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: name4, Gszxyah41111@gmail.com, 123456</td>
-<td></td>
-<td>0</td>
-<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
-<tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testGetUsersPageInvalidToken()'><b>testGetUsersPageInvalidToken</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: c9c1647c-698a-gh93-9504-43726tyf70c4</td>
-<td></td>
-<td>0</td>
-<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
-<tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration()'><b>testRegistration</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: name3, Gszxyah31111@gmail.com, 123457</td>
-<td></td>
-<td>0</td>
-<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
-<tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testLogInWithValidUserNameAndWrongPassword()'><b>testLogInWithValidUserNameAndWrongPassword</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: name5, Gszxyah51111@gmail.com, 123456</td>
-<td></td>
-<td>0</td>
-<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
-<tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testGetResponseWithInvalidToken()'><b>testGetResponseWithInvalidToken</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: c9c1647c-698a-gh93-9504-43726tyf70c4</td>
-<td></td>
-<td>0</td>
-<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
-<tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testLogInForUnregisteredUsers()'><b>testLogInForUnregisteredUsers</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: FakeEmail2@fake.com, 1234567</td>
-<td></td>
-<td>0</td>
-<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
-<tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testGetUsersRequest()'><b>testGetUsersRequest</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: 18371, 98cb3f9b-7b11-43fe-b307-54a144dc668c</td>
-<td></td>
-<td>2</td>
-<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
-<tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testGetResponseWithInvalidToken()'><b>testGetResponseWithInvalidToken</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: c9c1347c-698a-ef93-9504-43726dwf70c4</td>
-<td></td>
-<td>0</td>
-<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
-<tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn()'><b>testLogIn</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: name5, Gszxyah51111@gmail.com, 123456</td>
-<td></td>
-<td>0</td>
-<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
-<tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testGetUsersPageInvalidToken()'><b>testGetUsersPageInvalidToken</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: c9c1347c-698a-ab93-9504-43726nhf70c4</td>
 <td></td>
 <td>0</td>
 <td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
@@ -170,12 +483,12 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
 <tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testGetUserDetailsRequestWithUserId()'><b>testGetUserDetailsRequestWithUserId</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: 18370, 83d9dffd-154c-4e0f-837b-3e68fba14cf6</td>
+<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testGetResponseWithInvalidToken()'><b>testGetResponseWithInvalidToken</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: c9c1347c-698a-ab93-9504-43726nhf70c4</td>
 <td></td>
 <td>0</td>
 <td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
 <tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testGetUserDetailsRequestWithUserId()'><b>testGetUserDetailsRequestWithUserId</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: 18372, 514201d7-bba0-4776-994c-70259da03f46</td>
+<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testLogInForUnregisteredUsers()'><b>testLogInForUnregisteredUsers</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: FakeEmail2@fake.com, 1234567</td>
 <td></td>
 <td>0</td>
 <td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
@@ -185,67 +498,7 @@ function toggleAllBoxes() {
 <td>3</td>
 <td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
 <tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testGetUserDetailsRequestWithUserId()'><b>testGetUserDetailsRequestWithUserId</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: 18373, 1bbf7d7e-00ea-4694-88bf-d97a5030a2a0</td>
-<td></td>
-<td>0</td>
-<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
-<tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testLogInForUnregisteredUsers()'><b>testLogInForUnregisteredUsers</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: FakeEmail3@fake.com, 1234567</td>
-<td></td>
-<td>0</td>
-<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
-<tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration()'><b>testRegistration</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: name1, Gszxyah11111@gmail.com, 123456</td>
-<td></td>
-<td>0</td>
-<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
-<tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration()'><b>testRegistration</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: name5, Gszxyah51111@gmail.com, 123456</td>
-<td></td>
-<td>0</td>
-<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
-<tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testGetUserDetailsRequestWithUserId()'><b>testGetUserDetailsRequestWithUserId</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: 18371, 98cb3f9b-7b11-43fe-b307-54a144dc668c</td>
-<td></td>
-<td>0</td>
-<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
-<tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testGetUsersRequest()'><b>testGetUsersRequest</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: 18373, 1bbf7d7e-00ea-4694-88bf-d97a5030a2a0</td>
-<td></td>
-<td>2</td>
-<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
-<tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn()'><b>testLogIn</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: name1, Gszxyah11111@gmail.com, 123456</td>
-<td></td>
-<td>0</td>
-<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
-<tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn()'><b>testLogIn</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: name3, Gszxyah31111@gmail.com, 123457</td>
-<td></td>
-<td>0</td>
-<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
-<tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testGetUsersRequest()'><b>testGetUsersRequest</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: 18372, 514201d7-bba0-4776-994c-70259da03f46</td>
-<td></td>
-<td>2</td>
-<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
-<tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testGetUsersRequest()'><b>testGetUsersRequest</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: 18369, 1a7a2cfc-5395-427a-9985-4321227b8d71</td>
-<td></td>
-<td>3</td>
-<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
-<tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn()'><b>testLogIn</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: name4, Gszxyah41111@gmail.com, 123456</td>
-<td></td>
-<td>0</td>
-<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
-<tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testGetUsersPageInvalidToken()'><b>testGetUsersPageInvalidToken</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: c9c1177c-698a-ij93-9504-43726zuf70c4</td>
-<td></td>
-<td>0</td>
-<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
-<tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn()'><b>testLogIn</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: name2, Gszxyah21111@gmail.com, 123456</td>
+<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testLogInForUnregisteredUsers()'><b>testLogInForUnregisteredUsers</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: FakeEmail1@fake.com, 1234567</td>
 <td></td>
 <td>0</td>
 <td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
@@ -255,7 +508,72 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
 <tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testGetUserDetailsRequestWithUserId()'><b>testGetUserDetailsRequestWithUserId</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: 18369, 1a7a2cfc-5395-427a-9985-4321227b8d71</td>
+<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testGetResponseWithInvalidToken()'><b>testGetResponseWithInvalidToken</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: c9c1247c-698a-cd93-9504-43726adf70c4</td>
+<td></td>
+<td>0</td>
+<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
+<tr>
+<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testGetResponseWithInvalidToken()'><b>testGetResponseWithInvalidToken</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: c9c1647c-698a-gh93-9504-43726tyf70c4</td>
+<td></td>
+<td>0</td>
+<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
+<tr>
+<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testLogInWithValidUserNameAndWrongPassword()'><b>testLogInWithValidUserNameAndWrongPassword</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: name4, Gszxyah41111@gmail.com, 123456</td>
+<td></td>
+<td>0</td>
+<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
+<tr>
+<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testLogInWithValidUserNameAndWrongPassword()'><b>testLogInWithValidUserNameAndWrongPassword</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: name2, Gszxyah21111@gmail.com, 123456</td>
+<td></td>
+<td>0</td>
+<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
+<tr>
+<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testGetUsersPageWithoutToken()'><b>testGetUsersPageWithoutToken</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI</td>
+<td></td>
+<td>1</td>
+<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
+<tr>
+<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testLogInWithValidUserNameAndWrongPassword()'><b>testLogInWithValidUserNameAndWrongPassword</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: name3, Gszxyah31111@gmail.com, 123457</td>
+<td></td>
+<td>0</td>
+<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
+<tr>
+<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testLogInForUnregisteredUsers()'><b>testLogInForUnregisteredUsers</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: FakeEmail4@fake.com, 1234567</td>
+<td></td>
+<td>0</td>
+<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
+<tr>
+<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testGetResponseWithInvalidToken()'><b>testGetResponseWithInvalidToken</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: c9c1347c-698a-ef93-9504-43726dwf70c4</td>
+<td></td>
+<td>0</td>
+<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
+<tr>
+<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testGetUsersPageInvalidToken()'><b>testGetUsersPageInvalidToken</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: c9c1347c-698a-ab93-9504-43726nhf70c4</td>
+<td></td>
+<td>0</td>
+<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
+<tr>
+<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testGetUsersPageInvalidToken()'><b>testGetUsersPageInvalidToken</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: c9c1647c-698a-gh93-9504-43726tyf70c4</td>
+<td></td>
+<td>0</td>
+<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
+<tr>
+<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testGetResponseWithInvalidToken()'><b>testGetResponseWithInvalidToken</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: c9c1177c-698a-ij93-9504-43726zuf70c4</td>
+<td></td>
+<td>0</td>
+<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
+<tr>
+<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testLogInForUnregisteredUsers()'><b>testLogInForUnregisteredUsers</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: FakeEmail3@fake.com, 1234567</td>
+<td></td>
+<td>0</td>
+<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
+<tr>
+<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testLogInWithValidUserNameAndWrongPassword()'><b>testLogInWithValidUserNameAndWrongPassword</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: name5, Gszxyah51111@gmail.com, 123456</td>
+<td></td>
+<td>0</td>
+<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
+<tr>
+<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testGetUsersPageInvalidToken()'><b>testGetUsersPageInvalidToken</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: c9c1177c-698a-ij93-9504-43726zuf70c4</td>
 <td></td>
 <td>0</td>
 <td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
@@ -264,24 +582,156 @@ function toggleAllBoxes() {
 <td></td>
 <td>0</td>
 <td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
 <tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testGetResponseWithInvalidToken()'><b>testGetResponseWithInvalidToken</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: c9c1247c-698a-cd93-9504-43726adf70c4</td>
-<td></td>
+<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testGetUserDetailsRequestWithUserId()'><b>testGetUserDetailsRequestWithUserId</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI</td>
+<td><div><pre>java.lang.Throwable: Method com.epam.TestAutomation.API_Assignment.TestAPI.testGetUserDetailsRequestWithUserId() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e depends on not successfully finished methods 
+[com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:149)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2133359512", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2133359512'><pre>java.lang.Throwable: Method com.epam.TestAutomation.API_Assignment.TestAPI.testGetUserDetailsRequestWithUserId() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e depends on not successfully finished methods 
+[com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:149)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
 <td>0</td>
 <td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
 <tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testGetUsersRequest()'><b>testGetUsersRequest</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: 18370, 83d9dffd-154c-4e0f-837b-3e68fba14cf6</td>
-<td></td>
-<td>2</td>
+<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn()'><b>testLogIn</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI</td>
+<td><div><pre>java.lang.Throwable: Method com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e depends on not successfully finished methods 
+[com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:149)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace291284958", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace291284958'><pre>java.lang.Throwable: Method com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e depends on not successfully finished methods 
+[com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:149)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
 <td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
 <tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testLogInForUnregisteredUsers()'><b>testLogInForUnregisteredUsers</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: FakeEmail1@fake.com, 1234567</td>
-<td></td>
-<td>1</td>
-<td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
-<tr>
-<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testGetResponseWithInvalidToken()'><b>testGetResponseWithInvalidToken</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI<br>Parameters: c9c1347c-698a-ab93-9504-43726nhf70c4</td>
-<td></td>
+<td title='com.epam.TestAutomation.API_Assignment.TestAPI.testGetUsersRequest()'><b>testGetUsersRequest</b><br>Test class: com.epam.TestAutomation.API_Assignment.TestAPI</td>
+<td><div><pre>java.lang.Throwable: Method com.epam.TestAutomation.API_Assignment.TestAPI.testGetUsersRequest() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e depends on not successfully finished methods 
+[com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:149)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace840042838", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace840042838'><pre>java.lang.Throwable: Method com.epam.TestAutomation.API_Assignment.TestAPI.testGetUsersRequest() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e depends on not successfully finished methods 
+[com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:149)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
 <td>0</td>
 <td>com.epam.TestAutomation.API_Assignment.TestAPI@6392827e</td></tr>
 </table><p>

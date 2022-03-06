@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Vinaykumar_Kavala\AppData\Local\Temp\testng-eclipse--1159080369\testng-customsuite.xml</span>
+                    <span>C:\Users\Vinaykumar_Kavala\AppData\Local\Temp\testng-eclipse-1522112439\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,65 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">42 methods,   42 passed</span>
+                    <span class="method-stats">30 methods, 5 failed,  3 skipped,  22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testRegistration(name5, Gszxyah51111@gmail.com, 123456)">testRegistration(name5, Gszxyah51111@gmail.com, 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testRegistration(name4, Gszxyah41111@gmail.com, 123456)">testRegistration(name4, Gszxyah41111@gmail.com, 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testRegistration(name1, Gszxyah11111@gmail.com, 123456)">testRegistration(name1, Gszxyah11111@gmail.com, 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testRegistration(name2, Gszxyah21111@gmail.com, 123456)">testRegistration(name2, Gszxyah21111@gmail.com, 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testRegistration(name3, Gszxyah31111@gmail.com, 123457)">testRegistration(name3, Gszxyah31111@gmail.com, 123457)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods skipped suite-Default_suite"> (hide)</a> <!-- hide-methods skipped suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods skipped suite-Default_suite"> (show)</a> <!-- show-methods skipped suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Default_suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testGetUserDetailsRequestWithUserId">testGetUserDetailsRequestWithUserId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testGetUsersRequest">testGetUsersRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testLogIn">testLogIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -109,7 +167,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testGetResponseWithInvalidToken(c9c1177c-698a-ij93-9504-43726zuf70c4)">testGetResponseWithInvalidToken(c9c1177c-698a-ij93-9504-43726zuf70c4)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testGetResponseWithInvalidToken(c9c1347c-698a-ab93-9504-43726nhf70c4)">testGetResponseWithInvalidToken(c9c1347c-698a-ab93-9504-43726nhf70c4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testGetResponseWithInvalidToken(c9c1247c-698a-cd93-9504-43726adf70c4)">testGetResponseWithInvalidToken(c9c1247c-698a-cd93-9504-43726adf70c4)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -124,42 +187,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testGetResponseWithInvalidToken(c9c1247c-698a-cd93-9504-43726adf70c4)">testGetResponseWithInvalidToken(c9c1247c-698a-cd93-9504-43726adf70c4)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testGetResponseWithInvalidToken(c9c1177c-698a-ij93-9504-43726zuf70c4)">testGetResponseWithInvalidToken(c9c1177c-698a-ij93-9504-43726zuf70c4)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testGetResponseWithInvalidToken(c9c1347c-698a-ab93-9504-43726nhf70c4)">testGetResponseWithInvalidToken(c9c1347c-698a-ab93-9504-43726nhf70c4)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testGetUserDetailsRequestWithUserId(18370, 83d9dffd-154c-4e0f-837b-3e68fba14cf6)">testGetUserDetailsRequestWithUserId(18370, 83d9dffd-154c-4e0f-837b-3e68fba14cf6)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testGetUserDetailsRequestWithUserId(18372, 514201d7-bba0-4776-994c-70259da03f46)">testGetUserDetailsRequestWithUserId(18372, 514201d7-bba0-4776-994c-70259da03f46)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testGetUserDetailsRequestWithUserId(18373, 1bbf7d7e-00ea-4694-88bf-d97a5030a2a0)">testGetUserDetailsRequestWithUserId(18373, 1bbf7d7e-00ea-4694-88bf-d97a5030a2a0)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testGetUserDetailsRequestWithUserId(18371, 98cb3f9b-7b11-43fe-b307-54a144dc668c)">testGetUserDetailsRequestWithUserId(18371, 98cb3f9b-7b11-43fe-b307-54a144dc668c)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testGetUserDetailsRequestWithUserId(18369, 1a7a2cfc-5395-427a-9985-4321227b8d71)">testGetUserDetailsRequestWithUserId(18369, 1a7a2cfc-5395-427a-9985-4321227b8d71)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testGetUsersPageInvalidToken(c9c1647c-698a-gh93-9504-43726tyf70c4)">testGetUsersPageInvalidToken(c9c1647c-698a-gh93-9504-43726tyf70c4)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testGetUsersPageInvalidToken(c9c1247c-698a-cd93-9504-43726adf70c4)">testGetUsersPageInvalidToken(c9c1247c-698a-cd93-9504-43726adf70c4)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -169,7 +202,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testGetUsersPageInvalidToken(c9c1247c-698a-cd93-9504-43726adf70c4)">testGetUsersPageInvalidToken(c9c1247c-698a-cd93-9504-43726adf70c4)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testGetUsersPageInvalidToken(c9c1647c-698a-gh93-9504-43726tyf70c4)">testGetUsersPageInvalidToken(c9c1647c-698a-gh93-9504-43726tyf70c4)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -189,61 +222,6 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testGetUsersRequest(18371, 98cb3f9b-7b11-43fe-b307-54a144dc668c)">testGetUsersRequest(18371, 98cb3f9b-7b11-43fe-b307-54a144dc668c)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testGetUsersRequest(18373, 1bbf7d7e-00ea-4694-88bf-d97a5030a2a0)">testGetUsersRequest(18373, 1bbf7d7e-00ea-4694-88bf-d97a5030a2a0)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testGetUsersRequest(18372, 514201d7-bba0-4776-994c-70259da03f46)">testGetUsersRequest(18372, 514201d7-bba0-4776-994c-70259da03f46)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testGetUsersRequest(18369, 1a7a2cfc-5395-427a-9985-4321227b8d71)">testGetUsersRequest(18369, 1a7a2cfc-5395-427a-9985-4321227b8d71)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testGetUsersRequest(18370, 83d9dffd-154c-4e0f-837b-3e68fba14cf6)">testGetUsersRequest(18370, 83d9dffd-154c-4e0f-837b-3e68fba14cf6)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testLogIn(name5, Gszxyah51111@gmail.com, 123456)">testLogIn(name5, Gszxyah51111@gmail.com, 123456)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testLogIn(name1, Gszxyah11111@gmail.com, 123456)">testLogIn(name1, Gszxyah11111@gmail.com, 123456)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testLogIn(name3, Gszxyah31111@gmail.com, 123457)">testLogIn(name3, Gszxyah31111@gmail.com, 123457)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testLogIn(name4, Gszxyah41111@gmail.com, 123456)">testLogIn(name4, Gszxyah41111@gmail.com, 123456)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testLogIn(name2, Gszxyah21111@gmail.com, 123456)">testLogIn(name2, Gszxyah21111@gmail.com, 123456)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testLogInForUnregisteredUsers(FakeEmail4@fake.com, 1234567)">testLogInForUnregisteredUsers(FakeEmail4@fake.com, 1234567)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testLogInForUnregisteredUsers(FakeEmail5@fake.com, 1234567)">testLogInForUnregisteredUsers(FakeEmail5@fake.com, 1234567)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -254,12 +232,27 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testLogInForUnregisteredUsers(FakeEmail1@fake.com, 1234567)">testLogInForUnregisteredUsers(FakeEmail1@fake.com, 1234567)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testLogInForUnregisteredUsers(FakeEmail4@fake.com, 1234567)">testLogInForUnregisteredUsers(FakeEmail4@fake.com, 1234567)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testLogInForUnregisteredUsers(FakeEmail3@fake.com, 1234567)">testLogInForUnregisteredUsers(FakeEmail3@fake.com, 1234567)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testLogInForUnregisteredUsers(FakeEmail1@fake.com, 1234567)">testLogInForUnregisteredUsers(FakeEmail1@fake.com, 1234567)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testLogInWithValidUserNameAndWrongPassword(name1, Gszxyah11111@gmail.com, 123456)">testLogInWithValidUserNameAndWrongPassword(name1, Gszxyah11111@gmail.com, 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testLogInWithValidUserNameAndWrongPassword(name4, Gszxyah41111@gmail.com, 123456)">testLogInWithValidUserNameAndWrongPassword(name4, Gszxyah41111@gmail.com, 123456)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -274,42 +267,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testLogInWithValidUserNameAndWrongPassword(name4, Gszxyah41111@gmail.com, 123456)">testLogInWithValidUserNameAndWrongPassword(name4, Gszxyah41111@gmail.com, 123456)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testLogInWithValidUserNameAndWrongPassword(name5, Gszxyah51111@gmail.com, 123456)">testLogInWithValidUserNameAndWrongPassword(name5, Gszxyah51111@gmail.com, 123456)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testLogInWithValidUserNameAndWrongPassword(name1, Gszxyah11111@gmail.com, 123456)">testLogInWithValidUserNameAndWrongPassword(name1, Gszxyah11111@gmail.com, 123456)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testRegistration(name2, Gszxyah21111@gmail.com, 123456)">testRegistration(name2, Gszxyah21111@gmail.com, 123456)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testRegistration(name4, Gszxyah41111@gmail.com, 123456)">testRegistration(name4, Gszxyah41111@gmail.com, 123456)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testRegistration(name3, Gszxyah31111@gmail.com, 123457)">testRegistration(name3, Gszxyah31111@gmail.com, 123457)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testRegistration(name1, Gszxyah11111@gmail.com, 123456)">testRegistration(name1, Gszxyah11111@gmail.com, 123456)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.epam.TestAutomation.API_Assignment.TestAPI" class="method navigator-link" hash-for-method="testRegistration(name5, Gszxyah51111@gmail.com, 123456)">testRegistration(name5, Gszxyah51111@gmail.com, 123456)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -324,6 +282,342 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.epam.TestAutomation.API_Assignment.TestAPI</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration(name5, Gszxyah51111@gmail.com, 123456)">
+                  </a> <!-- testRegistration(name5, Gszxyah51111@gmail.com, 123456) -->
+                  <span class="method-name">testRegistration</span>
+                  <span class="parameters">(name5, Gszxyah51111@gmail.com, 123456)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [success] but found [The email address you have entered is already registered]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration(TestAPI.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration(name4, Gszxyah41111@gmail.com, 123456)">
+                  </a> <!-- testRegistration(name4, Gszxyah41111@gmail.com, 123456) -->
+                  <span class="method-name">testRegistration</span>
+                  <span class="parameters">(name4, Gszxyah41111@gmail.com, 123456)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [success] but found [The email address you have entered is already registered]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration(TestAPI.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration(name1, Gszxyah11111@gmail.com, 123456)">
+                  </a> <!-- testRegistration(name1, Gszxyah11111@gmail.com, 123456) -->
+                  <span class="method-name">testRegistration</span>
+                  <span class="parameters">(name1, Gszxyah11111@gmail.com, 123456)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [success] but found [The email address you have entered is already registered]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration(TestAPI.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration(name2, Gszxyah21111@gmail.com, 123456)">
+                  </a> <!-- testRegistration(name2, Gszxyah21111@gmail.com, 123456) -->
+                  <span class="method-name">testRegistration</span>
+                  <span class="parameters">(name2, Gszxyah21111@gmail.com, 123456)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [success] but found [The email address you have entered is already registered]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration(TestAPI.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration(name3, Gszxyah31111@gmail.com, 123457)">
+                  </a> <!-- testRegistration(name3, Gszxyah31111@gmail.com, 123457) -->
+                  <span class="method-name">testRegistration</span>
+                  <span class="parameters">(name3, Gszxyah31111@gmail.com, 123457)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [success] but found [The email address you have entered is already registered]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration(TestAPI.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.epam.TestAutomation.API_Assignment.TestAPI</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUserDetailsRequestWithUserId">
+                  </a> <!-- testGetUserDetailsRequestWithUserId -->
+                  <span class="method-name">testGetUserDetailsRequestWithUserId</span>
+                  <div class="stack-trace">java.lang.Throwable: Method com.epam.TestAutomation.API_Assignment.TestAPI.testGetUserDetailsRequestWithUserId() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e depends on not successfully finished methods 
+[com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:149)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUsersRequest">
+                  </a> <!-- testGetUsersRequest -->
+                  <span class="method-name">testGetUsersRequest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method com.epam.TestAutomation.API_Assignment.TestAPI.testGetUsersRequest() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e depends on not successfully finished methods 
+[com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:149)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogIn">
+                  </a> <!-- testLogIn -->
+                  <span class="method-name">testLogIn</span>
+                  <div class="stack-trace">java.lang.Throwable: Method com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e depends on not successfully finished methods 
+[com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:149)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-skipped -->
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -339,10 +633,18 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testGetResponseWithInvalidToken(c9c1177c-698a-ij93-9504-43726zuf70c4)">
-                  </a> <!-- testGetResponseWithInvalidToken(c9c1177c-698a-ij93-9504-43726zuf70c4) -->
+                  <a name="testGetResponseWithInvalidToken(c9c1347c-698a-ab93-9504-43726nhf70c4)">
+                  </a> <!-- testGetResponseWithInvalidToken(c9c1347c-698a-ab93-9504-43726nhf70c4) -->
                   <span class="method-name">testGetResponseWithInvalidToken</span>
-                  <span class="parameters">(c9c1177c-698a-ij93-9504-43726zuf70c4)</span>
+                  <span class="parameters">(c9c1347c-698a-ab93-9504-43726nhf70c4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetResponseWithInvalidToken(c9c1247c-698a-cd93-9504-43726adf70c4)">
+                  </a> <!-- testGetResponseWithInvalidToken(c9c1247c-698a-cd93-9504-43726adf70c4) -->
+                  <span class="method-name">testGetResponseWithInvalidToken</span>
+                  <span class="parameters">(c9c1247c-698a-cd93-9504-43726adf70c4)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -363,66 +665,18 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testGetResponseWithInvalidToken(c9c1247c-698a-cd93-9504-43726adf70c4)">
-                  </a> <!-- testGetResponseWithInvalidToken(c9c1247c-698a-cd93-9504-43726adf70c4) -->
+                  <a name="testGetResponseWithInvalidToken(c9c1177c-698a-ij93-9504-43726zuf70c4)">
+                  </a> <!-- testGetResponseWithInvalidToken(c9c1177c-698a-ij93-9504-43726zuf70c4) -->
                   <span class="method-name">testGetResponseWithInvalidToken</span>
-                  <span class="parameters">(c9c1247c-698a-cd93-9504-43726adf70c4)</span>
+                  <span class="parameters">(c9c1177c-698a-ij93-9504-43726zuf70c4)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testGetResponseWithInvalidToken(c9c1347c-698a-ab93-9504-43726nhf70c4)">
-                  </a> <!-- testGetResponseWithInvalidToken(c9c1347c-698a-ab93-9504-43726nhf70c4) -->
-                  <span class="method-name">testGetResponseWithInvalidToken</span>
-                  <span class="parameters">(c9c1347c-698a-ab93-9504-43726nhf70c4)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testGetUserDetailsRequestWithUserId(18370, 83d9dffd-154c-4e0f-837b-3e68fba14cf6)">
-                  </a> <!-- testGetUserDetailsRequestWithUserId(18370, 83d9dffd-154c-4e0f-837b-3e68fba14cf6) -->
-                  <span class="method-name">testGetUserDetailsRequestWithUserId</span>
-                  <span class="parameters">(18370, 83d9dffd-154c-4e0f-837b-3e68fba14cf6)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testGetUserDetailsRequestWithUserId(18372, 514201d7-bba0-4776-994c-70259da03f46)">
-                  </a> <!-- testGetUserDetailsRequestWithUserId(18372, 514201d7-bba0-4776-994c-70259da03f46) -->
-                  <span class="method-name">testGetUserDetailsRequestWithUserId</span>
-                  <span class="parameters">(18372, 514201d7-bba0-4776-994c-70259da03f46)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testGetUserDetailsRequestWithUserId(18373, 1bbf7d7e-00ea-4694-88bf-d97a5030a2a0)">
-                  </a> <!-- testGetUserDetailsRequestWithUserId(18373, 1bbf7d7e-00ea-4694-88bf-d97a5030a2a0) -->
-                  <span class="method-name">testGetUserDetailsRequestWithUserId</span>
-                  <span class="parameters">(18373, 1bbf7d7e-00ea-4694-88bf-d97a5030a2a0)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testGetUserDetailsRequestWithUserId(18371, 98cb3f9b-7b11-43fe-b307-54a144dc668c)">
-                  </a> <!-- testGetUserDetailsRequestWithUserId(18371, 98cb3f9b-7b11-43fe-b307-54a144dc668c) -->
-                  <span class="method-name">testGetUserDetailsRequestWithUserId</span>
-                  <span class="parameters">(18371, 98cb3f9b-7b11-43fe-b307-54a144dc668c)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testGetUserDetailsRequestWithUserId(18369, 1a7a2cfc-5395-427a-9985-4321227b8d71)">
-                  </a> <!-- testGetUserDetailsRequestWithUserId(18369, 1a7a2cfc-5395-427a-9985-4321227b8d71) -->
-                  <span class="method-name">testGetUserDetailsRequestWithUserId</span>
-                  <span class="parameters">(18369, 1a7a2cfc-5395-427a-9985-4321227b8d71)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testGetUsersPageInvalidToken(c9c1647c-698a-gh93-9504-43726tyf70c4)">
-                  </a> <!-- testGetUsersPageInvalidToken(c9c1647c-698a-gh93-9504-43726tyf70c4) -->
+                  <a name="testGetUsersPageInvalidToken(c9c1247c-698a-cd93-9504-43726adf70c4)">
+                  </a> <!-- testGetUsersPageInvalidToken(c9c1247c-698a-cd93-9504-43726adf70c4) -->
                   <span class="method-name">testGetUsersPageInvalidToken</span>
-                  <span class="parameters">(c9c1647c-698a-gh93-9504-43726tyf70c4)</span>
+                  <span class="parameters">(c9c1247c-698a-cd93-9504-43726adf70c4)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -435,10 +689,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testGetUsersPageInvalidToken(c9c1247c-698a-cd93-9504-43726adf70c4)">
-                  </a> <!-- testGetUsersPageInvalidToken(c9c1247c-698a-cd93-9504-43726adf70c4) -->
+                  <a name="testGetUsersPageInvalidToken(c9c1647c-698a-gh93-9504-43726tyf70c4)">
+                  </a> <!-- testGetUsersPageInvalidToken(c9c1647c-698a-gh93-9504-43726tyf70c4) -->
                   <span class="method-name">testGetUsersPageInvalidToken</span>
-                  <span class="parameters">(c9c1247c-698a-cd93-9504-43726adf70c4)</span>
+                  <span class="parameters">(c9c1647c-698a-gh93-9504-43726tyf70c4)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -466,94 +720,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testGetUsersRequest(18371, 98cb3f9b-7b11-43fe-b307-54a144dc668c)">
-                  </a> <!-- testGetUsersRequest(18371, 98cb3f9b-7b11-43fe-b307-54a144dc668c) -->
-                  <span class="method-name">testGetUsersRequest</span>
-                  <span class="parameters">(18371, 98cb3f9b-7b11-43fe-b307-54a144dc668c)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testGetUsersRequest(18373, 1bbf7d7e-00ea-4694-88bf-d97a5030a2a0)">
-                  </a> <!-- testGetUsersRequest(18373, 1bbf7d7e-00ea-4694-88bf-d97a5030a2a0) -->
-                  <span class="method-name">testGetUsersRequest</span>
-                  <span class="parameters">(18373, 1bbf7d7e-00ea-4694-88bf-d97a5030a2a0)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testGetUsersRequest(18372, 514201d7-bba0-4776-994c-70259da03f46)">
-                  </a> <!-- testGetUsersRequest(18372, 514201d7-bba0-4776-994c-70259da03f46) -->
-                  <span class="method-name">testGetUsersRequest</span>
-                  <span class="parameters">(18372, 514201d7-bba0-4776-994c-70259da03f46)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testGetUsersRequest(18369, 1a7a2cfc-5395-427a-9985-4321227b8d71)">
-                  </a> <!-- testGetUsersRequest(18369, 1a7a2cfc-5395-427a-9985-4321227b8d71) -->
-                  <span class="method-name">testGetUsersRequest</span>
-                  <span class="parameters">(18369, 1a7a2cfc-5395-427a-9985-4321227b8d71)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testGetUsersRequest(18370, 83d9dffd-154c-4e0f-837b-3e68fba14cf6)">
-                  </a> <!-- testGetUsersRequest(18370, 83d9dffd-154c-4e0f-837b-3e68fba14cf6) -->
-                  <span class="method-name">testGetUsersRequest</span>
-                  <span class="parameters">(18370, 83d9dffd-154c-4e0f-837b-3e68fba14cf6)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testLogIn(name5, Gszxyah51111@gmail.com, 123456)">
-                  </a> <!-- testLogIn(name5, Gszxyah51111@gmail.com, 123456) -->
-                  <span class="method-name">testLogIn</span>
-                  <span class="parameters">(name5, Gszxyah51111@gmail.com, 123456)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testLogIn(name1, Gszxyah11111@gmail.com, 123456)">
-                  </a> <!-- testLogIn(name1, Gszxyah11111@gmail.com, 123456) -->
-                  <span class="method-name">testLogIn</span>
-                  <span class="parameters">(name1, Gszxyah11111@gmail.com, 123456)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testLogIn(name3, Gszxyah31111@gmail.com, 123457)">
-                  </a> <!-- testLogIn(name3, Gszxyah31111@gmail.com, 123457) -->
-                  <span class="method-name">testLogIn</span>
-                  <span class="parameters">(name3, Gszxyah31111@gmail.com, 123457)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testLogIn(name4, Gszxyah41111@gmail.com, 123456)">
-                  </a> <!-- testLogIn(name4, Gszxyah41111@gmail.com, 123456) -->
-                  <span class="method-name">testLogIn</span>
-                  <span class="parameters">(name4, Gszxyah41111@gmail.com, 123456)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testLogIn(name2, Gszxyah21111@gmail.com, 123456)">
-                  </a> <!-- testLogIn(name2, Gszxyah21111@gmail.com, 123456) -->
-                  <span class="method-name">testLogIn</span>
-                  <span class="parameters">(name2, Gszxyah21111@gmail.com, 123456)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testLogInForUnregisteredUsers(FakeEmail4@fake.com, 1234567)">
-                  </a> <!-- testLogInForUnregisteredUsers(FakeEmail4@fake.com, 1234567) -->
-                  <span class="method-name">testLogInForUnregisteredUsers</span>
-                  <span class="parameters">(FakeEmail4@fake.com, 1234567)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="testLogInForUnregisteredUsers(FakeEmail5@fake.com, 1234567)">
                   </a> <!-- testLogInForUnregisteredUsers(FakeEmail5@fake.com, 1234567) -->
                   <span class="method-name">testLogInForUnregisteredUsers</span>
@@ -570,6 +736,22 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="testLogInForUnregisteredUsers(FakeEmail1@fake.com, 1234567)">
+                  </a> <!-- testLogInForUnregisteredUsers(FakeEmail1@fake.com, 1234567) -->
+                  <span class="method-name">testLogInForUnregisteredUsers</span>
+                  <span class="parameters">(FakeEmail1@fake.com, 1234567)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogInForUnregisteredUsers(FakeEmail4@fake.com, 1234567)">
+                  </a> <!-- testLogInForUnregisteredUsers(FakeEmail4@fake.com, 1234567) -->
+                  <span class="method-name">testLogInForUnregisteredUsers</span>
+                  <span class="parameters">(FakeEmail4@fake.com, 1234567)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="testLogInForUnregisteredUsers(FakeEmail3@fake.com, 1234567)">
                   </a> <!-- testLogInForUnregisteredUsers(FakeEmail3@fake.com, 1234567) -->
                   <span class="method-name">testLogInForUnregisteredUsers</span>
@@ -578,10 +760,18 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testLogInForUnregisteredUsers(FakeEmail1@fake.com, 1234567)">
-                  </a> <!-- testLogInForUnregisteredUsers(FakeEmail1@fake.com, 1234567) -->
-                  <span class="method-name">testLogInForUnregisteredUsers</span>
-                  <span class="parameters">(FakeEmail1@fake.com, 1234567)</span>
+                  <a name="testLogInWithValidUserNameAndWrongPassword(name1, Gszxyah11111@gmail.com, 123456)">
+                  </a> <!-- testLogInWithValidUserNameAndWrongPassword(name1, Gszxyah11111@gmail.com, 123456) -->
+                  <span class="method-name">testLogInWithValidUserNameAndWrongPassword</span>
+                  <span class="parameters">(name1, Gszxyah11111@gmail.com, 123456)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogInWithValidUserNameAndWrongPassword(name4, Gszxyah41111@gmail.com, 123456)">
+                  </a> <!-- testLogInWithValidUserNameAndWrongPassword(name4, Gszxyah41111@gmail.com, 123456) -->
+                  <span class="method-name">testLogInWithValidUserNameAndWrongPassword</span>
+                  <span class="parameters">(name4, Gszxyah41111@gmail.com, 123456)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -602,65 +792,9 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testLogInWithValidUserNameAndWrongPassword(name4, Gszxyah41111@gmail.com, 123456)">
-                  </a> <!-- testLogInWithValidUserNameAndWrongPassword(name4, Gszxyah41111@gmail.com, 123456) -->
-                  <span class="method-name">testLogInWithValidUserNameAndWrongPassword</span>
-                  <span class="parameters">(name4, Gszxyah41111@gmail.com, 123456)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="testLogInWithValidUserNameAndWrongPassword(name5, Gszxyah51111@gmail.com, 123456)">
                   </a> <!-- testLogInWithValidUserNameAndWrongPassword(name5, Gszxyah51111@gmail.com, 123456) -->
                   <span class="method-name">testLogInWithValidUserNameAndWrongPassword</span>
-                  <span class="parameters">(name5, Gszxyah51111@gmail.com, 123456)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testLogInWithValidUserNameAndWrongPassword(name1, Gszxyah11111@gmail.com, 123456)">
-                  </a> <!-- testLogInWithValidUserNameAndWrongPassword(name1, Gszxyah11111@gmail.com, 123456) -->
-                  <span class="method-name">testLogInWithValidUserNameAndWrongPassword</span>
-                  <span class="parameters">(name1, Gszxyah11111@gmail.com, 123456)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testRegistration(name2, Gszxyah21111@gmail.com, 123456)">
-                  </a> <!-- testRegistration(name2, Gszxyah21111@gmail.com, 123456) -->
-                  <span class="method-name">testRegistration</span>
-                  <span class="parameters">(name2, Gszxyah21111@gmail.com, 123456)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testRegistration(name4, Gszxyah41111@gmail.com, 123456)">
-                  </a> <!-- testRegistration(name4, Gszxyah41111@gmail.com, 123456) -->
-                  <span class="method-name">testRegistration</span>
-                  <span class="parameters">(name4, Gszxyah41111@gmail.com, 123456)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testRegistration(name3, Gszxyah31111@gmail.com, 123457)">
-                  </a> <!-- testRegistration(name3, Gszxyah31111@gmail.com, 123457) -->
-                  <span class="method-name">testRegistration</span>
-                  <span class="parameters">(name3, Gszxyah31111@gmail.com, 123457)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testRegistration(name1, Gszxyah11111@gmail.com, 123456)">
-                  </a> <!-- testRegistration(name1, Gszxyah11111@gmail.com, 123456) -->
-                  <span class="method-name">testRegistration</span>
-                  <span class="parameters">(name1, Gszxyah11111@gmail.com, 123456)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testRegistration(name5, Gszxyah51111@gmail.com, 123456)">
-                  </a> <!-- testRegistration(name5, Gszxyah51111@gmail.com, 123456) -->
-                  <span class="method-name">testRegistration</span>
                   <span class="parameters">(name5, Gszxyah51111@gmail.com, 123456)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -669,7 +803,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Vinaykumar_Kavala\AppData\Local\Temp\testng-eclipse--1159080369\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Vinaykumar_Kavala\AppData\Local\Temp\testng-eclipse-1522112439\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -718,180 +852,132 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(42);
+data.addRows(30);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testFetUserWithIdWithoutToken')
 data.setCell(0, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(0, 3, 3827);
+data.setCell(0, 3, 3043);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testGetUsersRequest')
+data.setCell(1, 1, 'testGetUsersPageWithoutToken')
 data.setCell(1, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(1, 3, 3069);
+data.setCell(1, 3, 1942);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testGetUsersRequest')
+data.setCell(2, 1, 'testLogInForUnregisteredUsers')
 data.setCell(2, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(2, 3, 2963);
+data.setCell(2, 3, 764);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testGetUsersRequest')
+data.setCell(3, 1, 'testGetResponseWithInvalidToken')
 data.setCell(3, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(3, 3, 2525);
+data.setCell(3, 3, 334);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testGetUsersRequest')
+data.setCell(4, 1, 'testGetUsersPageInvalidToken')
 data.setCell(4, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(4, 3, 2405);
+data.setCell(4, 3, 312);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testGetUsersRequest')
+data.setCell(5, 1, 'testLogInWithValidUserNameAndWrongPassword')
 data.setCell(5, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(5, 3, 2347);
+data.setCell(5, 3, 310);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testGetUsersPageWithoutToken')
+data.setCell(6, 1, 'testLogInWithValidUserNameAndWrongPassword')
 data.setCell(6, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(6, 3, 1934);
+data.setCell(6, 3, 309);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'testLogInForUnregisteredUsers')
+data.setCell(7, 1, 'testRegistration')
 data.setCell(7, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(7, 3, 1153);
+data.setCell(7, 3, 309);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'testLogIn')
+data.setCell(8, 1, 'testGetResponseWithInvalidToken')
 data.setCell(8, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(8, 3, 438);
+data.setCell(8, 3, 306);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'testLogInWithValidUserNameAndWrongPassword')
+data.setCell(9, 1, 'testGetResponseWithInvalidToken')
 data.setCell(9, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(9, 3, 408);
+data.setCell(9, 3, 305);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'testLogIn')
+data.setCell(10, 1, 'testGetResponseWithInvalidToken')
 data.setCell(10, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(10, 3, 372);
+data.setCell(10, 3, 305);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'testRegistration')
 data.setCell(11, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(11, 3, 345);
+data.setCell(11, 3, 304);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'testGetResponseWithInvalidToken')
+data.setCell(12, 1, 'testRegistration')
 data.setCell(12, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(12, 3, 320);
+data.setCell(12, 3, 304);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'testLogInWithValidUserNameAndWrongPassword')
+data.setCell(13, 1, 'testGetUsersPageInvalidToken')
 data.setCell(13, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(13, 3, 312);
+data.setCell(13, 3, 298);
 data.setCell(14, 0, 14)
 data.setCell(14, 1, 'testLogInWithValidUserNameAndWrongPassword')
 data.setCell(14, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(14, 3, 311);
+data.setCell(14, 3, 297);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'testGetUserDetailsRequestWithUserId')
+data.setCell(15, 1, 'testGetResponseWithInvalidToken')
 data.setCell(15, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(15, 3, 310);
+data.setCell(15, 3, 283);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'testGetUserDetailsRequestWithUserId')
+data.setCell(16, 1, 'testGetUsersPageInvalidToken')
 data.setCell(16, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(16, 3, 306);
+data.setCell(16, 3, 277);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'testGetResponseWithInvalidToken')
+data.setCell(17, 1, 'testRegistration')
 data.setCell(17, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(17, 3, 304);
+data.setCell(17, 3, 250);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'testGetUserDetailsRequestWithUserId')
+data.setCell(18, 1, 'testGetUsersPageInvalidToken')
 data.setCell(18, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(18, 3, 299);
+data.setCell(18, 3, 239);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'testLogIn')
+data.setCell(19, 1, 'testLogInWithValidUserNameAndWrongPassword')
 data.setCell(19, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(19, 3, 297);
+data.setCell(19, 3, 212);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'testRegistration')
+data.setCell(20, 1, 'testLogInForUnregisteredUsers')
 data.setCell(20, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(20, 3, 295);
+data.setCell(20, 3, 211);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'testLogInWithValidUserNameAndWrongPassword')
+data.setCell(21, 1, 'testLogInForUnregisteredUsers')
 data.setCell(21, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(21, 3, 295);
+data.setCell(21, 3, 211);
 data.setCell(22, 0, 22)
-data.setCell(22, 1, 'testGetResponseWithInvalidToken')
+data.setCell(22, 1, 'testLogInForUnregisteredUsers')
 data.setCell(22, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(22, 3, 281);
+data.setCell(22, 3, 207);
 data.setCell(23, 0, 23)
-data.setCell(23, 1, 'testGetUserDetailsRequestWithUserId')
+data.setCell(23, 1, 'testLogInForUnregisteredUsers')
 data.setCell(23, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(23, 3, 279);
+data.setCell(23, 3, 204);
 data.setCell(24, 0, 24)
-data.setCell(24, 1, 'testLogIn')
+data.setCell(24, 1, 'testRegistration')
 data.setCell(24, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(24, 3, 263);
+data.setCell(24, 3, 200);
 data.setCell(25, 0, 25)
-data.setCell(25, 1, 'testLogInForUnregisteredUsers')
+data.setCell(25, 1, 'testLogInWithValidUserNameAndWrongPassword')
 data.setCell(25, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(25, 3, 256);
+data.setCell(25, 3, 199);
 data.setCell(26, 0, 26)
-data.setCell(26, 1, 'testRegistration')
+data.setCell(26, 1, 'testGetUsersPageInvalidToken')
 data.setCell(26, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(26, 3, 255);
+data.setCell(26, 3, 199);
 data.setCell(27, 0, 27)
-data.setCell(27, 1, 'testLogIn')
+data.setCell(27, 1, 'testGetUserDetailsRequestWithUserId')
 data.setCell(27, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(27, 3, 253);
+data.setCell(27, 3, 0);
 data.setCell(28, 0, 28)
-data.setCell(28, 1, 'testGetUsersPageInvalidToken')
+data.setCell(28, 1, 'testLogIn')
 data.setCell(28, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(28, 3, 252);
+data.setCell(28, 3, 0);
 data.setCell(29, 0, 29)
-data.setCell(29, 1, 'testRegistration')
+data.setCell(29, 1, 'testGetUsersRequest')
 data.setCell(29, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(29, 3, 251);
-data.setCell(30, 0, 30)
-data.setCell(30, 1, 'testLogInForUnregisteredUsers')
-data.setCell(30, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(30, 3, 245);
-data.setCell(31, 0, 31)
-data.setCell(31, 1, 'testGetResponseWithInvalidToken')
-data.setCell(31, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(31, 3, 241);
-data.setCell(32, 0, 32)
-data.setCell(32, 1, 'testLogInForUnregisteredUsers')
-data.setCell(32, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(32, 3, 240);
-data.setCell(33, 0, 33)
-data.setCell(33, 1, 'testGetUsersPageInvalidToken')
-data.setCell(33, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(33, 3, 237);
-data.setCell(34, 0, 34)
-data.setCell(34, 1, 'testLogInWithValidUserNameAndWrongPassword')
-data.setCell(34, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(34, 3, 233);
-data.setCell(35, 0, 35)
-data.setCell(35, 1, 'testRegistration')
-data.setCell(35, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(35, 3, 226);
-data.setCell(36, 0, 36)
-data.setCell(36, 1, 'testLogInForUnregisteredUsers')
-data.setCell(36, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(36, 3, 220);
-data.setCell(37, 0, 37)
-data.setCell(37, 1, 'testGetUsersPageInvalidToken')
-data.setCell(37, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(37, 3, 216);
-data.setCell(38, 0, 38)
-data.setCell(38, 1, 'testGetResponseWithInvalidToken')
-data.setCell(38, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(38, 3, 211);
-data.setCell(39, 0, 39)
-data.setCell(39, 1, 'testGetUserDetailsRequestWithUserId')
-data.setCell(39, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(39, 3, 205);
-data.setCell(40, 0, 40)
-data.setCell(40, 1, 'testGetUsersPageInvalidToken')
-data.setCell(40, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(40, 3, 200);
-data.setCell(41, 0, 41)
-data.setCell(41, 1, 'testGetUsersPageInvalidToken')
-data.setCell(41, 2, 'com.epam.TestAutomation.API_Assignment.TestAPI')
-data.setCell(41, 3, 198);
+data.setCell(29, 3, 0);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 29 seconds</span>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -924,171 +1010,133 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testFetUserWithIdWithoutToken</span>
-                <span class="method-start">904 ms</span>
+                <span class="method-start">499 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testGetResponseWithInvalidToken(c9c1347c-698a-ab93-9504-43726nhf70c4)</span>
-                <span class="method-start">4740 ms</span>
+                <span class="method-start">3549 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testGetResponseWithInvalidToken(c9c1247c-698a-cd93-9504-43726adf70c4)</span>
-                <span class="method-start">4983 ms</span>
+                <span class="method-start">3884 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testGetResponseWithInvalidToken(c9c1347c-698a-ef93-9504-43726dwf70c4)</span>
-                <span class="method-start">5266 ms</span>
+                <span class="method-start">4169 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testGetResponseWithInvalidToken(c9c1647c-698a-gh93-9504-43726tyf70c4)</span>
-                <span class="method-start">5571 ms</span>
+                <span class="method-start">4475 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testGetResponseWithInvalidToken(c9c1177c-698a-ij93-9504-43726zuf70c4)</span>
-                <span class="method-start">5892 ms</span>
+                <span class="method-start">4782 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testGetUsersPageInvalidToken(c9c1347c-698a-ab93-9504-43726nhf70c4)</span>
-                <span class="method-start">6105 ms</span>
+                <span class="method-start">5091 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testGetUsersPageInvalidToken(c9c1247c-698a-cd93-9504-43726adf70c4)</span>
-                <span class="method-start">6343 ms</span>
+                <span class="method-start">5404 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testGetUsersPageInvalidToken(c9c1347c-698a-ef93-9504-43726dwf70c4)</span>
-                <span class="method-start">6596 ms</span>
+                <span class="method-start">5703 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testGetUsersPageInvalidToken(c9c1647c-698a-gh93-9504-43726tyf70c4)</span>
-                <span class="method-start">6813 ms</span>
+                <span class="method-start">5904 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testGetUsersPageInvalidToken(c9c1177c-698a-ij93-9504-43726zuf70c4)</span>
-                <span class="method-start">7015 ms</span>
+                <span class="method-start">6144 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testGetUsersPageWithoutToken</span>
-                <span class="method-start">7215 ms</span>
+                <span class="method-start">6422 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testLogInForUnregisteredUsers(FakeEmail1@fake.com, 1234567)</span>
-                <span class="method-start">9151 ms</span>
+                <span class="method-start">8366 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testLogInForUnregisteredUsers(FakeEmail2@fake.com, 1234567)</span>
-                <span class="method-start">10307 ms</span>
+                <span class="method-start">9131 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testLogInForUnregisteredUsers(FakeEmail3@fake.com, 1234567)</span>
-                <span class="method-start">10548 ms</span>
+                <span class="method-start">9336 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testLogInForUnregisteredUsers(FakeEmail4@fake.com, 1234567)</span>
-                <span class="method-start">10795 ms</span>
+                <span class="method-start">9544 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testLogInForUnregisteredUsers(FakeEmail5@fake.com, 1234567)</span>
-                <span class="method-start">11016 ms</span>
+                <span class="method-start">9756 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">testRegistration(name1, Gszxyah11111@gmail.com, 123456)</span>
-                <span class="method-start">11274 ms</span>
+                <span class="method-start">9968 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">testRegistration(name2, Gszxyah21111@gmail.com, 123456)</span>
-                <span class="method-start">11527 ms</span>
+                <span class="method-start">10219 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">testRegistration(name3, Gszxyah31111@gmail.com, 123457)</span>
-                <span class="method-start">11824 ms</span>
+                <span class="method-start">10529 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">testRegistration(name4, Gszxyah41111@gmail.com, 123456)</span>
-                <span class="method-start">12080 ms</span>
+                <span class="method-start">10835 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">testRegistration(name5, Gszxyah51111@gmail.com, 123456)</span>
-                <span class="method-start">12307 ms</span>
+                <span class="method-start">11036 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testLogInWithValidUserNameAndWrongPassword(name1, Gszxyah11111@gmail.com, 123456)</span>
-                <span class="method-start">12654 ms</span>
+                <span class="method-start">11340 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testLogInWithValidUserNameAndWrongPassword(name2, Gszxyah21111@gmail.com, 123456)</span>
-                <span class="method-start">12967 ms</span>
+                <span class="method-start">11651 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testLogInWithValidUserNameAndWrongPassword(name3, Gszxyah31111@gmail.com, 123457)</span>
-                <span class="method-start">13263 ms</span>
+                <span class="method-start">11961 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testLogInWithValidUserNameAndWrongPassword(name4, Gszxyah41111@gmail.com, 123456)</span>
-                <span class="method-start">13672 ms</span>
+                <span class="method-start">12174 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testLogInWithValidUserNameAndWrongPassword(name5, Gszxyah51111@gmail.com, 123456)</span>
-                <span class="method-start">13984 ms</span>
+                <span class="method-start">12374 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">testLogIn(name1, Gszxyah11111@gmail.com, 123456)</span>
-                <span class="method-start">14226 ms</span>
+                <span class="method-name">testLogIn</span>
+                <span class="method-start">12675 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">testLogIn(name2, Gszxyah21111@gmail.com, 123456)</span>
-                <span class="method-start">14665 ms</span>
+                <span class="method-name">testGetUserDetailsRequestWithUserId</span>
+                <span class="method-start">12677 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">testLogIn(name3, Gszxyah31111@gmail.com, 123457)</span>
-                <span class="method-start">14920 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testLogIn(name4, Gszxyah41111@gmail.com, 123456)</span>
-                <span class="method-start">15184 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testLogIn(name5, Gszxyah51111@gmail.com, 123456)</span>
-                <span class="method-start">15557 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testGetUserDetailsRequestWithUserId(18369, 1a7a2cfc-5395-427a-9985-4321227b8d71)</span>
-                <span class="method-start">15856 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testGetUserDetailsRequestWithUserId(18370, 83d9dffd-154c-4e0f-837b-3e68fba14cf6)</span>
-                <span class="method-start">16137 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testGetUserDetailsRequestWithUserId(18371, 98cb3f9b-7b11-43fe-b307-54a144dc668c)</span>
-                <span class="method-start">16444 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testGetUserDetailsRequestWithUserId(18372, 514201d7-bba0-4776-994c-70259da03f46)</span>
-                <span class="method-start">16650 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testGetUserDetailsRequestWithUserId(18373, 1bbf7d7e-00ea-4694-88bf-d97a5030a2a0)</span>
-                <span class="method-start">16950 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testGetUsersRequest(18369, 1a7a2cfc-5395-427a-9985-4321227b8d71)</span>
-                <span class="method-start">17262 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testGetUsersRequest(18370, 83d9dffd-154c-4e0f-837b-3e68fba14cf6)</span>
-                <span class="method-start">20332 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testGetUsersRequest(18371, 98cb3f9b-7b11-43fe-b307-54a144dc668c)</span>
-                <span class="method-start">23296 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testGetUsersRequest(18372, 514201d7-bba0-4776-994c-70259da03f46)</span>
-                <span class="method-start">25644 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testGetUsersRequest(18373, 1bbf7d7e-00ea-4694-88bf-d97a5030a2a0)</span>
-                <span class="method-start">28051 ms</span>
+                <span class="method-name">testGetUsersRequest</span>
+                <span class="method-start">12678 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
