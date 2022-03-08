@@ -3,6 +3,7 @@ package com.epam.TestAutomation.Project.API.Utilities;
 import static io.restassured.RestAssured.given;
 import static org.testng.Assert.assertTrue;
 
+import java.util.ArrayList;
 import java.util.LinkedHashMap;
 
 import org.testng.ITestContext;
@@ -17,6 +18,7 @@ public class HttpsMethods {
 	private static ITestContext context=ITestContextClass.getContext();
 	static String bearer=context.getCurrentXmlTest().getParameter("Bearer");
 	static String cookie=context.getCurrentXmlTest().getParameter("Cookie");
+	public static ArrayList<String> ids=new ArrayList();
 
 	public static void postPunchInAndPunchOut(ITestContext context,String string, String string2,String s4) {
 		// TODO Auto-generated method stub
@@ -46,6 +48,7 @@ public class HttpsMethods {
                 .extract()
                 .jsonPath().get("data");
 		String id=(String)data.get("id");
+		ids.add(id);
 		String body1="{\"empNumber\":\""+empNumber+"\","
 				+ "\"date\":\""+string+"\","
 				+ "\"time\":\""+s4+"\","
@@ -144,10 +147,12 @@ public class HttpsMethods {
 	}
 
 	public static void DeleteCreatedSessions() {
+		for(String id:ids)
+		{
 		try {
-		String ids=(String) context.getAttribute("idForPunchOut");
+		//String ids=(String) context.getAttribute("idForPunchOut");
 		// TODO Auto-generated method stub
-		String body="{\"ids\":[\""+ids+"\"]}";
+		String body="{\"ids\":[\""+id+"\"]}";
 		
 		given().header("Authorization","Bearer "+bearer)
 		.and()
@@ -163,6 +168,7 @@ public class HttpsMethods {
         .jsonPath();
 		}
 		catch(Exception e) {}
+		}
 	}
 	
 	

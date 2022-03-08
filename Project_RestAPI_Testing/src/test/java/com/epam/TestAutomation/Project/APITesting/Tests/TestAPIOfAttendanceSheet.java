@@ -68,6 +68,7 @@ public class TestAPIOfAttendanceSheet {
 		
 		LinkedHashMap DataOfResponse=JsonResponse.get("data");
 		String id=(String) DataOfResponse.get("id");
+		HttpsMethods.ids.add(id);
 		context.setAttribute("idForPunchOut", id);
 	}
 	
@@ -142,6 +143,7 @@ public class TestAPIOfAttendanceSheet {
 		
 		LinkedHashMap DataOfResponse=JsonResponse.get("data");
 		String id=(String) DataOfResponse.get("id");
+		HttpsMethods.ids.add(id);
 		context.setAttribute("idForPunchOut", id);
 		
 		
@@ -183,7 +185,7 @@ public class TestAPIOfAttendanceSheet {
 		assert(TotalTimePreSession+SessionDuration==TotalTimePostSession);
 	}
 	
-	@AfterMethod
+	@AfterClass
 	public void closeTab() {
 		try {
 		HttpsMethods.DeleteCreatedSessions();

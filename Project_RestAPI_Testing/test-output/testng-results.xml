@@ -2,124 +2,100 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-08T20:59:32 IST" name="TestOrangeHRMAPITesting" finished-at="2022-03-08T21:01:56 IST" duration-ms="143824">
+  <suite started-at="2022-03-08T21:20:36 IST" name="TestOrangeHRMAPITesting" finished-at="2022-03-08T21:21:05 IST" duration-ms="29113">
     <groups>
     </groups>
-    <test started-at="2022-03-08T20:59:32 IST" name="TestAPIOfAttendancesheet" finished-at="2022-03-08T21:01:56 IST" duration-ms="143824">
+    <test started-at="2022-03-08T21:20:36 IST" name="TestAPIOfAttendancesheet" finished-at="2022-03-08T21:21:05 IST" duration-ms="29113">
       <class name="com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet">
-        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet@1e04fa0a]" started-at="2022-03-08T20:59:32 IST" name="setUp" finished-at="2022-03-08T20:59:32 IST" duration-ms="436" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet@4738a206]" started-at="2022-03-08T21:20:36 IST" name="setUp" finished-at="2022-03-08T21:20:36 IST" duration-ms="449" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@51e4ccb3]]>
+                <![CDATA[org.testng.TestRunner@5f59185e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TestGetResponseOfAttendanceSheet(org.testng.ITestContext)[pri:1, instance:com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet@1e04fa0a]" started-at="2022-03-08T20:59:32 IST" name="TestGetResponseOfAttendanceSheet" finished-at="2022-03-08T20:59:40 IST" duration-ms="7292" status="PASS">
+        <test-method signature="TestGetResponseOfAttendanceSheet(org.testng.ITestContext)[pri:1, instance:com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet@4738a206]" started-at="2022-03-08T21:20:36 IST" name="TestGetResponseOfAttendanceSheet" finished-at="2022-03-08T21:20:39 IST" duration-ms="3260" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@51e4ccb3]]>
+                <![CDATA[org.testng.TestRunner@5f59185e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestGetResponseOfAttendanceSheet -->
-        <test-method is-config="true" signature="closeTab()[pri:0, instance:com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet@1e04fa0a]" started-at="2022-03-08T20:59:40 IST" name="closeTab" finished-at="2022-03-08T20:59:55 IST" duration-ms="15472" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeTab -->
-        <test-method signature="TestPostResponseOfPunchIn(org.testng.ITestContext)[pri:2, instance:com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet@1e04fa0a]" started-at="2022-03-08T20:59:55 IST" name="TestPostResponseOfPunchIn" finished-at="2022-03-08T20:59:58 IST" duration-ms="3124" status="PASS">
+        <test-method signature="TestPostResponseOfPunchIn(org.testng.ITestContext)[pri:2, instance:com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet@4738a206]" started-at="2022-03-08T21:20:39 IST" name="TestPostResponseOfPunchIn" finished-at="2022-03-08T21:20:41 IST" duration-ms="2065" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@51e4ccb3]]>
+                <![CDATA[org.testng.TestRunner@5f59185e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestPostResponseOfPunchIn -->
-        <test-method is-config="true" signature="closeTab()[pri:0, instance:com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet@1e04fa0a]" started-at="2022-03-08T20:59:58 IST" name="closeTab" finished-at="2022-03-08T21:00:01 IST" duration-ms="2160" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeTab -->
-        <test-method signature="TestPostResponseOfValidPunchOut(org.testng.ITestContext)[pri:3, instance:com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet@1e04fa0a]" started-at="2022-03-08T21:00:01 IST" name="TestPostResponseOfValidPunchOut" finished-at="2022-03-08T21:00:04 IST" duration-ms="3385" status="PASS">
+        <test-method signature="TestPostResponseOfValidPunchOut(org.testng.ITestContext)[pri:3, instance:com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet@4738a206]" started-at="2022-03-08T21:20:41 IST" name="TestPostResponseOfValidPunchOut" finished-at="2022-03-08T21:20:43 IST" duration-ms="1619" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@51e4ccb3]]>
+                <![CDATA[org.testng.TestRunner@5f59185e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestPostResponseOfValidPunchOut -->
-        <test-method is-config="true" signature="closeTab()[pri:0, instance:com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet@1e04fa0a]" started-at="2022-03-08T21:00:04 IST" name="closeTab" finished-at="2022-03-08T21:00:17 IST" duration-ms="12635" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeTab -->
-        <test-method signature="TestPostResponseOfPunchInOverlapping(org.testng.ITestContext)[pri:4, instance:com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet@1e04fa0a]" started-at="2022-03-08T21:00:17 IST" name="TestPostResponseOfPunchInOverlapping" finished-at="2022-03-08T21:00:24 IST" duration-ms="7480" status="PASS">
+        <test-method signature="TestPostResponseOfPunchInOverlapping(org.testng.ITestContext)[pri:4, instance:com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet@4738a206]" started-at="2022-03-08T21:20:43 IST" name="TestPostResponseOfPunchInOverlapping" finished-at="2022-03-08T21:20:45 IST" duration-ms="1941" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@51e4ccb3]]>
+                <![CDATA[org.testng.TestRunner@5f59185e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestPostResponseOfPunchInOverlapping -->
-        <test-method is-config="true" signature="closeTab()[pri:0, instance:com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet@1e04fa0a]" started-at="2022-03-08T21:00:24 IST" name="closeTab" finished-at="2022-03-08T21:00:29 IST" duration-ms="5111" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeTab -->
-        <test-method signature="TestPatchtResponsePunchOutAgainAfterPunchOut(org.testng.ITestContext)[pri:5, instance:com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet@1e04fa0a]" started-at="2022-03-08T21:00:29 IST" name="TestPatchtResponsePunchOutAgainAfterPunchOut" finished-at="2022-03-08T21:00:37 IST" duration-ms="7988" status="PASS">
+        <test-method signature="TestPatchtResponsePunchOutAgainAfterPunchOut(org.testng.ITestContext)[pri:5, instance:com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet@4738a206]" started-at="2022-03-08T21:20:45 IST" name="TestPatchtResponsePunchOutAgainAfterPunchOut" finished-at="2022-03-08T21:20:47 IST" duration-ms="1626" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@51e4ccb3]]>
+                <![CDATA[org.testng.TestRunner@5f59185e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestPatchtResponsePunchOutAgainAfterPunchOut -->
-        <test-method is-config="true" signature="closeTab()[pri:0, instance:com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet@1e04fa0a]" started-at="2022-03-08T21:00:37 IST" name="closeTab" finished-at="2022-03-08T21:00:42 IST" duration-ms="4902" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeTab -->
-        <test-method signature="TestPatchtResponsePunchOutBeforePunchIn(org.testng.ITestContext)[pri:6, instance:com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet@1e04fa0a]" started-at="2022-03-08T21:00:42 IST" name="TestPatchtResponsePunchOutBeforePunchIn" finished-at="2022-03-08T21:01:08 IST" duration-ms="26129" status="PASS">
+        <test-method signature="TestPatchtResponsePunchOutBeforePunchIn(org.testng.ITestContext)[pri:6, instance:com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet@4738a206]" started-at="2022-03-08T21:20:47 IST" name="TestPatchtResponsePunchOutBeforePunchIn" finished-at="2022-03-08T21:20:50 IST" duration-ms="3751" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@51e4ccb3]]>
+                <![CDATA[org.testng.TestRunner@5f59185e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestPatchtResponsePunchOutBeforePunchIn -->
-        <test-method is-config="true" signature="closeTab()[pri:0, instance:com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet@1e04fa0a]" started-at="2022-03-08T21:01:08 IST" name="closeTab" finished-at="2022-03-08T21:01:11 IST" duration-ms="3267" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeTab -->
-        <test-method signature="TestTotalHoursAggregation(org.testng.ITestContext)[pri:7, instance:com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet@1e04fa0a]" started-at="2022-03-08T21:01:11 IST" name="TestTotalHoursAggregation" finished-at="2022-03-08T21:01:38 IST" duration-ms="27014" status="PASS">
+        <test-method signature="TestTotalHoursAggregation(org.testng.ITestContext)[pri:7, instance:com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet@4738a206]" started-at="2022-03-08T21:20:50 IST" name="TestTotalHoursAggregation" finished-at="2022-03-08T21:20:58 IST" duration-ms="8076" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@51e4ccb3]]>
+                <![CDATA[org.testng.TestRunner@5f59185e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestTotalHoursAggregation -->
-        <test-method is-config="true" signature="closeTab()[pri:0, instance:com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet@1e04fa0a]" started-at="2022-03-08T21:01:38 IST" name="closeTab" finished-at="2022-03-08T21:01:56 IST" duration-ms="17394" status="PASS">
+        <test-method is-config="true" signature="closeTab()[pri:0, instance:com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet@4738a206]" started-at="2022-03-08T21:20:58 IST" name="closeTab" finished-at="2022-03-08T21:21:05 IST" duration-ms="6295" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTab -->
