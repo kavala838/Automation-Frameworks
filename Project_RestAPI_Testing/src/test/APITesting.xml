@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+
+<suite name="TestOrangeHRMAPITesting">
+	
+	<test name="TestAPIOfAttendancesheet">
+
+		<parameter name="Bearer" value="46cf82946839bb05aa91dbeec4517fb6b0adba9a" />
+		<parameter name="Cookie" value="orangehrmSecurityAuthentication_LoginLocationTracker=e3afed0047b08059d0fada10f400c1e5; orangehrm=8280e0d8f5f91dc0bc1df2fefee16943"/>
+		<classes>
+
+			
+			<class
+				name="com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet" />
+
+		</classes>
+	</test>
+</suite>
