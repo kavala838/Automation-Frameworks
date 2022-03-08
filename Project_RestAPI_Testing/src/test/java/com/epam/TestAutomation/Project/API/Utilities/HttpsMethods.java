@@ -157,7 +157,7 @@ public class HttpsMethods {
 		.body(body)
 		.and()
         .when()
-        .post("/attendanceRecords")
+        .delete("/attendanceRecords")
         .then()
         .extract()
         .jsonPath();
