@@ -14,10 +14,14 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import com.epam.TestAutomation.Project.API.POJOClasses.PatchPunchOutData;
+import com.epam.TestAutomation.Project.API.POJOClasses.PostPunchInData;
 import com.epam.TestAutomation.Project.API.Utilities.HttpsMethods;
+import com.epam.TestAutomation.Project.API.Utilities.ITestContextClass;
 import com.epam.TestAutomation.Project.API.Utilities.ParseTime;
 
 import io.restassured.RestAssured;
+import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
 
@@ -35,225 +39,155 @@ public class TestAPIOfAttendanceSheet {
 		
 	}
 	
-	@Test(priority=1,enabled=false)
+	@Test(priority=1,enabled=true)
 	public void TestGetResponseOfAttendanceSheet(ITestContext context) {
-		LinkedHashMap data=given().header("Authorization","Bearer "+bearer).and()
-				.header("Cookie",cookie).and()
-				.header("Content-Type","application/x-www-form-urlencoded")
-                .when()
-                .get("/attendanceSheet")
-                .then()
-                .statusCode(200)
-                .extract()
-                .jsonPath().get("data");
-		 System.out.println(data.get("latestSheetId"));
-		 SheetId=(String)data.get("latestSheetId");
+		ITestContextClass.setContext(context);
+		Response Getresponse=HttpsMethods.GetResponseOfAttendanceSheet();
+		Getresponse.then().statusCode(200);
+		
+		LinkedHashMap DataOfResponse=Getresponse.then().extract().jsonPath().get("data");
+		// System.out.println(DataOfResponse.get("latestSheetId"));
+		 SheetId=(String)DataOfResponse.get("latestSheetId");
+		 context.setAttribute("latestSheetId", SheetId);
 	}
 	
-	@Test(priority=2,enabled=false)
+	@Test(priority=2,enabled=true)
 	public void TestPostResponseOfPunchIn(ITestContext context) {
-		String empNumber="13";
-		String timeZone="5.5";
-		String date="2022-03-22";
-		String time="00:00";
-		String forcePunchIn="false";
 		
-		String body="{\"empNumber\":\""+empNumber+"\","
-				+ "\"date\":\""+date+"\","
-				+ "\"time\":\""+time+"\","
-				+ "\"timezoneOffset\":\""+timeZone+"\","
-				+ "\"forcePunchIn\":false}";
+		//This can provided from a data provider
+		PostPunchInData punchIn=new PostPunchInData();
+		punchIn.setDate("2022-03-22");
+		punchIn.setEmpNumber("13");
+		punchIn.setTime("00:00");
+		punchIn.setTimezoneOffset("5.5");
+		punchIn.setforcePunchIn(false);
 		
-		LinkedHashMap data=given().header("Authorization","Bearer "+bearer).and()
-				.header("Cookie",cookie).and()
-				.header("Content-Type","application/json")
-				.body(body)
-				.and()
-                .when()
-                .post("/attendanceRecords")
-                .then()
-                .statusCode(201)
-                .extract()
-                .jsonPath().get("data");
+		
+		JsonPath JsonResponse=HttpsMethods.PostPunchIn(punchIn);
+		assertTrue(JsonResponse.get("success"));
+		
 		// System.out.println(data.get("latestSheetId"));
-		System.out.println((String)data.get("id"));
-		 String id=(String)data.get("id");
-		 context.setAttribute("id", id);
+		//System.out.println((String)data.get("id"));
+		LinkedHashMap DataOfResponse=JsonResponse.get("data");
+		 String id=(String) DataOfResponse.get("id");
+		 context.setAttribute("idForPunchOut", id);
 	}
 	
 	
-	@Test(priority=3,enabled=false)
+	@Test(priority=3,enabled=true)
 	public void TestPostResponseOfValidPunchOut(ITestContext context) {
-		String empNumber="13";
-		String timeZone="5.5";
-		String date="2022-03-22";
-		String time="23:40";
-		String id=(String) context.getAttribute("id");
 		
-		String body1="{\"empNumber\":\""+empNumber+"\","
-				+ "\"date\":\""+date+"\","
-				+ "\"time\":\""+time+"\","
-				+ "\"timezoneOffset\":\""+timeZone+"\"}";
+		//Can Be passed From A dataProvider
+		PatchPunchOutData punchOut=new PatchPunchOutData();
+		punchOut.setDate("2022-03-22");
+		punchOut.setEmpNumber("13");
+		punchOut.setTime("01:00");
+		punchOut.setTimezoneOffset("5.5");
 		
-		Response response=given().header("Authorization","Bearer "+bearer).and()
-				.header("Cookie",cookie).and()
-				.header("Content-Type","application/json")
-				.pathParam("id", id)
-				.body(body1)
-				.and()
-                .when()
-                .patch("/attendanceRecord/{id}")
-                .then()
-                .statusCode(200)
-                .extract()
-                .response();
-		assertTrue(response.path("success"));
-		// System.out.println(data.get("latestSheetId"));
-		 //SheetId=(String)data.get("latestSheetId");
+		
+		JsonPath JsonResponse=HttpsMethods
+				.PatchPunchOut(punchOut,(String)context.getAttribute("idForPunchOut"));
+		assertTrue(JsonResponse.get("success"));
+		
+		
 	}
 	
 	//NegativeTest
-	@Test(priority=4,enabled=false)
+	@Test(priority=4,enabled=true)
 	public void TestPostResponseOfPunchInOverlapping(ITestContext context) {
-		String empNumber="13";
-		String timeZone="5.5";
-		String date="2022-03-22";
-		String time="10:00";
 		
-		String body="{\"empNumber\":\""+empNumber+"\","
-				+ "\"date\":\""+date+"\","
-				+ "\"time\":\""+time+"\","
-				+ "\"timezoneOffset\":\""+timeZone+"\","
-				+ "\"forcePunchIn\":false}";
+		PostPunchInData punchIn=new PostPunchInData();
+		punchIn.setDate("2022-03-22");
+		punchIn.setEmpNumber("13");
+		punchIn.setTime("00:30");
+		punchIn.setTimezoneOffset("5.5");
+		punchIn.setforcePunchIn(false);
+		
+		JsonPath JsonResponse=HttpsMethods.PostPunchIn(punchIn);
 		
 		
-		LinkedHashMap data=given().header("Authorization","Bearer "+bearer).and()
-				.header("Cookie",cookie).and()
-				.header("Content-Type","application/json")
-				.body(body)
-				.and()
-                .when()
-                .post("/attendanceRecords")
-                .then()
-                .statusCode(201)
-                .extract()
-                .jsonPath().get("messages");
-		System.out.println(data.get("error"));
-		assertEquals("Overlapping Records Found",(String)data.get("error"));
-		// System.out.println(data.get("latestSheetId"));
-		 //SheetId=(String)data.get("latestSheetId");
+		LinkedHashMap DataOfResponse=JsonResponse.get("messages");
+		assertEquals("Overlapping Records Found",(String)DataOfResponse.get("error"));
+		 
 	}
 	
 	
-	@Test(priority=5,enabled=false)
-	public void TestPatchtResponseOfInValidPunchOut(ITestContext context) {
-		String empNumber="13";
-		String timeZone="5.5";
-		String date="2022-03-22";
-		String time="11:00";
-		String id=(String) context.getAttribute("id");
+	@Test(priority=5,enabled=true)
+	
+	public void TestPatchtResponsePunchOutAgainAfterPunchOut(ITestContext context) {
+		PatchPunchOutData punchOut=new PatchPunchOutData();
+		punchOut.setDate("2022-03-22");
+		punchOut.setEmpNumber("13");
+		punchOut.setTime("11:00");
+		punchOut.setTimezoneOffset("5.5");
+		Response response=HttpsMethods.PatchPunchOut(punchOut);
 		
-		String body1="{\"empNumber\":\""+empNumber+"\","
-				+ "\"date\":\""+date+"\","
-				+ "\"time\":\""+time+"\","
-				+ "\"timezoneOffset\":\""+timeZone+"\"}";
+		response.then().statusCode(403);
 		
-		given().header("Authorization","Bearer "+bearer).and()
-				.header("Cookie",cookie).and()
-				.header("Content-Type","application/json")
-				.pathParam("id", id)
-				.body(body1)
-				.and()
-                .when()
-                .patch("/attendanceRecord/{id}")
-                .then()
-                .statusCode(403);
-                
-		//assertTrue(response.path("success"));
-		// System.out.println(data.get("latestSheetId"));
-		 //SheetId=(String)data.get("latestSheetId");
+		
 	}
-	//PunchOut Between Time of valid PunchIn And PunchOut ---403
-	//PunchOut After valid in/OUT --??
 	
 	
-	@Test(priority=6,enabled=false)
+	
+	@Test(priority=6,enabled=true)
 	public void TestPatchtResponsePunchOutBeforePunchIn(ITestContext context) {
-		String empNumber="13";
-		String timeZone="5.5";
-		String date="2022-03-29";
-		String time="10:00";
-		String forcePunchIn="false";
 		
-		String body="{\"empNumber\":\""+empNumber+"\","
-				+ "\"date\":\""+date+"\","
-				+ "\"time\":\""+time+"\","
-				+ "\"timezoneOffset\":\""+timeZone+"\","
-				+ "\"forcePunchIn\":false}";
+		PostPunchInData punchIn=new PostPunchInData();
+		punchIn.setDate("2022-03-29");
+		punchIn.setEmpNumber("13");
+		punchIn.setTime("10:00");
+		punchIn.setTimezoneOffset("5.5");
+		punchIn.setforcePunchIn(false);
 		
-		LinkedHashMap data=given().header("Authorization","Bearer "+bearer).and()
-				.header("Cookie",cookie).and()
-				.header("Content-Type","application/json")
-				.body(body)
-				.and()
-                .when()
-                .post("/attendanceRecords")
-                .then()
-                .statusCode(201)
-                .extract()
-                .jsonPath().get("data");
 		
-		empNumber="13";
-		timeZone="5.5";
-		date="2022-03-29";
-		time="09:30";
-		String id=(String)data.get("id");
+		JsonPath JsonResponse=HttpsMethods.PostPunchIn(punchIn);
 		
-		String body1="{\"empNumber\":\""+empNumber+"\","
-				+ "\"date\":\""+date+"\","
-				+ "\"time\":\""+time+"\","
-				+ "\"timezoneOffset\":\""+timeZone+"\"}";
+		LinkedHashMap DataOfResponse=JsonResponse.get("data");
+		String id=(String) DataOfResponse.get("id");
+		context.setAttribute("idForPunchOut", id);
 		
-		data=given().header("Authorization","Bearer "+bearer).and()
-				.header("Cookie",cookie).and()
-				.header("Content-Type","application/json")
-				.pathParam("id", id)
-				.body(body1)
-				.and()
-                .when()
-                .patch("/attendanceRecord/{id}")
-                .then()
-                .statusCode(200)
-		        .extract()
-		        .jsonPath().get("messages");
-				System.out.println(data.get("error"));
-				assertEquals("Failed to Save",(String)data.get("error"));
+		
+		 
+		PatchPunchOutData punchOut=new PatchPunchOutData();
+		punchOut.setDate("2022-03-29");
+		punchOut.setEmpNumber("13");
+		punchOut.setTime("09:30");
+		punchOut.setTimezoneOffset("5.5");
+		
+		
+		JsonResponse=HttpsMethods
+				.PatchPunchOut(punchOut,(String)context.getAttribute("idForPunchOut"));
+		DataOfResponse=JsonResponse.get("messages");
+		assertEquals("Failed to Save",(String)DataOfResponse.get("error"));
+		
+		
 	}
-	@Test
+	@Test(priority=7,enabled=true)
 	public void TestTotalHoursAggregation(ITestContext context) {
+		
 		String InTime="10:00";
 		String OutTime="12:00";
 		
 		
-		String duration=HttpsMethods.getTotalHours(context);
+		String duration=HttpsMethods.getTotalHoursOfAttendanceSheet(context,"653");
 		System.out.println(duration);
-		int TotalTimePreSession=ParseTime.convertIntoMinutes("duration");
+		int TotalTimePreSession=ParseTime.convertIntoMinutes(duration);
 	
 		
 		
-		HttpsMethods.post(context,"2022-03-10",InTime,OutTime);
+		HttpsMethods.postPunchInAndPunchOut(context,"2022-03-10",InTime,OutTime);
 		int SessionDuration=ParseTime.getDuration(InTime,OutTime);
 	    
-		String durationAfterNewSession=HttpsMethods.getTotalHours(context);
+		String durationAfterNewSession=HttpsMethods.getTotalHoursOfAttendanceSheet(context,"653");
 		System.out.println(durationAfterNewSession);
-		int TotalTimePostSession=ParseTime.convertIntoMinutes("durationAfterNewSession");
+		int TotalTimePostSession=ParseTime.convertIntoMinutes(durationAfterNewSession);
 		
 		assert(TotalTimePreSession+SessionDuration==TotalTimePostSession);
 	}
 	
 	@AfterClass
 	public void closeTab() {
-
+		
 	}
-	//Comment
+	
 }

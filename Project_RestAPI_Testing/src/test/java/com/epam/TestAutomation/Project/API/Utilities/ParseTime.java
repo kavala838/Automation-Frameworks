@@ -5,6 +5,7 @@ public class ParseTime {
 	public static int convertIntoMinutes(String string) {
 		// TODO Auto-generated method stub
 		String arr[]=string.split(" ");
+		System.out.println(arr[0]);
 		String hours=arr[0].substring(0, arr[0].length()-1);
 		String minutes=arr[1].substring(0, arr[1].length()-1);
 		int h=Integer.parseInt(hours);

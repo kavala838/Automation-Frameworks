@@ -9,10 +9,73 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">TestOrangeHRMAPITesting</th></tr>
-<tr><td><a href="#t0">TestAPIOfAttendancesheet</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">10,944</td><td></td><td></td></tr>
+<tr><td><a href="#t0">TestAPIOfAttendancesheet</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">5</td><td class="num">33,720</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TestOrangeHRMAPITesting</th></tr></tbody><tbody id="t0"><tr><th colspan="4">TestAPIOfAttendancesheet &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet</td><td><a href="#m0">TestTotalHoursAggregation</a></td><td rowspan="1">1646736856149</td><td rowspan="1">10455</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TestOrangeHRMAPITesting</th></tr></tbody><tbody id="t0"><tr><th colspan="4">TestAPIOfAttendancesheet &#8212; failed</th></tr><tr class="failedeven"><td rowspan="5">com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet</td><td><a href="#m0">TestPatchtResponsePunchOutAgainAfterPunchOut</a></td><td rowspan="1">1646752496747</td><td rowspan="1">1</td></tr><tr class="failedeven"><td><a href="#m1">TestPatchtResponsePunchOutBeforePunchIn</a></td><td rowspan="1">1646752496749</td><td rowspan="1">2492</td></tr><tr class="failedeven"><td><a href="#m2">TestPostResponseOfPunchIn</a></td><td rowspan="1">1646752488096</td><td rowspan="1">5009</td></tr><tr class="failedeven"><td><a href="#m3">TestPostResponseOfValidPunchOut</a></td><td rowspan="1">1646752493107</td><td rowspan="1">7</td></tr><tr class="failedeven"><td><a href="#m4">TestTotalHoursAggregation</a></td><td rowspan="1">1646752499242</td><td rowspan="1">7242</td></tr><tr><th colspan="4">TestAPIOfAttendancesheet &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet</td><td><a href="#m5">TestGetResponseOfAttendanceSheet</a></td><td rowspan="1">1646752473231</td><td rowspan="1">14861</td></tr><tr class="passedeven"><td><a href="#m6">TestPostResponseOfPunchInOverlapping</a></td><td rowspan="1">1646752493116</td><td rowspan="1">3630</td></tr></tbody>
 </table>
-<h2>TestAPIOfAttendancesheet</h2><h3 id="m0">com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet#TestTotalHoursAggregation</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@35fe2125</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>TestAPIOfAttendancesheet</h2><h3 id="m0">com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet#TestPatchtResponsePunchOutAgainAfterPunchOut</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@60bdf15d</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: parameterValue cannot be null
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.pathParam(RequestSpecificationImpl.groovy:514)
+	at com.epam.TestAutomation.Project.API.Utilities.HttpsMethods.PatchPunchOut(HttpsMethods.java:126)
+	at com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet.TestPatchtResponsePunchOutAgainAfterPunchOut(TestAPIOfAttendanceSheet.java:123)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet#TestPatchtResponsePunchOutBeforePunchIn</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@60bdf15d</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;403&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:492)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at com.epam.TestAutomation.Project.API.Utilities.HttpsMethods.PostPunchIn(HttpsMethods.java:99)
+	at com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet.TestPatchtResponsePunchOutBeforePunchIn(TestAPIOfAttendanceSheet.java:143)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 42 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet#TestPostResponseOfPunchIn</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@60bdf15d</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet.TestPostResponseOfPunchIn(TestAPIOfAttendanceSheet.java:67)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet#TestPostResponseOfValidPunchOut</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@60bdf15d</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: parameterValue cannot be null
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:55)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240)
+	at io.restassured.internal.RequestSpecificationImpl.pathParam(RequestSpecificationImpl.groovy:514)
+	at com.epam.TestAutomation.Project.API.Utilities.HttpsMethods.PatchPunchOut(HttpsMethods.java:109)
+	at com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet.TestPostResponseOfValidPunchOut(TestAPIOfAttendanceSheet.java:89)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet#TestTotalHoursAggregation</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@60bdf15d</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at com.epam.TestAutomation.Project.API.Utilities.ParseTime.convertIntoMinutes(ParseTime.java:10)
+	at com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet.TestTotalHoursAggregation(TestAPIOfAttendanceSheet.java:174)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet#TestGetResponseOfAttendanceSheet</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@60bdf15d</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet#TestPostResponseOfPunchInOverlapping</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@60bdf15d</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

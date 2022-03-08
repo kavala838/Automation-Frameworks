@@ -7,8 +7,8 @@
 	
 	<test name="TestAPIOfAttendancesheet">
 
-		<parameter name="Bearer" value="46cf82946839bb05aa91dbeec4517fb6b0adba9a" />
-		<parameter name="Cookie" value="orangehrmSecurityAuthentication_LoginLocationTracker=e3afed0047b08059d0fada10f400c1e5; orangehrm=8280e0d8f5f91dc0bc1df2fefee16943"/>
+		<parameter name="Bearer" value="0054be7672ea5874bf17433350edf7b588238a02" />
+		<parameter name="Cookie" value="orangehrmSecurityAuthentication_LoginLocationTracker=e3afed0047b08059d0fada10f400c1e5; orangehrm=18e8a5e7216e8a6cf3b5e17866efcdbe"/>
 		<classes>
 
 			
