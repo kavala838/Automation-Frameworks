@@ -8,6 +8,8 @@
           <include name="testRegistration" invocation-numbers="0 1 2 3 4"/>
           <include name="testGetUsersRequest"/>
           <include name="testLogIn"/>
+          <include name="testGetUsersPageInvalidToken" invocation-numbers="3"/>
+          <include name="testLogInForUnregisteredUsers" invocation-numbers="4"/>
           <include name="testGetUserDetailsRequestWithUserId"/>
           <include name="setUp"/>
         </methods>

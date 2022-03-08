@@ -71,6 +71,7 @@ public class TestAPI {
 		   .extract()
 		   .response();
 		//assertEquals(msg,"success");
+		System.out.println(response);
 		assertEquals("success",response.path("message"));
 		int id=response.path("data.Id");
 		String token=response.path("data.Token");
