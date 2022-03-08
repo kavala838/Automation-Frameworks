@@ -7,13 +7,14 @@
     <classes>
       <class name="com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet">
         <methods>
-          <include name="TestPatchtResponsePunchOutAgainAfterPunchOut" invocation-numbers="0"/>
+          <include name="TestPatchtResponsePunchOutAgainAfterPunchOut"/>
           <include name="setUp"/>
           <include name="closeTab"/>
-          <include name="TestTotalHoursAggregation" invocation-numbers="0"/>
-          <include name="TestPostResponseOfPunchIn" invocation-numbers="0"/>
-          <include name="TestPostResponseOfValidPunchOut" invocation-numbers="0"/>
-          <include name="TestPatchtResponsePunchOutBeforePunchIn" invocation-numbers="0"/>
+          <include name="TestTotalHoursAggregation"/>
+          <include name="TestPostResponseOfPunchIn"/>
+          <include name="TestPostResponseOfValidPunchOut"/>
+          <include name="TestPatchtResponsePunchOutBeforePunchIn"/>
+          <include name="TestPostResponseOfPunchInOverlapping"/>
         </methods>
       </class> <!-- com.epam.TestAutomation.Project.APITesting.Tests.TestAPIOfAttendanceSheet -->
     </classes>

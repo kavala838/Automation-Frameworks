@@ -142,6 +142,28 @@ public class HttpsMethods {
         ;
 		return responseObject;
 	}
+
+	public static void DeleteCreatedSessions() {
+		try {
+		String ids=(String) context.getAttribute("idForPunchOut");
+		// TODO Auto-generated method stub
+		String body="{\"ids\":[\""+ids+"\"]}";
+		
+		given().header("Authorization","Bearer "+bearer)
+		.and()
+		.header("Cookie",cookie)
+		.and()
+		.header("Content-Type","application/json")
+		.body(body)
+		.and()
+        .when()
+        .post("/attendanceRecords")
+        .then()
+        .extract()
+        .jsonPath();
+		}
+		catch(Exception e) {}
+	}
 	
 	
 }

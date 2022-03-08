@@ -46,7 +46,6 @@ public class TestAPIOfAttendanceSheet {
 		Getresponse.then().statusCode(200);
 		
 		LinkedHashMap DataOfResponse=Getresponse.then().extract().jsonPath().get("data");
-		// System.out.println(DataOfResponse.get("latestSheetId"));
 		 SheetId=(String)DataOfResponse.get("latestSheetId");
 		 context.setAttribute("latestSheetId", SheetId);
 	}
@@ -66,11 +65,10 @@ public class TestAPIOfAttendanceSheet {
 		JsonPath JsonResponse=HttpsMethods.PostPunchIn(punchIn);
 		assertTrue(JsonResponse.get("success"));
 		
-		// System.out.println(data.get("latestSheetId"));
-		//System.out.println((String)data.get("id"));
+		
 		LinkedHashMap DataOfResponse=JsonResponse.get("data");
-		 String id=(String) DataOfResponse.get("id");
-		 context.setAttribute("idForPunchOut", id);
+		String id=(String) DataOfResponse.get("id");
+		context.setAttribute("idForPunchOut", id);
 	}
 	
 	
@@ -185,9 +183,12 @@ public class TestAPIOfAttendanceSheet {
 		assert(TotalTimePreSession+SessionDuration==TotalTimePostSession);
 	}
 	
-	@AfterClass
+	@AfterMethod
 	public void closeTab() {
-		
+		try {
+		HttpsMethods.DeleteCreatedSessions();
+		}
+		catch(Exception e) {}
 	}
 	
 }
