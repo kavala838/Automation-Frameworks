@@ -2,82 +2,82 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-24T00:46:31 IST" name="TestOrangeHRM" finished-at="2022-02-24T00:47:21 IST" duration-ms="50630">
+  <suite started-at="2022-03-09T08:48:41 IST" name="TestOrangeHRM" finished-at="2022-03-09T08:49:34 IST" duration-ms="52476">
     <groups>
     </groups>
-    <test started-at="2022-02-24T00:46:31 IST" name="TestLogIn" finished-at="2022-02-24T00:47:21 IST" duration-ms="50630">
+    <test started-at="2022-03-09T08:48:41 IST" name="TestLogIn" finished-at="2022-03-09T08:49:34 IST" duration-ms="52476">
       <class name="com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser">
-        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser@54a7079e]" started-at="2022-02-24T00:46:31 IST" name="setUp" finished-at="2022-02-24T00:46:45 IST" duration-ms="14673" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser@47d9a273]" started-at="2022-03-09T08:48:41 IST" name="setUp" finished-at="2022-03-09T08:49:03 IST" duration-ms="21917" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4248b963]]>
+                <![CDATA[org.testng.TestRunner@706eab5d]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testNavigationToUsersPageFromDashBoardPage()[pri:1, instance:com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser@54a7079e]" started-at="2022-02-24T00:46:46 IST" name="testNavigationToUsersPageFromDashBoardPage" finished-at="2022-02-24T00:46:47 IST" duration-ms="1094" status="PASS">
+        <test-method signature="testNavigationToUsersPageFromDashBoardPage()[pri:1, instance:com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser@47d9a273]" started-at="2022-03-09T08:49:03 IST" name="testNavigationToUsersPageFromDashBoardPage" finished-at="2022-03-09T08:49:05 IST" duration-ms="1463" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNavigationToUsersPageFromDashBoardPage -->
-        <test-method is-config="true" signature="setStatus(org.testng.ITestResult)[pri:0, instance:com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser@54a7079e]" started-at="2022-02-24T00:46:47 IST" name="setStatus" finished-at="2022-02-24T00:46:47 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setStatus(org.testng.ITestResult)[pri:0, instance:com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser@47d9a273]" started-at="2022-03-09T08:49:05 IST" name="setStatus" finished-at="2022-03-09T08:49:05 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testNavigationToUsersPageFromDashBoardPage status=SUCCESS method=TestAssigningAndRemovingGlobalAdminToUser.testNavigationToUsersPageFromDashBoardPage()[pri:1, instance:com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser@54a7079e] output={null}]]]>
+                <![CDATA[[TestResult name=testNavigationToUsersPageFromDashBoardPage status=SUCCESS method=TestAssigningAndRemovingGlobalAdminToUser.testNavigationToUsersPageFromDashBoardPage()[pri:1, instance:com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser@47d9a273] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setStatus -->
-        <test-method signature="testAssigningGlobalAdminRole(org.testng.ITestContext)[pri:2, instance:com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser@54a7079e]" started-at="2022-02-24T00:46:47 IST" name="testAssigningGlobalAdminRole" finished-at="2022-02-24T00:47:14 IST" duration-ms="27026" status="PASS">
+        <test-method signature="testAssigningGlobalAdminRole(org.testng.ITestContext)[pri:2, instance:com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser@47d9a273]" started-at="2022-03-09T08:49:05 IST" name="testAssigningGlobalAdminRole" finished-at="2022-03-09T08:49:28 IST" duration-ms="22889" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4248b963]]>
+                <![CDATA[org.testng.TestRunner@706eab5d]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAssigningGlobalAdminRole -->
-        <test-method is-config="true" signature="setStatus(org.testng.ITestResult)[pri:0, instance:com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser@54a7079e]" started-at="2022-02-24T00:47:14 IST" name="setStatus" finished-at="2022-02-24T00:47:14 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setStatus(org.testng.ITestResult)[pri:0, instance:com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser@47d9a273]" started-at="2022-03-09T08:49:28 IST" name="setStatus" finished-at="2022-03-09T08:49:28 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testAssigningGlobalAdminRole status=SUCCESS method=TestAssigningAndRemovingGlobalAdminToUser.testAssigningGlobalAdminRole(org.testng.ITestContext)[pri:2, instance:com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser@54a7079e] output={null}]]]>
+                <![CDATA[[TestResult name=testAssigningGlobalAdminRole status=SUCCESS method=TestAssigningAndRemovingGlobalAdminToUser.testAssigningGlobalAdminRole(org.testng.ITestContext)[pri:2, instance:com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser@47d9a273] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setStatus -->
-        <test-method signature="testRemovingGlobalAdminRole(org.testng.ITestContext)[pri:3, instance:com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser@54a7079e]" started-at="2022-02-24T00:47:14 IST" name="testRemovingGlobalAdminRole" finished-at="2022-02-24T00:47:21 IST" duration-ms="7335" status="PASS">
+        <test-method signature="testRemovingGlobalAdminRole(org.testng.ITestContext)[pri:3, instance:com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser@47d9a273]" started-at="2022-03-09T08:49:28 IST" name="testRemovingGlobalAdminRole" finished-at="2022-03-09T08:49:32 IST" duration-ms="4201" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4248b963]]>
+                <![CDATA[org.testng.TestRunner@706eab5d]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRemovingGlobalAdminRole -->
-        <test-method is-config="true" signature="setStatus(org.testng.ITestResult)[pri:0, instance:com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser@54a7079e]" started-at="2022-02-24T00:47:21 IST" name="setStatus" finished-at="2022-02-24T00:47:21 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setStatus(org.testng.ITestResult)[pri:0, instance:com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser@47d9a273]" started-at="2022-03-09T08:49:32 IST" name="setStatus" finished-at="2022-03-09T08:49:32 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testRemovingGlobalAdminRole status=SUCCESS method=TestAssigningAndRemovingGlobalAdminToUser.testRemovingGlobalAdminRole(org.testng.ITestContext)[pri:3, instance:com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser@54a7079e] output={null}]]]>
+                <![CDATA[[TestResult name=testRemovingGlobalAdminRole status=SUCCESS method=TestAssigningAndRemovingGlobalAdminToUser.testRemovingGlobalAdminRole(org.testng.ITestContext)[pri:3, instance:com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser@47d9a273] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setStatus -->
-        <test-method is-config="true" signature="EndReportTest()[pri:0, instance:com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser@54a7079e]" started-at="2022-02-24T00:47:21 IST" name="EndReportTest" finished-at="2022-02-24T00:47:21 IST" duration-ms="452" status="PASS">
+        <test-method is-config="true" signature="EndReportTest()[pri:0, instance:com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser@47d9a273]" started-at="2022-03-09T08:49:32 IST" name="EndReportTest" finished-at="2022-03-09T08:49:34 IST" duration-ms="1932" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EndReportTest -->

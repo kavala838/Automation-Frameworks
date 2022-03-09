@@ -95,6 +95,7 @@ public class TestAssigningAndRemovingGlobalAdminToUser {
 		  @AfterClass 
 		  public void EndReportTest() { 
 			  ExtentReportsClass.endReport();
+			  driver.quit();
 			  }
 		 
 }

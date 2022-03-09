@@ -25,7 +25,6 @@
 				/> -->
 			<class
 				name="com.epam.selenium.OrangeHRM.Tests.TestAssigningAndRemovingGlobalAdminToUser" />
-
 		</classes>
 	</test>
 </suite>
