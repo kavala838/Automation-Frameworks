@@ -33,6 +33,7 @@ public class MenuContentSection {
 		if(!Menu.getAttribute("class").contains("active")) {
 			Menu.click();
 		}
+		
 		return this;
 	}
 	

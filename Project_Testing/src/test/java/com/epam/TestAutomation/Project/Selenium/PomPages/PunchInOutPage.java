@@ -10,7 +10,7 @@ import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 
 import com.paulhammant.ngwebdriver.NgWebDriver;
 
-public class PunchInOutPage extends MenuContentSection {
+public class PunchInOutPage extends OrangeHRMPage {
 	private JavascriptExecutor js;
 	private NgWebDriver ngDriver;
 	

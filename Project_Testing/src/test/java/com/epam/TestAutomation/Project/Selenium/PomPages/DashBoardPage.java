@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 
-public class DashBoardPage extends MenuContentSection{
+public class DashBoardPage extends OrangeHRMPage{
 	private final WebDriver driver;
 	 
 	

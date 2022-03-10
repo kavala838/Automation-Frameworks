@@ -13,7 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.paulhammant.ngwebdriver.NgWebDriver;
 
-public class MyAttendanceSheetPage extends MenuContentSection {
+public class MyAttendanceSheetPage extends OrangeHRMPage {
 	
 	private JavascriptExecutor js;
 	private NgWebDriver ngDriver;

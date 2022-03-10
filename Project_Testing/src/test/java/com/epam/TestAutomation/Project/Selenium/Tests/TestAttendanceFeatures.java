@@ -38,7 +38,7 @@ public class TestAttendanceFeatures {
 		dashBoardPage=new DashBoardPage(driver);
 		punchInOutPage=new PunchInOutPage(driver);
 		myAttendanceSheetPage=new MyAttendanceSheetPage(driver,punchInOutPage);
-		date=context.getCurrentXmlTest().getParameter("date");
+		date=context.getCurrentXmlTest().getParameter("Date");
 		
 		ExtentReportsClass.initExtentReports(context);
 		context.setAttribute("WebDriver", driver);
@@ -230,7 +230,7 @@ public class TestAttendanceFeatures {
 	@Test(priority=15)
 	public void testPunchCardToggleToPunchOutWhenGivendateHasPunchedInSession(ITestContext context) throws InterruptedException {
 		
-		String punchIndate=context.getCurrentXmlTest().getParameter("PunchIndate");
+		String punchIndate=context.getCurrentXmlTest().getParameter("PunchInDate");
 		String punchInTimeOtherDay=context
 				.getCurrentXmlTest().getParameter("PunchInTimeOtherDay");
 		
