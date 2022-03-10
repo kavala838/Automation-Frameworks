@@ -7,13 +7,16 @@ import java.net.MalformedURLException;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import com.epam.TestAutomation.Project.API.Utilities.ParseTime;
 import com.epam.TestAutomation.Project.Selenium.PomPages.DashBoardPage;
 import com.epam.TestAutomation.Project.Selenium.PomPages.LogInPage;
 import com.epam.TestAutomation.Project.Selenium.PomPages.MyAttendanceSheetPage;
 import com.epam.TestAutomation.Project.Selenium.PomPages.PunchInOutPage;
+import com.epam.TestAutomation.Project.Selenium.Utilities.ExtentReportsClass;
 import com.epam.TestAutomation.Project.Selenium.Utilities.setUpClass;
 import com.epam.TestAutomation.Project.Selenium.WebFactory.DriverFactoryProvider;
 
@@ -21,6 +24,7 @@ import com.epam.TestAutomation.Project.Selenium.WebFactory.DriverFactoryProvider
 
 public class TestAttendanceFeatures {
 	
+	String date;
 	WebDriver driver;
 	DashBoardPage dashBoardPage;
 	MyAttendanceSheetPage myAttendanceSheetPage;
@@ -32,14 +36,18 @@ public class TestAttendanceFeatures {
 		driver=setUpClass.setTillDashBoardPage(context);
 		
 		dashBoardPage=new DashBoardPage(driver);
-		myAttendanceSheetPage=new MyAttendanceSheetPage(driver);
 		punchInOutPage=new PunchInOutPage(driver);
+		myAttendanceSheetPage=new MyAttendanceSheetPage(driver,punchInOutPage);
+		date=context.getCurrentXmlTest().getParameter("date");
+		
+		ExtentReportsClass.initExtentReports(context);
+		context.setAttribute("WebDriver", driver);
 		
 	}
 	
 	@Test(priority=1)
-	public void TestNavigationToAttendanceSheetPage() {
-		System.out.println("start 1");
+	public void testNavigationToAttendanceSheetPage() {
+		
 		dashBoardPage.clickOnElementInMenuContent("Attendance")
 					 .clickOnElementInSubMenuContent("My Attendance Sheet");
 		
@@ -47,20 +55,20 @@ public class TestAttendanceFeatures {
 	}
 	
 	@Test(priority=2)
-	public void TestNavigationToPunchInOutPage() {
-		System.out.println("start 2");
-		dashBoardPage.clickOnElementInMenuContent("Attendance")
-		 .clickOnElementInSubMenuContent("Punch In/Out");
+	public void testNavigationToPunchInOutPage() {
+		
+		myAttendanceSheetPage.clickOnElementInMenuContent("Attendance")
+		             .clickOnElementInSubMenuContent("Punch In/Out");
 		
 		assertTrue(punchInOutPage.isInThisPage());
 	}
 	
 	//Pre-Condition--->No Active Punch In.
 	@Test(priority=3)
-	public void TestPunchInIconVisibility() {
-		System.out.println("start 3");
-		dashBoardPage.clickOnElementInMenuContent("Attendance")
-		             .clickOnElementInSubMenuContent("My Attendance Sheet");
+	public void testPunchInIconVisibility() {
+		
+		punchInOutPage.clickOnElementInMenuContent("Attendance")
+		              .clickOnElementInSubMenuContent("My Attendance Sheet");
 		
 		assertTrue(myAttendanceSheetPage.isPunchIconInPunchInState());
 		
@@ -68,9 +76,9 @@ public class TestAttendanceFeatures {
 	}
 	
 	@Test(priority=4)
-	public void TestNavigationToPunchInOutPageWithPunchInCardFromAttendanceSheetPageOnClickingPunchInIcon()
+	public void testNavigationToPunchInOutPageWithPunchInCardFromAttendanceSheetPageOnClickingPunchInIcon()
 			throws InterruptedException {
-		System.out.println("start 4");
+		
 		myAttendanceSheetPage.clickOnPunchIcon();
 		
 		assertTrue(punchInOutPage.isInThisPage());
@@ -79,22 +87,37 @@ public class TestAttendanceFeatures {
 		
 	}
 	
-	//public void TestPunchInCardVisibilityInPunchInOutPage() {}
+	
+	
 	@Test(priority=5)
-	public void TestPunchInDataAppearsInTimeSheetDetailsAfterPunchIn() {
-		System.out.println("start 5");
-		punchInOutPage.punchIn("01:40");
+	public void testPunchInDataAppearsInTimeSheetDetailsAfterPunchIn(ITestContext context) {
+		
+		String punchInTime=(String)context.getCurrentXmlTest().getParameter("PunchInTime");
+		String punchInData=context.getCurrentXmlTest().getParameter("PunchInData");
+		
+		punchInOutPage.punchIn(punchInTime);
+		
+		
 		boolean isDisplayed=myAttendanceSheetPage
-				             .clickOnDate("10 Mar")
-				             .isThisPunchInDataDisplayed("Thu, 10 Mar 2022 01:40");
+				             .clickOnDate(date)
+				             .isThisPunchInDataDisplayed(punchInData);
 		assertTrue(isDisplayed);
+		
 	}
+	
+	
+	
 	@Test(priority=6)
-	public void TestPunchOutIconVisibilityAfterValidPunchIn() {
+	public void testPunchOutIconVisibilityAfterValidPunchIn() {
+		
 		assertFalse(myAttendanceSheetPage.isPunchIconInPunchInState());
+		
 	}
+	
+	
+	
 	@Test(priority=7)
-	public void TestNavigationToPunchInOutPageWithPunchOutCardFromAttendanceSheetPageOnClickingPunchOutIcon() throws InterruptedException {
+	public void testNavigationToPunchInOutPageWithPunchOutCardFromAttendanceSheetPageOnClickingPunchOutIcon() throws InterruptedException {
 		myAttendanceSheetPage.clickOnPunchIcon();
 		
 		assertTrue(punchInOutPage.isInThisPage());
@@ -102,55 +125,163 @@ public class TestAttendanceFeatures {
 		assertTrue(punchInOutPage.isAskingPunchOutData());
 	}
 	
+	
+	
 	@Test(priority=8)
-	public void TestPunchInDataPresentInPunchOutCard() {
+	public void testPunchInDataPresentInPunchOutCard(ITestContext context) {
+		
+		
+		String punchInData=context.getCurrentXmlTest().getParameter("PunchInData");
 		String data=punchInOutPage.getPunchInData();
-		assertTrue(data.equals("Thu, 10 Mar 2022 01:40"));
+		
+		assertTrue(data.equals(punchInData));
 	}
+	
+	
 	@Test(priority=9)
-	public void TestPunchOutDataAppearsInTimeSheetDetailsAfterPunchOut() {
-		punchInOutPage.punchOut("01:50");
+	public void testPunchOutDataAppearsInTimeSheetDetailsAfterPunchOut(ITestContext context) {
+		
+		String punchOutTime=context.getCurrentXmlTest().getParameter("PunchOutTime");
+		String punchOutData=context.getCurrentXmlTest().getParameter("PunchOutData");
+		
+		punchInOutPage.punchOut(punchOutTime);
+		
 		boolean isDisplayed=myAttendanceSheetPage
-				             .clickOnDate("10 Mar")
-				             .isThisPunchOutDataDisplayed("Thu, 10 Mar 2022 01:50");
+				             .clickOnDate(date)
+				             .isThisPunchOutDataDisplayed(punchOutData);
+		
 		assertTrue(isDisplayed);
 	}
+	
+	
+	
 	@Test(priority=10)
-	public void TestPunchInOverlappingErrorMessageDisplay() throws InterruptedException {
-		myAttendanceSheetPage.clickOnPunchIcon();
-		boolean isDisplayed=punchInOutPage.punchIn("01:45").isOverlappingErrMsgDisplayed();
+	public void testPunchInOverlappingErrorMessageDisplay(ITestContext context) throws InterruptedException {
+		String overlappingPunchInTime=context.getCurrentXmlTest()
+											 .getParameter("OverlappingPunchInTime");
+		
+		
+		boolean isDisplayed=myAttendanceSheetPage.clickOnPunchIcon()
+												 .punchIn(overlappingPunchInTime)
+												 .isOverlappingErrMsgDisplayed();
 		assertTrue(isDisplayed);
+		
 	}
+	
+	
+	
 	@Test(priority=11)
-	public void TestPunchOutTimeLaterThanIntimeErrorMessageDisplay() throws InterruptedException {
-		punchInOutPage.punchIn("02:00");
-		myAttendanceSheetPage.clickOnPunchIcon();
-		boolean isDisplayed=punchInOutPage.punchOut("01:55").isTimeLaterThanInnTimeIsDisplayed();
+	public void testPunchOutTimeLaterThanIntimeErrorMessageDisplay(ITestContext context) throws InterruptedException {
+		
+		String punchInTimeForDelete=context.getCurrentXmlTest().getParameter("PunchInTimeForDelete");
+		String invalidPunchOutTime=context.getCurrentXmlTest().getParameter("InvalidPunchOutTime");
+		
+		punchInOutPage.punchIn(punchInTimeForDelete);
+		
+		
+		boolean isDisplayed=myAttendanceSheetPage.clickOnPunchIcon()
+												 .punchOut(invalidPunchOutTime)
+												 .isTimeLaterThanInnTimeIsDisplayed();
+		
 		assertTrue(isDisplayed);
 	}
+	
+	
+	
 	@Test(priority=12)
-	public void TestValidTimeFormatErrorMessage() {
-		boolean isDisplayed=punchInOutPage.punchOut("1q4r").isInvalidFormatErrMsgDisplayed();
+	public void testInValidFormatErrorMessage(ITestContext context) {
+		
+		String InvalidTime=context.getCurrentXmlTest().getParameter("InvalidTime");
+		
+		boolean isDisplayed=punchInOutPage.punchOut(InvalidTime)
+										  .isInvalidFormatErrMsgDisplayed();
+		
 		assertTrue(isDisplayed);
 	}
+	
 	@Test(priority=13)
-	public void TestPunchIconToggleAfterDeletingPunchInData() {
+	public void testInValidTimeFormatErrorMessage(ITestContext context) {
+		
+		String InvalidTime=context.getCurrentXmlTest().getParameter("InvalidTimeFormat");
+		
+		boolean isDisplayed=punchInOutPage.punchOut(InvalidTime)
+										  .isInvalidTimeFormatFormatErrMsgDisplayed();
+		
+		assertTrue(isDisplayed);
+	}
+	
+	
+	@Test(priority=14)
+	public void testPunchIconToggleAfterDeletingPunchInData(ITestContext context) {
+		
+		String punchInDataForDelete=context.getCurrentXmlTest().getParameter("PunchInDataForDelete");
+		
 		punchInOutPage.clickOnElementInMenuContent("Attendance")
                      .clickOnElementInSubMenuContent("My Attendance Sheet");
+		
 		boolean isInPunchIn=myAttendanceSheetPage
-							.deleteTheSessionRecord("10 Mar","Thu, 10 Mar 2022 02:00")
+							.deleteTheSessionRecord(date,punchInDataForDelete)
 							.isPunchIconInPunchInState();
+		
 		assertTrue(isInPunchIn);
 	}
-	@Test(priority=14)
-	public void TestPunchCardToggleToPunchOutWhenGivenDateHasPunchedInSession() throws InterruptedException {
-		myAttendanceSheetPage.clickOnPunchIcon();
-		punchInOutPage.punchIn("Fri, 11 Mar 2022","10:00");
-		myAttendanceSheetPage.clickOnPunchIcon();
-		punchInOutPage.setDate("Fri, 11 Mar 2022").isAskingPunchOutData();
+	
+	
+	@Test(priority=15)
+	public void testPunchCardToggleToPunchOutWhenGivendateHasPunchedInSession(ITestContext context) throws InterruptedException {
+		
+		String punchIndate=context.getCurrentXmlTest().getParameter("PunchIndate");
+		String punchInTimeOtherDay=context
+				.getCurrentXmlTest().getParameter("PunchInTimeOtherDay");
+		
+		
+		
+		myAttendanceSheetPage.clickOnPunchIcon()
+							 .punchIn(punchIndate,punchInTimeOtherDay);
+		
+		
+		
+		assertTrue(myAttendanceSheetPage.clickOnPunchIcon()
+										.setDate(punchIndate)
+										.isAskingPunchOutData());
+		
+		
+		punchInOutPage.punchOut("10:30");
 		
 	}
-	public void TestTotalHoursAggregation() {
+	
+	@Test(priority=16)
+	public void testTotalHoursAggregation() throws InterruptedException  {
+		String InTime="12:00";
+		String OutTime="14:00";
 		
+		
+		
+		String preSessionTotalTime=myAttendanceSheetPage.getTotalHours();
+		
+		String postSessionTotalTime=myAttendanceSheetPage.punchInOut(InTime,OutTime).getTotalHours();
+		
+		int sessionDuration=ParseTime.getDuration(InTime,OutTime);
+		int totalTimePreSession=ParseTime.convertIntoMinutes(preSessionTotalTime);
+		int totalTimePostSession=ParseTime.convertIntoMinutes(postSessionTotalTime);
+		assertTrue(totalTimePreSession+sessionDuration==totalTimePostSession);
+	}
+	
+	@Test(priority=17)
+	public void testPunchOutAfterPunchInBeforeValidSession() throws InterruptedException {
+		myAttendanceSheetPage.clickOnPunchIcon();
+		punchInOutPage.punchIn("09:00");
+		
+		
+		boolean isDisplayed=myAttendanceSheetPage.isPunchIconInPunchInState();
+		assertFalse(isDisplayed);
+	}
+	
+	@AfterClass
+	public void close() {
+		myAttendanceSheetPage.deleteRecords(date);
+		myAttendanceSheetPage.deleteRecords("11 Mar");
+		ExtentReportsClass.endReport();
+		driver.quit();
 	}
 }

@@ -23,6 +23,9 @@ public class PunchInOutPage extends MenuContentSection {
 	@FindBy(xpath = "//span[text()='Overlapping records found']") 
 	private WebElement ErrMsg3;
 	
+	@FindBy(xpath = "//span[text()='Should be a valid time in HH:MM format']") 
+	private WebElement ErrMsg4;
+	
 	@FindBy(xpath = "//*[@id=\"attendanceMyPunchInOutDiv\"]/h4") 
 	private WebElement cardName;
 	
@@ -109,6 +112,11 @@ public class PunchInOutPage extends MenuContentSection {
 		// TODO Auto-generated method stub
 		return ErrMsg2.isDisplayed();
 	}
+	public boolean isInvalidTimeFormatFormatErrMsgDisplayed() {
+		// TODO Auto-generated method stub
+		return ErrMsg2.isDisplayed();
+	}
+	
 	public void punchIn(String string, String string2) {
 		// TODO Auto-generated method stub
 		DateInput.clear();

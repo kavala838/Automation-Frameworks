@@ -7,6 +7,7 @@ import org.testng.ITestContext;
 
 import com.epam.TestAutomation.Project.Selenium.PomPages.DashBoardPage;
 import com.epam.TestAutomation.Project.Selenium.PomPages.LogInPage;
+import com.epam.TestAutomation.Project.Selenium.PomPages.MyAttendanceSheetPage;
 import com.epam.TestAutomation.Project.Selenium.WebFactory.DriverFactoryProvider;
 
 public class setUpClass {
@@ -25,5 +26,6 @@ public class setUpClass {
 		DashBoardPage dashBoardPage=logInPage.login(userName, password);
 		return driver;
 	}
+	
 	
 }

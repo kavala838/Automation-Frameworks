@@ -17,6 +17,7 @@ public class MyAttendanceSheetPage extends MenuContentSection {
 	
 	private JavascriptExecutor js;
 	private NgWebDriver ngDriver;
+	PunchInOutPage punchInOutPage;
 	
 	@FindBy(id = "save-button") 
 	private WebElement DeleteEle;
@@ -27,13 +28,20 @@ public class MyAttendanceSheetPage extends MenuContentSection {
 	@FindBy(xpath = "//li[text()='Attendance Sheet']")
 	private WebElement PageTitle;
 	
-	public MyAttendanceSheetPage(WebDriver driver) {
+	@FindBy(xpath = "//div[text()='Total Time']/following::div")
+	private WebElement TotalTime;
+	
+	
+	public MyAttendanceSheetPage(WebDriver driver,PunchInOutPage punchInOutPage) {
 		super(driver);
 		PageFactory.initElements(new AjaxElementLocatorFactory(driver,20), this);
 		js=(JavascriptExecutor)driver;
 		ngDriver=new NgWebDriver(js);
+		this.punchInOutPage=punchInOutPage;
 		// TODO Auto-generated constructor stub
 	}
+	
+	
 	public boolean isPunchIconInPunchInState() {
 		// TODO Auto-generated method stub
 		String state=PunchIcon.getAttribute("data-original-title");
@@ -41,12 +49,11 @@ public class MyAttendanceSheetPage extends MenuContentSection {
 			return true;
 		return false;
 	}
-	public MyAttendanceSheetPage clickOnPunchIcon() throws InterruptedException {
-		// TODO Auto-generated method stub
-		//ngDriver.waitForAngularRequestsToFinish();
-		//Thread.sleep(10000);
+	
+	public PunchInOutPage clickOnPunchIcon() throws InterruptedException {
+		
 		PunchIcon.click();
-		return this;
+		return punchInOutPage;
 	}
 	public boolean isInThisPage() {
 		// TODO Auto-generated method stub
@@ -55,40 +62,86 @@ public class MyAttendanceSheetPage extends MenuContentSection {
 			return true;
 		return false;
 	}
+	
 	public MyAttendanceSheetPage clickOnDate(String string) {
 		// TODO Auto-generated method stub
 		ngDriver.waitForAngularRequestsToFinish();
 		String script="document.evaluate('//div[text()=\""+string+"\"]/parent::span/parent::div', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();";
 		js.executeScript(script);
+		
+		ngDriver.waitForAngularRequestsToFinish();
 		return this;
 	}
+	
 	public boolean isThisPunchInDataDisplayed(String string) {
 		// TODO Auto-generated method stub
 		ngDriver.waitForAngularRequestsToFinish();
 		WebElement PunchInData=driver.findElement(By.xpath("//div[@Class='col-5 punchInColumn']/span[text()='"+string+"']"));
 		return PunchInData.isDisplayed();
 	}
+	
 	public boolean isThisPunchOutDataDisplayed(String string) {
 		// TODO Auto-generated method stub
 		ngDriver.waitForAngularRequestsToFinish();
 		WebElement PunchOutData=driver.findElement(By.xpath("//div[@Class='col-5 punchOutColumn']/span[text()='"+string+"']"));
 		return PunchOutData.isDisplayed();
 	}
+	
 	public MyAttendanceSheetPage deleteTheSessionRecord(String string, String string2) {
-		// TODO Auto-generated method stub
+		
 		clickOnDate(string);
+		
 		js.executeScript("window.scrollBy(0,290)");
 		ngDriver.waitForAngularRequestsToFinish();
+		
 		String script="document.evaluate('//span[text()=\""+string2+"\"]/parent::div/parent::div//span[text()=\"ohrm_delete\"]', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();";
 		js.executeScript(script);
 		
 		ngDriver.waitForAngularRequestsToFinish();
 		
-		//ngDriver.waitForAngularRequestsToFinish();
 		DeleteEle.click();
+		
 		js.executeScript("window.scrollBy(0,-290)");
+		
 		ngDriver.waitForAngularRequestsToFinish();
+		
 		return this;
+	}
+	
+	public String getTotalHours() {
+		
+		ngDriver.waitForAngularRequestsToFinish();
+		String Totaltime=TotalTime.getText();
+		return Totaltime;
+	}
+	
+	public  MyAttendanceSheetPage punchInOut(String punchIn,String punchOut) throws InterruptedException {
+		this.clickOnPunchIcon();
+		punchInOutPage.punchIn(punchIn);
+		this.clickOnPunchIcon();
+		punchInOutPage.punchOut(punchOut);
+		return this;
+	}
+
+
+	public void deleteRecords(String string) {
+		// TODO Auto-generated method stub
+		this.clickOnDate(string);
+		while(true)
+		{
+			try {
+		String script="document.evaluate('//div[@Class=\"punchRecord\"]//span[text()=\"ohrm_delete\"]', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();";
+		js.executeScript(script);
+		
+		ngDriver.waitForAngularRequestsToFinish();
+		DeleteEle.click();
+		ngDriver.waitForAngularRequestsToFinish();
+		
+			}
+			catch(Exception e) {
+				break;
+			}
+		}
 	}
 
 }
