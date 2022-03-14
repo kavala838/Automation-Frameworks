@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+
+<suite name="TestSpeakerFunctionality">
+	 <listeners>
+		<listener
+			class-name="com.epam.TestAutomation.Final_Project.Listeners.ReportListenerImpl" />
+		<listener
+			class-name="com.epam.TestAutomation.Final_Project.Listeners.TestListenerImpl" />
+	</listeners> 
+	<test name="TestSpeakerAddingViaAPI">
+		<parameter name="driverName" value="chrome" />
+		<parameter name="PlatformName" value="LocalWebDriver" />
+		<parameter name="Url"
+			value="http://epinhydw0087/programs/#/" />
+		<parameter name="EmailID" value="Vinay@epam.com" />
+		<parameter name="Password" value="A1.vinay" />
+		<parameter name="SpeakerName" value="GangafPftrffakdhqee" />
+		<parameter name="SpeakerEmail" value="ctusdfsevefkeyib@eedf.com" />
+		<parameter name="SpeakerProfile" value="JavaScript" />
+		<classes>
+
+
+			<class
+				name="com.epam.TestAutomation.Final_Project.TestCases.TestSpeakerAddingFunctionalityViaAPI" />
+
+		</classes>
+	</test>
+</suite>
