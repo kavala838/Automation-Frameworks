@@ -37,6 +37,7 @@ project-root/
 ├── package.json             # Node dependencies
 ├── tsconfig.json            # TypeScript configuration
 └── README.md                # Project documentation
+```
 
 ## Features
 - **Playwright with TypeScript** - A powerful setup for cross-browser testing.
