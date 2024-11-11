@@ -1,0 +1,43 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+
+<suite name="TestOrangeHRMSeleniumTesting">
+	<listeners>
+		<listener
+			class-name="com.epam.TestAutomation.Project.Selenium.Listeners.ReportListenerImpl" />
+		<listener
+			class-name="com.epam.TestAutomation.Project.Selenium.Listeners.TestListenerImpl" />
+	</listeners>
+	<test name="TestSeleniumOfAttendancesheet">
+		<parameter name="driverName" value="chrome" />
+		<parameter name="PlatformName" value="LocalWebDriver" />
+		<parameter name="OrangeHRMUrl"
+			value="https://vinaykumar233-trials7401.orangehrmlive.com/" />
+		<parameter name="userName" value="Admin" />
+		<parameter name="Password" value="@V6AznLb7N" />
+		<parameter name="Date" value="10 Mar" />
+		<parameter name="PunchInTime" value="10:00" />
+		<parameter name="PunchOutTime" value="10:30" />
+		<parameter name="PunchInData" value="Thu, 10 Mar 2022 10:00" />
+		<parameter name="PunchOutData"
+			value="Thu, 10 Mar 2022 10:30" />
+		<parameter name="OverlappingPunchInTime" value="10:15" />
+		<parameter name="InvalidTime" value="1q4r" />
+		<parameter name="InvalidTimeFormat" value="1q:4r" />
+		<parameter name="PunchInTimeForDelete" value="12:00" />
+		<parameter name="InvalidPunchOutTime" value="11:30" />
+		<parameter name="PunchInDataForDelete"
+			value="Thu, 10 Mar 2022 12:00" />
+		<parameter name="PunchInDate" value="Fri, 11 Mar 2022" />
+		<parameter name="PunchInTimeOtherDay" value="10:00" />
+		<classes>
+
+
+			<class
+				name="com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures" />
+
+		</classes>
+	</test>
+</suite>

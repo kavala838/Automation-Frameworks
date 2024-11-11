@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+
+<suite name="TestOrangeHRM">
+	
+	<test name="TestLogIn">
+
+		<parameter name="driverName" value="chrome" />
+		<parameter name="PlatformName" value="LocalWebDriver" />
+		<parameter name="OrangeHRMUrl"
+			value="https://prasoonr-trials73.orangehrmlive.com/login" />
+		<parameter name="userName" value="Admin" />
+		<parameter name="Password" value="U@qBLVtm09" />
+		<parameter name="user" value="amanda" />
+		<classes>
+
+			<!-- <class name="com.epam.selenium.OrangeHRM.Tests.TestLogInFunctionality" 
+				/> -->
+				<class
+				name="com.epam.TestAutomation.BDD.Tests.TestLogInWithRunner" />
+				
+			
+
+		</classes>
+	</test>
+</suite>

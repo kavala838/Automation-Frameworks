@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+
+<suite name="Calculator">
+	
+	<test name="CalculatorBasicTests">
+
+		<parameter name="driverName" value="firefox" />
+		<parameter name="HtmlUrl"
+			value="C:\Users\Vinaykumar_Kavala\RD-Training\Module7b\src\main\resources\Calculator.html" />
+		<classes>
+			<class
+				name="com.epam.RD.Module7b.Tests.TestCalculator" />
+
+		</classes>
+	</test>
+</suite>

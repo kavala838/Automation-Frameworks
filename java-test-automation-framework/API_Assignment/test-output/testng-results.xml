@@ -1,0 +1,974 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="30" passed="20" failed="7" skipped="3">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-08T10:52:03 IST" name="Default suite" finished-at="2022-03-08T10:52:53 IST" duration-ms="50570">
+    <groups>
+    </groups>
+    <test started-at="2022-03-08T10:52:03 IST" name="Default test" finished-at="2022-03-08T10:52:53 IST" duration-ms="50570">
+      <class name="com.epam.TestAutomation.API_Assignment.TestAPI">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-08T10:52:03 IST" name="setUp" finished-at="2022-03-08T10:52:03 IST" duration-ms="549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFetUserWithIdWithoutToken()[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-08T10:52:03 IST" name="testFetUserWithIdWithoutToken" finished-at="2022-03-08T10:52:05 IST" duration-ms="2225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFetUserWithIdWithoutToken -->
+        <test-method signature="testGetResponseWithInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-08T10:52:05 IST" name="testGetResponseWithInvalidToken" data-provider="InvalidTokens" finished-at="2022-03-08T10:52:06 IST" duration-ms="171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[c9c1347c-698a-ab93-9504-43726nhf70c4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetResponseWithInvalidToken -->
+        <test-method signature="testGetResponseWithInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-08T10:52:06 IST" name="testGetResponseWithInvalidToken" data-provider="InvalidTokens" finished-at="2022-03-08T10:52:06 IST" duration-ms="161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[c9c1247c-698a-cd93-9504-43726adf70c4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetResponseWithInvalidToken -->
+        <test-method signature="testGetResponseWithInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-08T10:52:06 IST" name="testGetResponseWithInvalidToken" data-provider="InvalidTokens" finished-at="2022-03-08T10:52:06 IST" duration-ms="151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[c9c1347c-698a-ef93-9504-43726dwf70c4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetResponseWithInvalidToken -->
+        <test-method signature="testGetResponseWithInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-08T10:52:06 IST" name="testGetResponseWithInvalidToken" data-provider="InvalidTokens" finished-at="2022-03-08T10:52:06 IST" duration-ms="148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[c9c1647c-698a-gh93-9504-43726tyf70c4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetResponseWithInvalidToken -->
+        <test-method signature="testGetResponseWithInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-08T10:52:06 IST" name="testGetResponseWithInvalidToken" data-provider="InvalidTokens" finished-at="2022-03-08T10:52:06 IST" duration-ms="130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[c9c1177c-698a-ij93-9504-43726zuf70c4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetResponseWithInvalidToken -->
+        <test-method signature="testGetUsersPageInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-08T10:52:06 IST" name="testGetUsersPageInvalidToken" data-provider="InvalidTokens" finished-at="2022-03-08T10:52:06 IST" duration-ms="172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[c9c1347c-698a-ab93-9504-43726nhf70c4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsersPageInvalidToken -->
+        <test-method signature="testGetUsersPageInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-08T10:52:06 IST" name="testGetUsersPageInvalidToken" data-provider="InvalidTokens" finished-at="2022-03-08T10:52:06 IST" duration-ms="156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[c9c1247c-698a-cd93-9504-43726adf70c4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsersPageInvalidToken -->
+        <test-method signature="testGetUsersPageInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-08T10:52:06 IST" name="testGetUsersPageInvalidToken" data-provider="InvalidTokens" finished-at="2022-03-08T10:52:07 IST" duration-ms="148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[c9c1347c-698a-ef93-9504-43726dwf70c4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsersPageInvalidToken -->
+        <test-method signature="testGetUsersPageInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-08T10:52:07 IST" name="testGetUsersPageInvalidToken" data-provider="InvalidTokens" finished-at="2022-03-08T10:52:28 IST" duration-ms="21038" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[c9c1647c-698a-gh93-9504-43726tyf70c4]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.net.ConnectException">
+            <message>
+              <![CDATA[Connection timed out: connect]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.net.ConnectException: Connection timed out: connect
+at java.base/sun.nio.ch.Net.connect0(Native Method)
+at java.base/sun.nio.ch.Net.connect(Net.java:579)
+at java.base/sun.nio.ch.Net.connect(Net.java:568)
+at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+at java.base/java.net.Socket.connect(Socket.java:633)
+at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+at org.apache.http.client.HttpClient$execute$0.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder.doRequest(RequestSpecificationImpl.groovy:2055)
+at io.restassured.internal.http.HTTPBuilder.doRequest(HTTPBuilder.java:494)
+at io.restassured.internal.http.HTTPBuilder.request(HTTPBuilder.java:451)
+at io.restassured.internal.http.HTTPBuilder$request$2.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.sendHttpRequest(RequestSpecificationImpl.groovy:1450)
+at jdk.internal.reflect.GeneratedMethodAccessor96.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55)
+at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1199)
+at jdk.internal.reflect.GeneratedMethodAccessor69.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)
+at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.FilterContext$next.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1655)
+at jdk.internal.reflect.GeneratedMethodAccessor62.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1661)
+at jdk.internal.reflect.GeneratedMethodAccessor61.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:171)
+at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)
+at com.epam.TestAutomation.API_Assignment.TestAPI.testGetUsersPageInvalidToken(TestAPI.java:231)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.ConnectException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsersPageInvalidToken -->
+        <test-method signature="testGetUsersPageInvalidToken(java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-08T10:52:28 IST" name="testGetUsersPageInvalidToken" data-provider="InvalidTokens" finished-at="2022-03-08T10:52:28 IST" duration-ms="203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[c9c1177c-698a-ij93-9504-43726zuf70c4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsersPageInvalidToken -->
+        <test-method signature="testGetUsersPageWithoutToken()[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-08T10:52:28 IST" name="testGetUsersPageWithoutToken" finished-at="2022-03-08T10:52:30 IST" duration-ms="1686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsersPageWithoutToken -->
+        <test-method signature="testLogInForUnregisteredUsers(java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-08T10:52:30 IST" name="testLogInForUnregisteredUsers" data-provider="InvalidUserNamesAndPasswords" finished-at="2022-03-08T10:52:30 IST" duration-ms="612" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FakeEmail1@fake.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInForUnregisteredUsers -->
+        <test-method signature="testLogInForUnregisteredUsers(java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-08T10:52:30 IST" name="testLogInForUnregisteredUsers" data-provider="InvalidUserNamesAndPasswords" finished-at="2022-03-08T10:52:30 IST" duration-ms="145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FakeEmail2@fake.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInForUnregisteredUsers -->
+        <test-method signature="testLogInForUnregisteredUsers(java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-08T10:52:30 IST" name="testLogInForUnregisteredUsers" data-provider="InvalidUserNamesAndPasswords" finished-at="2022-03-08T10:52:30 IST" duration-ms="171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FakeEmail3@fake.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInForUnregisteredUsers -->
+        <test-method signature="testLogInForUnregisteredUsers(java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-08T10:52:30 IST" name="testLogInForUnregisteredUsers" data-provider="InvalidUserNamesAndPasswords" finished-at="2022-03-08T10:52:31 IST" duration-ms="159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FakeEmail4@fake.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInForUnregisteredUsers -->
+        <test-method signature="testLogInForUnregisteredUsers(java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-08T10:52:31 IST" name="testLogInForUnregisteredUsers" data-provider="InvalidUserNamesAndPasswords" finished-at="2022-03-08T10:52:52 IST" duration-ms="21036" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FakeEmail5@fake.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.net.ConnectException">
+            <message>
+              <![CDATA[Connection timed out: connect]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.net.ConnectException: Connection timed out: connect
+at java.base/sun.nio.ch.Net.connect0(Native Method)
+at java.base/sun.nio.ch.Net.connect(Net.java:579)
+at java.base/sun.nio.ch.Net.connect(Net.java:568)
+at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+at java.base/java.net.Socket.connect(Socket.java:633)
+at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+at org.apache.http.client.HttpClient$execute$0.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder.doRequest(RequestSpecificationImpl.groovy:2055)
+at io.restassured.internal.http.HTTPBuilder.post(HTTPBuilder.java:349)
+at io.restassured.internal.http.HTTPBuilder$post$3.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1180)
+at jdk.internal.reflect.GeneratedMethodAccessor69.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)
+at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.FilterContext$next.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1655)
+at jdk.internal.reflect.GeneratedMethodAccessor62.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1661)
+at jdk.internal.reflect.GeneratedMethodAccessor61.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816)
+at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy:175)
+at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy)
+at com.epam.TestAutomation.API_Assignment.TestAPI.testLogInForUnregisteredUsers(TestAPI.java:140)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.ConnectException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInForUnregisteredUsers -->
+        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-08T10:52:52 IST" name="testRegistration" data-provider="NewData" finished-at="2022-03-08T10:52:52 IST" duration-ms="141" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gszxyah11111@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [success] but found [The email address you have entered is already registered]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [success] but found [The email address you have entered is already registered]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration(TestAPI.java:49)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-08T10:52:52 IST" name="testRegistration" data-provider="NewData" finished-at="2022-03-08T10:52:52 IST" duration-ms="128" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gszxyah21111@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [success] but found [The email address you have entered is already registered]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [success] but found [The email address you have entered is already registered]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration(TestAPI.java:49)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-08T10:52:52 IST" name="testRegistration" data-provider="NewData" finished-at="2022-03-08T10:52:52 IST" duration-ms="159" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gszxyah31111@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123457]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [success] but found [The email address you have entered is already registered]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [success] but found [The email address you have entered is already registered]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration(TestAPI.java:49)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-08T10:52:52 IST" name="testRegistration" data-provider="NewData" finished-at="2022-03-08T10:52:52 IST" duration-ms="169" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gszxyah41111@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [success] but found [The email address you have entered is already registered]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [success] but found [The email address you have entered is already registered]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration(TestAPI.java:49)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-08T10:52:52 IST" name="testRegistration" data-provider="NewData" finished-at="2022-03-08T10:52:52 IST" duration-ms="151" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gszxyah51111@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [success] but found [The email address you have entered is already registered]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [success] but found [The email address you have entered is already registered]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration(TestAPI.java:49)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method signature="testLogInWithValidUserNameAndWrongPassword(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-08T10:52:52 IST" name="testLogInWithValidUserNameAndWrongPassword" data-provider="NewData" finished-at="2022-03-08T10:52:53 IST" duration-ms="136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gszxyah11111@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInWithValidUserNameAndWrongPassword -->
+        <test-method signature="testLogInWithValidUserNameAndWrongPassword(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-08T10:52:53 IST" name="testLogInWithValidUserNameAndWrongPassword" data-provider="NewData" finished-at="2022-03-08T10:52:53 IST" duration-ms="142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gszxyah21111@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInWithValidUserNameAndWrongPassword -->
+        <test-method signature="testLogInWithValidUserNameAndWrongPassword(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-08T10:52:53 IST" name="testLogInWithValidUserNameAndWrongPassword" data-provider="NewData" finished-at="2022-03-08T10:52:53 IST" duration-ms="139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gszxyah31111@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123457]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInWithValidUserNameAndWrongPassword -->
+        <test-method signature="testLogInWithValidUserNameAndWrongPassword(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-08T10:52:53 IST" name="testLogInWithValidUserNameAndWrongPassword" data-provider="NewData" finished-at="2022-03-08T10:52:53 IST" duration-ms="152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gszxyah41111@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInWithValidUserNameAndWrongPassword -->
+        <test-method signature="testLogInWithValidUserNameAndWrongPassword(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-08T10:52:53 IST" name="testLogInWithValidUserNameAndWrongPassword" data-provider="NewData" finished-at="2022-03-08T10:52:53 IST" duration-ms="124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gszxyah51111@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInWithValidUserNameAndWrongPassword -->
+        <test-method signature="testLogIn(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-08T10:52:53 IST" name="testLogIn" finished-at="2022-03-08T10:52:53 IST" depends-on-methods="com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e depends on not successfully finished methods 
+[com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e depends on not successfully finished methods 
+[com.epam.TestAutomation.API_Assignment.TestAPI.testRegistration() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:149)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogIn -->
+        <test-method signature="testGetUserDetailsRequestWithUserId(int,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-08T10:52:53 IST" name="testGetUserDetailsRequestWithUserId" finished-at="2022-03-08T10:52:53 IST" depends-on-methods="com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.epam.TestAutomation.API_Assignment.TestAPI.testGetUserDetailsRequestWithUserId() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e depends on not successfully finished methods 
+[com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.epam.TestAutomation.API_Assignment.TestAPI.testGetUserDetailsRequestWithUserId() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e depends on not successfully finished methods 
+[com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:149)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserDetailsRequestWithUserId -->
+        <test-method signature="testGetUsersRequest(int,java.lang.String)[pri:0, instance:com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]" started-at="2022-03-08T10:52:53 IST" name="testGetUsersRequest" finished-at="2022-03-08T10:52:53 IST" depends-on-methods="com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.epam.TestAutomation.API_Assignment.TestAPI.testGetUsersRequest() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e depends on not successfully finished methods 
+[com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.epam.TestAutomation.API_Assignment.TestAPI.testGetUsersRequest() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e depends on not successfully finished methods 
+[com.epam.TestAutomation.API_Assignment.TestAPI.testLogIn() on instance com.epam.TestAutomation.API_Assignment.TestAPI@6392827e]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:149)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsersRequest -->
+      </class> <!-- com.epam.TestAutomation.API_Assignment.TestAPI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

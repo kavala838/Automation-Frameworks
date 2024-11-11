@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-22T17:01:01 IST" name="MyFirstSuite" finished-at="2022-02-22T17:01:17 IST" duration-ms="15967">
+    <groups>
+    </groups>
+    <test started-at="2022-02-22T17:01:01 IST" name="MyFirstTest" finished-at="2022-02-22T17:01:17 IST" duration-ms="15967">
+      <class name="com.epam.selenium.SeleniumAssignment.TestLogInFunctionalityWithDifferentScenarios">
+        <test-method is-config="true" signature="setUp(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.epam.selenium.SeleniumAssignment.TestLogInFunctionalityWithDifferentScenarios@4b0d79fc]" started-at="2022-02-22T17:01:01 IST" name="setUp" finished-at="2022-02-22T17:01:05 IST" duration-ms="3200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@527fc8e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogInWithInvalidCredentials()[pri:0, instance:com.epam.selenium.SeleniumAssignment.TestLogInFunctionalityWithDifferentScenarios@4b0d79fc]" started-at="2022-02-22T17:01:05 IST" name="testLogInWithInvalidCredentials" finished-at="2022-02-22T17:01:13 IST" duration-ms="8381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogInWithInvalidCredentials -->
+        <test-method is-config="true" signature="closetab()[pri:0, instance:com.epam.selenium.SeleniumAssignment.TestLogInFunctionalityWithDifferentScenarios@4b0d79fc]" started-at="2022-02-22T17:01:13 IST" name="closetab" finished-at="2022-02-22T17:01:17 IST" duration-ms="4351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closetab -->
+      </class> <!-- com.epam.selenium.SeleniumAssignment.TestLogInFunctionalityWithDifferentScenarios -->
+    </test> <!-- MyFirstTest -->
+  </suite> <!-- MyFirstSuite -->
+</testng-results>

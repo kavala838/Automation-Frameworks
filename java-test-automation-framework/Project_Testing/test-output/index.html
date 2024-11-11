@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-TestOrangeHRMSeleniumTesting" class="navigator-link">
+              <span class="suite-name border-failed">TestOrangeHRMSeleniumTesting</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-TestOrangeHRMSeleniumTesting" class="navigator-link ">
+                    <span>C:\Users\Vinaykumar_Kavala\Test Automation\Project_Testing\src\test\SeleniumTesting.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-TestOrangeHRMSeleniumTesting" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-TestOrangeHRMSeleniumTesting" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-TestOrangeHRMSeleniumTesting" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-TestOrangeHRMSeleniumTesting" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-TestOrangeHRMSeleniumTesting" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-TestOrangeHRMSeleniumTesting" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods, 1 failed,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-TestOrangeHRMSeleniumTesting" class="hide-methods failed suite-TestOrangeHRMSeleniumTesting"> (hide)</a> <!-- hide-methods failed suite-TestOrangeHRMSeleniumTesting -->
+                      <a href="#" panel-name="suite-TestOrangeHRMSeleniumTesting" class="show-methods failed suite-TestOrangeHRMSeleniumTesting"> (show)</a> <!-- show-methods failed suite-TestOrangeHRMSeleniumTesting -->
+                    </span>
+                    <div class="method-list-content failed suite-TestOrangeHRMSeleniumTesting">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestOrangeHRMSeleniumTesting" title="com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures" class="method navigator-link" hash-for-method="testPunchOutAfterPunchInBeforeValidSession">testPunchOutAfterPunchInBeforeValidSession</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-TestOrangeHRMSeleniumTesting -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestOrangeHRMSeleniumTesting" class="hide-methods passed suite-TestOrangeHRMSeleniumTesting"> (hide)</a> <!-- hide-methods passed suite-TestOrangeHRMSeleniumTesting -->
+                      <a href="#" panel-name="suite-TestOrangeHRMSeleniumTesting" class="show-methods passed suite-TestOrangeHRMSeleniumTesting"> (show)</a> <!-- show-methods passed suite-TestOrangeHRMSeleniumTesting -->
+                    </span>
+                    <div class="method-list-content passed suite-TestOrangeHRMSeleniumTesting">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestOrangeHRMSeleniumTesting" title="com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures" class="method navigator-link" hash-for-method="testInValidFormatErrorMessage(org.testng.TestRunner@1947596f)">testInValidFormatErrorMessage(org.testng.TestRunner@1947596f)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestOrangeHRMSeleniumTesting" title="com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures" class="method navigator-link" hash-for-method="testInValidTimeFormatErrorMessage(org.testng.TestRunner@1947596f)">testInValidTimeFormatErrorMessage(org.testng.TestRunner@1947596f)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestOrangeHRMSeleniumTesting" title="com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures" class="method navigator-link" hash-for-method="testNavigationToAttendanceSheetPage">testNavigationToAttendanceSheetPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestOrangeHRMSeleniumTesting" title="com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures" class="method navigator-link" hash-for-method="testNavigationToPunchInOutPage">testNavigationToPunchInOutPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestOrangeHRMSeleniumTesting" title="com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures" class="method navigator-link" hash-for-method="testNavigationToPunchInOutPageWithPunchInCardFromAttendanceSheetPageOnClickingPunchInIcon">testNavigationToPunchInOutPageWithPunchInCardFromAttendanceSheetPageOnClickingPunchInIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestOrangeHRMSeleniumTesting" title="com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures" class="method navigator-link" hash-for-method="testNavigationToPunchInOutPageWithPunchOutCardFromAttendanceSheetPageOnClickingPunchOutIcon">testNavigationToPunchInOutPageWithPunchOutCardFromAttendanceSheetPageOnClickingPunchOutIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestOrangeHRMSeleniumTesting" title="com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures" class="method navigator-link" hash-for-method="testPunchCardToggleToPunchOutWhenGivendateHasPunchedInSession(org.testng.TestRunner@1947596f)">testPunchCardToggleToPunchOutWhenGivendateHasPunchedInSession(org.testng.TestRunner@1947596f)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestOrangeHRMSeleniumTesting" title="com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures" class="method navigator-link" hash-for-method="testPunchIconToggleAfterDeletingPunchInData(org.testng.TestRunner@1947596f)">testPunchIconToggleAfterDeletingPunchInData(org.testng.TestRunner@1947596f)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestOrangeHRMSeleniumTesting" title="com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures" class="method navigator-link" hash-for-method="testPunchInDataAppearsInTimeSheetDetailsAfterPunchIn(org.testng.TestRunner@1947596f)">testPunchInDataAppearsInTimeSheetDetailsAfterPunchIn(org.testng.TestRunner@1947596f)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestOrangeHRMSeleniumTesting" title="com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures" class="method navigator-link" hash-for-method="testPunchInDataPresentInPunchOutCard(org.testng.TestRunner@1947596f)">testPunchInDataPresentInPunchOutCard(org.testng.TestRunner@1947596f)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestOrangeHRMSeleniumTesting" title="com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures" class="method navigator-link" hash-for-method="testPunchInIconVisibility">testPunchInIconVisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestOrangeHRMSeleniumTesting" title="com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures" class="method navigator-link" hash-for-method="testPunchInOverlappingErrorMessageDisplay(org.testng.TestRunner@1947596f)">testPunchInOverlappingErrorMessageDisplay(org.testng.TestRunner@1947596f)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestOrangeHRMSeleniumTesting" title="com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures" class="method navigator-link" hash-for-method="testPunchOutDataAppearsInTimeSheetDetailsAfterPunchOut(org.testng.TestRunner@1947596f)">testPunchOutDataAppearsInTimeSheetDetailsAfterPunchOut(org.testng.TestRunner@1947596f)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestOrangeHRMSeleniumTesting" title="com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures" class="method navigator-link" hash-for-method="testPunchOutIconVisibilityAfterValidPunchIn">testPunchOutIconVisibilityAfterValidPunchIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestOrangeHRMSeleniumTesting" title="com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures" class="method navigator-link" hash-for-method="testPunchOutTimeLaterThanIntimeErrorMessageDisplay(org.testng.TestRunner@1947596f)">testPunchOutTimeLaterThanIntimeErrorMessageDisplay(org.testng.TestRunner@1947596f)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestOrangeHRMSeleniumTesting" title="com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures" class="method navigator-link" hash-for-method="testTotalHoursAggregation">testTotalHoursAggregation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestOrangeHRMSeleniumTesting -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestOrangeHRMSeleniumTesting" class="panel TestOrangeHRMSeleniumTesting">
+          <div class="suite-TestOrangeHRMSeleniumTesting-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPunchOutAfterPunchInBeforeValidSession">
+                  </a> <!-- testPunchOutAfterPunchInBeforeValidSession -->
+                  <span class="method-name">testPunchOutAfterPunchInBeforeValidSession</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures.testPunchOutAfterPunchInBeforeValidSession(TestAttendanceFeatures.java:277)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestOrangeHRMSeleniumTesting-class-failed -->
+          <div class="suite-TestOrangeHRMSeleniumTesting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInValidFormatErrorMessage(org.testng.TestRunner@1947596f)">
+                  </a> <!-- testInValidFormatErrorMessage(org.testng.TestRunner@1947596f) -->
+                  <span class="method-name">testInValidFormatErrorMessage</span>
+                  <span class="parameters">(org.testng.TestRunner@1947596f)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInValidTimeFormatErrorMessage(org.testng.TestRunner@1947596f)">
+                  </a> <!-- testInValidTimeFormatErrorMessage(org.testng.TestRunner@1947596f) -->
+                  <span class="method-name">testInValidTimeFormatErrorMessage</span>
+                  <span class="parameters">(org.testng.TestRunner@1947596f)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationToAttendanceSheetPage">
+                  </a> <!-- testNavigationToAttendanceSheetPage -->
+                  <span class="method-name">testNavigationToAttendanceSheetPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationToPunchInOutPage">
+                  </a> <!-- testNavigationToPunchInOutPage -->
+                  <span class="method-name">testNavigationToPunchInOutPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationToPunchInOutPageWithPunchInCardFromAttendanceSheetPageOnClickingPunchInIcon">
+                  </a> <!-- testNavigationToPunchInOutPageWithPunchInCardFromAttendanceSheetPageOnClickingPunchInIcon -->
+                  <span class="method-name">testNavigationToPunchInOutPageWithPunchInCardFromAttendanceSheetPageOnClickingPunchInIcon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationToPunchInOutPageWithPunchOutCardFromAttendanceSheetPageOnClickingPunchOutIcon">
+                  </a> <!-- testNavigationToPunchInOutPageWithPunchOutCardFromAttendanceSheetPageOnClickingPunchOutIcon -->
+                  <span class="method-name">testNavigationToPunchInOutPageWithPunchOutCardFromAttendanceSheetPageOnClickingPunchOutIcon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPunchCardToggleToPunchOutWhenGivendateHasPunchedInSession(org.testng.TestRunner@1947596f)">
+                  </a> <!-- testPunchCardToggleToPunchOutWhenGivendateHasPunchedInSession(org.testng.TestRunner@1947596f) -->
+                  <span class="method-name">testPunchCardToggleToPunchOutWhenGivendateHasPunchedInSession</span>
+                  <span class="parameters">(org.testng.TestRunner@1947596f)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPunchIconToggleAfterDeletingPunchInData(org.testng.TestRunner@1947596f)">
+                  </a> <!-- testPunchIconToggleAfterDeletingPunchInData(org.testng.TestRunner@1947596f) -->
+                  <span class="method-name">testPunchIconToggleAfterDeletingPunchInData</span>
+                  <span class="parameters">(org.testng.TestRunner@1947596f)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPunchInDataAppearsInTimeSheetDetailsAfterPunchIn(org.testng.TestRunner@1947596f)">
+                  </a> <!-- testPunchInDataAppearsInTimeSheetDetailsAfterPunchIn(org.testng.TestRunner@1947596f) -->
+                  <span class="method-name">testPunchInDataAppearsInTimeSheetDetailsAfterPunchIn</span>
+                  <span class="parameters">(org.testng.TestRunner@1947596f)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPunchInDataPresentInPunchOutCard(org.testng.TestRunner@1947596f)">
+                  </a> <!-- testPunchInDataPresentInPunchOutCard(org.testng.TestRunner@1947596f) -->
+                  <span class="method-name">testPunchInDataPresentInPunchOutCard</span>
+                  <span class="parameters">(org.testng.TestRunner@1947596f)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPunchInIconVisibility">
+                  </a> <!-- testPunchInIconVisibility -->
+                  <span class="method-name">testPunchInIconVisibility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPunchInOverlappingErrorMessageDisplay(org.testng.TestRunner@1947596f)">
+                  </a> <!-- testPunchInOverlappingErrorMessageDisplay(org.testng.TestRunner@1947596f) -->
+                  <span class="method-name">testPunchInOverlappingErrorMessageDisplay</span>
+                  <span class="parameters">(org.testng.TestRunner@1947596f)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPunchOutDataAppearsInTimeSheetDetailsAfterPunchOut(org.testng.TestRunner@1947596f)">
+                  </a> <!-- testPunchOutDataAppearsInTimeSheetDetailsAfterPunchOut(org.testng.TestRunner@1947596f) -->
+                  <span class="method-name">testPunchOutDataAppearsInTimeSheetDetailsAfterPunchOut</span>
+                  <span class="parameters">(org.testng.TestRunner@1947596f)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPunchOutIconVisibilityAfterValidPunchIn">
+                  </a> <!-- testPunchOutIconVisibilityAfterValidPunchIn -->
+                  <span class="method-name">testPunchOutIconVisibilityAfterValidPunchIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPunchOutTimeLaterThanIntimeErrorMessageDisplay(org.testng.TestRunner@1947596f)">
+                  </a> <!-- testPunchOutTimeLaterThanIntimeErrorMessageDisplay(org.testng.TestRunner@1947596f) -->
+                  <span class="method-name">testPunchOutTimeLaterThanIntimeErrorMessageDisplay</span>
+                  <span class="parameters">(org.testng.TestRunner@1947596f)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTotalHoursAggregation">
+                  </a> <!-- testTotalHoursAggregation -->
+                  <span class="method-name">testTotalHoursAggregation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestOrangeHRMSeleniumTesting-class-passed -->
+        </div> <!-- panel TestOrangeHRMSeleniumTesting -->
+        <div panel-name="test-xml-TestOrangeHRMSeleniumTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Vinaykumar_Kavala\Test Automation\Project_Testing\src\test\SeleniumTesting.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;TestOrangeHRMSeleniumTesting&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.epam.TestAutomation.Project.Selenium.Listeners.ReportListenerImpl&quot;/&gt;
+    &lt;listener class-name=&quot;com.epam.TestAutomation.Project.Selenium.Listeners.TestListenerImpl&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestSeleniumOfAttendancesheet&quot;&gt;
+    &lt;parameter name=&quot;OrangeHRMUrl&quot; value=&quot;https://vinaykumar233-trials7401.orangehrmlive.com/&quot;/&gt;
+    &lt;parameter name=&quot;PunchInTimeForDelete&quot; value=&quot;12:00&quot;/&gt;
+    &lt;parameter name=&quot;PunchOutTime&quot; value=&quot;10:30&quot;/&gt;
+    &lt;parameter name=&quot;PunchInTimeOtherDay&quot; value=&quot;10:00&quot;/&gt;
+    &lt;parameter name=&quot;userName&quot; value=&quot;Admin&quot;/&gt;
+    &lt;parameter name=&quot;PunchInDate&quot; value=&quot;Fri, 11 Mar 2022&quot;/&gt;
+    &lt;parameter name=&quot;Date&quot; value=&quot;10 Mar&quot;/&gt;
+    &lt;parameter name=&quot;OverlappingPunchInTime&quot; value=&quot;10:15&quot;/&gt;
+    &lt;parameter name=&quot;PlatformName&quot; value=&quot;LocalWebDriver&quot;/&gt;
+    &lt;parameter name=&quot;InvalidPunchOutTime&quot; value=&quot;11:30&quot;/&gt;
+    &lt;parameter name=&quot;PunchInData&quot; value=&quot;Thu, 10 Mar 2022 10:00&quot;/&gt;
+    &lt;parameter name=&quot;InvalidTimeFormat&quot; value=&quot;1q:4r&quot;/&gt;
+    &lt;parameter name=&quot;PunchInTime&quot; value=&quot;10:00&quot;/&gt;
+    &lt;parameter name=&quot;PunchOutData&quot; value=&quot;Thu, 10 Mar 2022 10:30&quot;/&gt;
+    &lt;parameter name=&quot;PunchInDataForDelete&quot; value=&quot;Thu, 10 Mar 2022 12:00&quot;/&gt;
+    &lt;parameter name=&quot;driverName&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;InvalidTime&quot; value=&quot;1q4r&quot;/&gt;
+    &lt;parameter name=&quot;Password&quot; value=&quot;@V6AznLb7N&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestSeleniumOfAttendancesheet --&gt;
+&lt;/suite&gt; &lt;!-- TestOrangeHRMSeleniumTesting --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestOrangeHRMSeleniumTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestOrangeHRMSeleniumTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestSeleniumOfAttendancesheet (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestOrangeHRMSeleniumTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestOrangeHRMSeleniumTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestOrangeHRMSeleniumTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestOrangeHRMSeleniumTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestOrangeHRMSeleniumTesting');
+function tableData_TestOrangeHRMSeleniumTesting() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testTotalHoursAggregation')
+data.setCell(0, 2, 'com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures')
+data.setCell(0, 3, 24561);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testPunchCardToggleToPunchOutWhenGivendateHasPunchedInSession')
+data.setCell(1, 2, 'com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures')
+data.setCell(1, 3, 20905);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testPunchOutTimeLaterThanIntimeErrorMessageDisplay')
+data.setCell(2, 2, 'com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures')
+data.setCell(2, 3, 13312);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testNavigationToAttendanceSheetPage')
+data.setCell(3, 2, 'com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures')
+data.setCell(3, 3, 10224);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testPunchOutAfterPunchInBeforeValidSession')
+data.setCell(4, 2, 'com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures')
+data.setCell(4, 3, 9792);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testPunchOutDataAppearsInTimeSheetDetailsAfterPunchOut')
+data.setCell(5, 2, 'com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures')
+data.setCell(5, 3, 8548);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testPunchInDataAppearsInTimeSheetDetailsAfterPunchIn')
+data.setCell(6, 2, 'com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures')
+data.setCell(6, 3, 7945);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testPunchIconToggleAfterDeletingPunchInData')
+data.setCell(7, 2, 'com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures')
+data.setCell(7, 3, 7265);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testPunchInIconVisibility')
+data.setCell(8, 2, 'com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures')
+data.setCell(8, 3, 6371);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testPunchInOverlappingErrorMessageDisplay')
+data.setCell(9, 2, 'com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures')
+data.setCell(9, 3, 5248);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testNavigationToPunchInOutPageWithPunchInCardFromAttendanceSheetPageOnClickingPunchInIcon')
+data.setCell(10, 2, 'com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures')
+data.setCell(10, 3, 3428);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testNavigationToPunchInOutPageWithPunchOutCardFromAttendanceSheetPageOnClickingPunchOutIcon')
+data.setCell(11, 2, 'com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures')
+data.setCell(11, 3, 2636);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testInValidTimeFormatErrorMessage')
+data.setCell(12, 2, 'com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures')
+data.setCell(12, 3, 1786);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testInValidFormatErrorMessage')
+data.setCell(13, 2, 'com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures')
+data.setCell(13, 3, 1765);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testNavigationToPunchInOutPage')
+data.setCell(14, 2, 'com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures')
+data.setCell(14, 3, 495);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testPunchOutIconVisibilityAfterValidPunchIn')
+data.setCell(15, 2, 'com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures')
+data.setCell(15, 3, 270);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testPunchInDataPresentInPunchOutCard')
+data.setCell(16, 2, 'com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures')
+data.setCell(16, 3, 204);
+window.suiteTableData['TestOrangeHRMSeleniumTesting']= { tableData: data, tableDiv: 'times-div-TestOrangeHRMSeleniumTesting'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-TestOrangeHRMSeleniumTesting">
+              </div> <!-- times-div-TestOrangeHRMSeleniumTesting -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestOrangeHRMSeleniumTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestOrangeHRMSeleniumTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestOrangeHRMSeleniumTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestOrangeHRMSeleniumTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(org.testng.TestRunner@1947596f)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testNavigationToAttendanceSheetPage</span>
+                <span class="method-start">32837 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationToPunchInOutPage</span>
+                <span class="method-start">43069 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPunchInIconVisibility</span>
+                <span class="method-start">43567 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationToPunchInOutPageWithPunchInCardFromAttendanceSheetPageOnClickingPunchInIcon</span>
+                <span class="method-start">49941 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPunchInDataAppearsInTimeSheetDetailsAfterPunchIn(org.testng.TestRunner@1947596f)</span>
+                <span class="method-start">53372 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPunchOutIconVisibilityAfterValidPunchIn</span>
+                <span class="method-start">61320 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNavigationToPunchInOutPageWithPunchOutCardFromAttendanceSheetPageOnClickingPunchOutIcon</span>
+                <span class="method-start">61592 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPunchInDataPresentInPunchOutCard(org.testng.TestRunner@1947596f)</span>
+                <span class="method-start">64231 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPunchOutDataAppearsInTimeSheetDetailsAfterPunchOut(org.testng.TestRunner@1947596f)</span>
+                <span class="method-start">64436 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPunchInOverlappingErrorMessageDisplay(org.testng.TestRunner@1947596f)</span>
+                <span class="method-start">72987 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPunchOutTimeLaterThanIntimeErrorMessageDisplay(org.testng.TestRunner@1947596f)</span>
+                <span class="method-start">78237 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInValidFormatErrorMessage(org.testng.TestRunner@1947596f)</span>
+                <span class="method-start">91551 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInValidTimeFormatErrorMessage(org.testng.TestRunner@1947596f)</span>
+                <span class="method-start">93319 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPunchIconToggleAfterDeletingPunchInData(org.testng.TestRunner@1947596f)</span>
+                <span class="method-start">95106 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPunchCardToggleToPunchOutWhenGivendateHasPunchedInSession(org.testng.TestRunner@1947596f)</span>
+                <span class="method-start">102372 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTotalHoursAggregation</span>
+                <span class="method-start">123280 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testPunchOutAfterPunchInBeforeValidSession</span>
+                <span class="method-start">147844 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">157846 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

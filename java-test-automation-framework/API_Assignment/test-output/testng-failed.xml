@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.epam.TestAutomation.API_Assignment.TestAPI">
+        <methods>
+          <include name="testRegistration" invocation-numbers="0 1 2 3 4"/>
+          <include name="testGetUsersRequest"/>
+          <include name="testLogIn"/>
+          <include name="testGetUsersPageInvalidToken" invocation-numbers="3"/>
+          <include name="testLogInForUnregisteredUsers" invocation-numbers="4"/>
+          <include name="testGetUserDetailsRequestWithUserId"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.epam.TestAutomation.API_Assignment.TestAPI -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

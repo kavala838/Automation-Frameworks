@@ -1,0 +1,1055 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-10T17:08:17 IST" name="Default suite" finished-at="2022-02-10T17:08:17 IST" duration-ms="97">
+    <groups>
+      <group name="BasicTests">
+        <method signature="TestLibraryClass.testAddNewMember(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.TestNG.TestLibraryClass@49912c99]" name="testAddNewMember" class="com.epam.TestAutomation.TestNG.TestLibraryClass"/>
+      </group> <!-- BasicTests -->
+      <group name="AllTests">
+        <method signature="TestLibraryClass.testAddNewMember(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.TestNG.TestLibraryClass@49912c99]" name="testAddNewMember" class="com.epam.TestAutomation.TestNG.TestLibraryClass"/>
+        <method signature="TestLibraryClass.testBookNotFoundException(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.TestNG.TestLibraryClass@49912c99]" name="testBookNotFoundException" class="com.epam.TestAutomation.TestNG.TestLibraryClass"/>
+        <method signature="TestLibraryClass.testUserInactiveException(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.TestNG.TestLibraryClass@49912c99]" name="testUserInactiveException" class="com.epam.TestAutomation.TestNG.TestLibraryClass"/>
+        <method signature="TestLibraryClass.testMemberNotFoundException()[pri:0, instance:com.epam.TestAutomation.TestNG.TestLibraryClass@49912c99]" name="testMemberNotFoundException" class="com.epam.TestAutomation.TestNG.TestLibraryClass"/>
+        <method signature="TestLibraryClass.testIssueBook(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.TestNG.TestLibraryClass@49912c99]" name="testIssueBook" class="com.epam.TestAutomation.TestNG.TestLibraryClass"/>
+      </group> <!-- AllTests -->
+      <group name="TertiaryTests">
+        <method signature="TestLibraryClass.testBookNotFoundException(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.TestNG.TestLibraryClass@49912c99]" name="testBookNotFoundException" class="com.epam.TestAutomation.TestNG.TestLibraryClass"/>
+        <method signature="TestLibraryClass.testUserInactiveException(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.TestNG.TestLibraryClass@49912c99]" name="testUserInactiveException" class="com.epam.TestAutomation.TestNG.TestLibraryClass"/>
+        <method signature="TestLibraryClass.testMemberNotFoundException()[pri:0, instance:com.epam.TestAutomation.TestNG.TestLibraryClass@49912c99]" name="testMemberNotFoundException" class="com.epam.TestAutomation.TestNG.TestLibraryClass"/>
+      </group> <!-- TertiaryTests -->
+      <group name="SecondaryTests">
+        <method signature="TestLibraryClass.testIssueBook(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.TestNG.TestLibraryClass@49912c99]" name="testIssueBook" class="com.epam.TestAutomation.TestNG.TestLibraryClass"/>
+      </group> <!-- SecondaryTests -->
+    </groups>
+    <test started-at="2022-02-10T17:08:17 IST" name="Default test" finished-at="2022-02-10T17:08:17 IST" duration-ms="97">
+      <class name="com.epam.TestAutomation.TestNG.TestLibraryClass">
+        <test-method is-config="true" signature="InitLibrary()[pri:0, instance:com.epam.TestAutomation.TestNG.TestLibraryClass@49912c99]" started-at="2022-02-10T17:08:17 IST" name="InitLibrary" finished-at="2022-02-10T17:08:17 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitLibrary -->
+        <test-method signature="testAddNewMember(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.TestNG.TestLibraryClass@49912c99]" started-at="2022-02-10T17:08:17 IST" name="testAddNewMember" data-provider="MemberData" finished-at="2022-02-10T17:08:17 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vinay]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kavala]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kandukur]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNewMember -->
+        <test-method signature="testAddNewMember(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.TestNG.TestLibraryClass@49912c99]" started-at="2022-02-10T17:08:17 IST" name="testAddNewMember" data-provider="MemberData" finished-at="2022-02-10T17:08:17 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vamsi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rayala]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[bezawada]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNewMember -->
+        <test-method signature="testAddNewMember(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.TestNG.TestLibraryClass@49912c99]" started-at="2022-02-10T17:08:17 IST" name="testAddNewMember" data-provider="MemberData" finished-at="2022-02-10T17:08:17 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sunil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kandra]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ongole]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNewMember -->
+        <test-method signature="testAddNewMember(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.TestNG.TestLibraryClass@49912c99]" started-at="2022-02-10T17:08:17 IST" name="testAddNewMember" data-provider="MemberData" finished-at="2022-02-10T17:08:17 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pavan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[manimala]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[nellore]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNewMember -->
+        <test-method signature="testAddNewMember(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.TestNG.TestLibraryClass@49912c99]" started-at="2022-02-10T17:08:17 IST" name="testAddNewMember" data-provider="MemberData" finished-at="2022-02-10T17:08:17 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nikhil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[desu]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[chennai]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNewMember -->
+        <test-method signature="testIssueBook(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.TestNG.TestLibraryClass@49912c99]" started-at="2022-02-10T17:08:17 IST" name="testIssueBook" data-provider="MemberData" depends-on-groups="BasicTests" finished-at="2022-02-10T17:08:17 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vinay]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kavala]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kandukur]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIssueBook -->
+        <test-method signature="testIssueBook(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.TestNG.TestLibraryClass@49912c99]" started-at="2022-02-10T17:08:17 IST" name="testIssueBook" data-provider="MemberData" depends-on-groups="BasicTests" finished-at="2022-02-10T17:08:17 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vamsi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rayala]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[bezawada]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIssueBook -->
+        <test-method signature="testIssueBook(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.TestNG.TestLibraryClass@49912c99]" started-at="2022-02-10T17:08:17 IST" name="testIssueBook" data-provider="MemberData" depends-on-groups="BasicTests" finished-at="2022-02-10T17:08:17 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sunil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kandra]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ongole]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIssueBook -->
+        <test-method signature="testIssueBook(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.TestNG.TestLibraryClass@49912c99]" started-at="2022-02-10T17:08:17 IST" name="testIssueBook" data-provider="MemberData" depends-on-groups="BasicTests" finished-at="2022-02-10T17:08:17 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pavan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[manimala]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[nellore]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIssueBook -->
+        <test-method signature="testIssueBook(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.TestNG.TestLibraryClass@49912c99]" started-at="2022-02-10T17:08:17 IST" name="testIssueBook" data-provider="MemberData" depends-on-groups="BasicTests" finished-at="2022-02-10T17:08:17 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nikhil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[desu]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[chennai]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIssueBook -->
+        <test-method signature="testBookNotFoundException(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.TestNG.TestLibraryClass@49912c99]" started-at="2022-02-10T17:08:17 IST" name="testBookNotFoundException" data-provider="MemberData" depends-on-groups="SecondaryTests" finished-at="2022-02-10T17:08:17 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vinay]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kavala]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kandukur]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.epam.TestAutomation.TestNG.BookNotFoundException">
+            <full-stacktrace>
+              <![CDATA[com.epam.TestAutomation.TestNG.BookNotFoundException
+at com.epam.TestAutomation.TestNG.Admin.issueBookToMember(Admin.java:29)
+at com.epam.TestAutomation.TestNG.TestLibraryClass.testBookNotFoundException(TestLibraryClass.java:71)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.epam.TestAutomation.TestNG.BookNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookNotFoundException -->
+        <test-method signature="testBookNotFoundException(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.TestNG.TestLibraryClass@49912c99]" started-at="2022-02-10T17:08:17 IST" name="testBookNotFoundException" data-provider="MemberData" depends-on-groups="SecondaryTests" finished-at="2022-02-10T17:08:17 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vamsi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rayala]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[bezawada]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.epam.TestAutomation.TestNG.BookNotFoundException">
+            <full-stacktrace>
+              <![CDATA[com.epam.TestAutomation.TestNG.BookNotFoundException
+at com.epam.TestAutomation.TestNG.Admin.issueBookToMember(Admin.java:29)
+at com.epam.TestAutomation.TestNG.TestLibraryClass.testBookNotFoundException(TestLibraryClass.java:71)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.epam.TestAutomation.TestNG.BookNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookNotFoundException -->
+        <test-method signature="testBookNotFoundException(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.TestNG.TestLibraryClass@49912c99]" started-at="2022-02-10T17:08:17 IST" name="testBookNotFoundException" data-provider="MemberData" depends-on-groups="SecondaryTests" finished-at="2022-02-10T17:08:17 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sunil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kandra]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ongole]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.epam.TestAutomation.TestNG.BookNotFoundException">
+            <full-stacktrace>
+              <![CDATA[com.epam.TestAutomation.TestNG.BookNotFoundException
+at com.epam.TestAutomation.TestNG.Admin.issueBookToMember(Admin.java:29)
+at com.epam.TestAutomation.TestNG.TestLibraryClass.testBookNotFoundException(TestLibraryClass.java:71)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.epam.TestAutomation.TestNG.BookNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookNotFoundException -->
+        <test-method signature="testBookNotFoundException(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.TestNG.TestLibraryClass@49912c99]" started-at="2022-02-10T17:08:17 IST" name="testBookNotFoundException" data-provider="MemberData" depends-on-groups="SecondaryTests" finished-at="2022-02-10T17:08:17 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pavan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[manimala]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[nellore]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.epam.TestAutomation.TestNG.BookNotFoundException">
+            <full-stacktrace>
+              <![CDATA[com.epam.TestAutomation.TestNG.BookNotFoundException
+at com.epam.TestAutomation.TestNG.Admin.issueBookToMember(Admin.java:29)
+at com.epam.TestAutomation.TestNG.TestLibraryClass.testBookNotFoundException(TestLibraryClass.java:71)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.epam.TestAutomation.TestNG.BookNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookNotFoundException -->
+        <test-method signature="testBookNotFoundException(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.TestNG.TestLibraryClass@49912c99]" started-at="2022-02-10T17:08:17 IST" name="testBookNotFoundException" data-provider="MemberData" depends-on-groups="SecondaryTests" finished-at="2022-02-10T17:08:17 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nikhil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[desu]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[chennai]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.epam.TestAutomation.TestNG.BookNotFoundException">
+            <full-stacktrace>
+              <![CDATA[com.epam.TestAutomation.TestNG.BookNotFoundException
+at com.epam.TestAutomation.TestNG.Admin.issueBookToMember(Admin.java:29)
+at com.epam.TestAutomation.TestNG.TestLibraryClass.testBookNotFoundException(TestLibraryClass.java:71)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.epam.TestAutomation.TestNG.BookNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookNotFoundException -->
+        <test-method signature="testUserInactiveException(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.TestNG.TestLibraryClass@49912c99]" started-at="2022-02-10T17:08:17 IST" name="testUserInactiveException" data-provider="MemberData" depends-on-groups="SecondaryTests" finished-at="2022-02-10T17:08:17 IST" depends-on-methods="com.epam.TestAutomation.TestNG.TestLibraryClass.testBookNotFoundException" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vinay]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kavala]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kandukur]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.epam.TestAutomation.TestNG.UserInactiveException">
+            <full-stacktrace>
+              <![CDATA[com.epam.TestAutomation.TestNG.UserInactiveException
+at com.epam.TestAutomation.TestNG.Admin.issueBookToMember(Admin.java:25)
+at com.epam.TestAutomation.TestNG.TestLibraryClass.testUserInactiveException(TestLibraryClass.java:57)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.epam.TestAutomation.TestNG.UserInactiveException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserInactiveException -->
+        <test-method signature="testUserInactiveException(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.TestNG.TestLibraryClass@49912c99]" started-at="2022-02-10T17:08:17 IST" name="testUserInactiveException" data-provider="MemberData" depends-on-groups="SecondaryTests" finished-at="2022-02-10T17:08:17 IST" depends-on-methods="com.epam.TestAutomation.TestNG.TestLibraryClass.testBookNotFoundException" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vamsi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rayala]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[bezawada]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.epam.TestAutomation.TestNG.UserInactiveException">
+            <full-stacktrace>
+              <![CDATA[com.epam.TestAutomation.TestNG.UserInactiveException
+at com.epam.TestAutomation.TestNG.Admin.issueBookToMember(Admin.java:25)
+at com.epam.TestAutomation.TestNG.TestLibraryClass.testUserInactiveException(TestLibraryClass.java:57)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.epam.TestAutomation.TestNG.UserInactiveException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserInactiveException -->
+        <test-method signature="testUserInactiveException(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.TestNG.TestLibraryClass@49912c99]" started-at="2022-02-10T17:08:17 IST" name="testUserInactiveException" data-provider="MemberData" depends-on-groups="SecondaryTests" finished-at="2022-02-10T17:08:17 IST" depends-on-methods="com.epam.TestAutomation.TestNG.TestLibraryClass.testBookNotFoundException" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sunil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kandra]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ongole]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.epam.TestAutomation.TestNG.UserInactiveException">
+            <full-stacktrace>
+              <![CDATA[com.epam.TestAutomation.TestNG.UserInactiveException
+at com.epam.TestAutomation.TestNG.Admin.issueBookToMember(Admin.java:25)
+at com.epam.TestAutomation.TestNG.TestLibraryClass.testUserInactiveException(TestLibraryClass.java:57)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.epam.TestAutomation.TestNG.UserInactiveException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserInactiveException -->
+        <test-method signature="testUserInactiveException(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.TestNG.TestLibraryClass@49912c99]" started-at="2022-02-10T17:08:17 IST" name="testUserInactiveException" data-provider="MemberData" depends-on-groups="SecondaryTests" finished-at="2022-02-10T17:08:17 IST" depends-on-methods="com.epam.TestAutomation.TestNG.TestLibraryClass.testBookNotFoundException" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pavan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[manimala]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[nellore]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.epam.TestAutomation.TestNG.UserInactiveException">
+            <full-stacktrace>
+              <![CDATA[com.epam.TestAutomation.TestNG.UserInactiveException
+at com.epam.TestAutomation.TestNG.Admin.issueBookToMember(Admin.java:25)
+at com.epam.TestAutomation.TestNG.TestLibraryClass.testUserInactiveException(TestLibraryClass.java:57)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.epam.TestAutomation.TestNG.UserInactiveException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserInactiveException -->
+        <test-method signature="testUserInactiveException(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.epam.TestAutomation.TestNG.TestLibraryClass@49912c99]" started-at="2022-02-10T17:08:17 IST" name="testUserInactiveException" data-provider="MemberData" depends-on-groups="SecondaryTests" finished-at="2022-02-10T17:08:17 IST" depends-on-methods="com.epam.TestAutomation.TestNG.TestLibraryClass.testBookNotFoundException" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nikhil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[desu]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[chennai]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.epam.TestAutomation.TestNG.UserInactiveException">
+            <full-stacktrace>
+              <![CDATA[com.epam.TestAutomation.TestNG.UserInactiveException
+at com.epam.TestAutomation.TestNG.Admin.issueBookToMember(Admin.java:25)
+at com.epam.TestAutomation.TestNG.TestLibraryClass.testUserInactiveException(TestLibraryClass.java:57)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.epam.TestAutomation.TestNG.UserInactiveException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserInactiveException -->
+        <test-method signature="testMemberNotFoundException()[pri:0, instance:com.epam.TestAutomation.TestNG.TestLibraryClass@49912c99]" started-at="2022-02-10T17:08:17 IST" name="testMemberNotFoundException" depends-on-groups="SecondaryTests" finished-at="2022-02-10T17:08:17 IST" depends-on-methods="com.epam.TestAutomation.TestNG.TestLibraryClass.testUserInactiveException, com.epam.TestAutomation.TestNG.TestLibraryClass.testBookNotFoundException" duration-ms="0" status="PASS">
+          <exception class="com.epam.TestAutomation.TestNG.MemberNotFoundException">
+            <full-stacktrace>
+              <![CDATA[com.epam.TestAutomation.TestNG.MemberNotFoundException
+at com.epam.TestAutomation.TestNG.Admin.issueBookToMember(Admin.java:23)
+at com.epam.TestAutomation.TestNG.TestLibraryClass.testMemberNotFoundException(TestLibraryClass.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.epam.TestAutomation.TestNG.MemberNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMemberNotFoundException -->
+      </class> <!-- com.epam.TestAutomation.TestNG.TestLibraryClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

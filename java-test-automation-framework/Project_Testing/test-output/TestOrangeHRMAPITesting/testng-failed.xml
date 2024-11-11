@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestOrangeHRMAPITesting]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.epam.TestAutomation.Project.Selenium.Listeners.ReportListenerImpl"/>
+    <listener class-name="com.epam.TestAutomation.Project.Selenium.Listeners.TestListenerImpl"/>
+  </listeners>
+  <test thread-count="5" name="TestAPIOfAttendancesheet(failed)">
+    <parameter name="OrangeHRMUrl" value="https://vinaykumar233-trials7401.orangehrmlive.com/"/>
+    <parameter name="PunchInTimeForDelete" value="12:00"/>
+    <parameter name="PunchOutTime" value="10:30"/>
+    <parameter name="PunchInTimeOtherDay" value="10:00"/>
+    <parameter name="userName" value="Admin"/>
+    <parameter name="PunchInDate" value="Fri, 11 Mar 2022"/>
+    <parameter name="Date" value="10 Mar"/>
+    <parameter name="OverlappingPunchInTime" value="10:15"/>
+    <parameter name="PlatformName" value="LocalWebDriver"/>
+    <parameter name="InvalidPunchOutTime" value="11:30"/>
+    <parameter name="PunchInData" value="Thu, 10 Mar 2022 10:00"/>
+    <parameter name="InvalidTimeFormat" value="1q:4r"/>
+    <parameter name="PunchInTime" value="10:00"/>
+    <parameter name="PunchOutData" value="Thu, 10 Mar 2022 10:30"/>
+    <parameter name="PunchInDataForDelete" value="Thu, 10 Mar 2022 12:00"/>
+    <parameter name="driverName" value="chrome"/>
+    <parameter name="InvalidTime" value="1q4r"/>
+    <parameter name="Password" value="@V6AznLb7N"/>
+    <classes>
+      <class name="com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures">
+        <methods>
+          <include name="TestPunchOutAfterPunchInBeforeValidSession"/>
+          <include name="setUp"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures -->
+    </classes>
+  </test> <!-- TestAPIOfAttendancesheet(failed) -->
+</suite> <!-- Failed suite [TestOrangeHRMAPITesting] -->

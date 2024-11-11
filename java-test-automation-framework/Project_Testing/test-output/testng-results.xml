@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="16" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-10T22:04:09 IST" name="TestOrangeHRMSeleniumTesting" finished-at="2022-03-10T22:07:01 IST" duration-ms="171497">
+    <groups>
+    </groups>
+    <test started-at="2022-03-10T22:04:09 IST" name="TestSeleniumOfAttendancesheet" finished-at="2022-03-10T22:07:01 IST" duration-ms="171497">
+      <class name="com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures@3646a422]" started-at="2022-03-10T22:04:09 IST" name="setUp" finished-at="2022-03-10T22:04:42 IST" duration-ms="32826" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1947596f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNavigationToAttendanceSheetPage()[pri:1, instance:com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures@3646a422]" started-at="2022-03-10T22:04:42 IST" name="testNavigationToAttendanceSheetPage" finished-at="2022-03-10T22:04:52 IST" duration-ms="10224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigationToAttendanceSheetPage -->
+        <test-method signature="testNavigationToPunchInOutPage()[pri:2, instance:com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures@3646a422]" started-at="2022-03-10T22:04:52 IST" name="testNavigationToPunchInOutPage" finished-at="2022-03-10T22:04:53 IST" duration-ms="495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigationToPunchInOutPage -->
+        <test-method signature="testPunchInIconVisibility()[pri:3, instance:com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures@3646a422]" started-at="2022-03-10T22:04:53 IST" name="testPunchInIconVisibility" finished-at="2022-03-10T22:04:59 IST" duration-ms="6371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPunchInIconVisibility -->
+        <test-method signature="testNavigationToPunchInOutPageWithPunchInCardFromAttendanceSheetPageOnClickingPunchInIcon()[pri:4, instance:com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures@3646a422]" started-at="2022-03-10T22:04:59 IST" name="testNavigationToPunchInOutPageWithPunchInCardFromAttendanceSheetPageOnClickingPunchInIcon" finished-at="2022-03-10T22:05:03 IST" duration-ms="3428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigationToPunchInOutPageWithPunchInCardFromAttendanceSheetPageOnClickingPunchInIcon -->
+        <test-method signature="testPunchInDataAppearsInTimeSheetDetailsAfterPunchIn(org.testng.ITestContext)[pri:5, instance:com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures@3646a422]" started-at="2022-03-10T22:05:03 IST" name="testPunchInDataAppearsInTimeSheetDetailsAfterPunchIn" finished-at="2022-03-10T22:05:11 IST" duration-ms="7945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1947596f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPunchInDataAppearsInTimeSheetDetailsAfterPunchIn -->
+        <test-method signature="testPunchOutIconVisibilityAfterValidPunchIn()[pri:6, instance:com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures@3646a422]" started-at="2022-03-10T22:05:11 IST" name="testPunchOutIconVisibilityAfterValidPunchIn" finished-at="2022-03-10T22:05:11 IST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPunchOutIconVisibilityAfterValidPunchIn -->
+        <test-method signature="testNavigationToPunchInOutPageWithPunchOutCardFromAttendanceSheetPageOnClickingPunchOutIcon()[pri:7, instance:com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures@3646a422]" started-at="2022-03-10T22:05:11 IST" name="testNavigationToPunchInOutPageWithPunchOutCardFromAttendanceSheetPageOnClickingPunchOutIcon" finished-at="2022-03-10T22:05:13 IST" duration-ms="2636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigationToPunchInOutPageWithPunchOutCardFromAttendanceSheetPageOnClickingPunchOutIcon -->
+        <test-method signature="testPunchInDataPresentInPunchOutCard(org.testng.ITestContext)[pri:8, instance:com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures@3646a422]" started-at="2022-03-10T22:05:13 IST" name="testPunchInDataPresentInPunchOutCard" finished-at="2022-03-10T22:05:14 IST" duration-ms="204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1947596f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPunchInDataPresentInPunchOutCard -->
+        <test-method signature="testPunchOutDataAppearsInTimeSheetDetailsAfterPunchOut(org.testng.ITestContext)[pri:9, instance:com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures@3646a422]" started-at="2022-03-10T22:05:14 IST" name="testPunchOutDataAppearsInTimeSheetDetailsAfterPunchOut" finished-at="2022-03-10T22:05:22 IST" duration-ms="8548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1947596f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPunchOutDataAppearsInTimeSheetDetailsAfterPunchOut -->
+        <test-method signature="testPunchInOverlappingErrorMessageDisplay(org.testng.ITestContext)[pri:10, instance:com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures@3646a422]" started-at="2022-03-10T22:05:22 IST" name="testPunchInOverlappingErrorMessageDisplay" finished-at="2022-03-10T22:05:27 IST" duration-ms="5248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1947596f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPunchInOverlappingErrorMessageDisplay -->
+        <test-method signature="testPunchOutTimeLaterThanIntimeErrorMessageDisplay(org.testng.ITestContext)[pri:11, instance:com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures@3646a422]" started-at="2022-03-10T22:05:27 IST" name="testPunchOutTimeLaterThanIntimeErrorMessageDisplay" finished-at="2022-03-10T22:05:41 IST" duration-ms="13312" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1947596f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPunchOutTimeLaterThanIntimeErrorMessageDisplay -->
+        <test-method signature="testInValidFormatErrorMessage(org.testng.ITestContext)[pri:12, instance:com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures@3646a422]" started-at="2022-03-10T22:05:41 IST" name="testInValidFormatErrorMessage" finished-at="2022-03-10T22:05:43 IST" duration-ms="1765" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1947596f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInValidFormatErrorMessage -->
+        <test-method signature="testInValidTimeFormatErrorMessage(org.testng.ITestContext)[pri:13, instance:com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures@3646a422]" started-at="2022-03-10T22:05:43 IST" name="testInValidTimeFormatErrorMessage" finished-at="2022-03-10T22:05:44 IST" duration-ms="1786" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1947596f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInValidTimeFormatErrorMessage -->
+        <test-method signature="testPunchIconToggleAfterDeletingPunchInData(org.testng.ITestContext)[pri:14, instance:com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures@3646a422]" started-at="2022-03-10T22:05:44 IST" name="testPunchIconToggleAfterDeletingPunchInData" finished-at="2022-03-10T22:05:52 IST" duration-ms="7265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1947596f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPunchIconToggleAfterDeletingPunchInData -->
+        <test-method signature="testPunchCardToggleToPunchOutWhenGivendateHasPunchedInSession(org.testng.ITestContext)[pri:15, instance:com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures@3646a422]" started-at="2022-03-10T22:05:52 IST" name="testPunchCardToggleToPunchOutWhenGivendateHasPunchedInSession" finished-at="2022-03-10T22:06:13 IST" duration-ms="20905" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1947596f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPunchCardToggleToPunchOutWhenGivendateHasPunchedInSession -->
+        <test-method signature="testTotalHoursAggregation()[pri:16, instance:com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures@3646a422]" started-at="2022-03-10T22:06:13 IST" name="testTotalHoursAggregation" finished-at="2022-03-10T22:06:37 IST" duration-ms="24561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTotalHoursAggregation -->
+        <test-method signature="testPunchOutAfterPunchInBeforeValidSession()[pri:17, instance:com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures@3646a422]" started-at="2022-03-10T22:06:37 IST" name="testPunchOutAfterPunchInBeforeValidSession" finished-at="2022-03-10T22:06:47 IST" duration-ms="9792" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertFalse(Assert.java:78)
+at org.testng.Assert.assertFalse(Assert.java:88)
+at com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures.testPunchOutAfterPunchInBeforeValidSession(TestAttendanceFeatures.java:277)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPunchOutAfterPunchInBeforeValidSession -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures@3646a422]" started-at="2022-03-10T22:06:47 IST" name="close" finished-at="2022-03-10T22:07:01 IST" duration-ms="13634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.epam.TestAutomation.Project.Selenium.Tests.TestAttendanceFeatures -->
+    </test> <!-- TestSeleniumOfAttendancesheet -->
+  </suite> <!-- TestOrangeHRMSeleniumTesting -->
+</testng-results>
